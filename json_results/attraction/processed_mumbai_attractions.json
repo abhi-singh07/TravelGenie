@@ -1,0 +1,483 @@
+[
+    {
+        "name": "Marine Drive",
+        "num_reviews": "8231",
+        "rating": "4.5",
+        "ranking_position": "8",
+        "neighborhood_info": [
+            {
+                "location_id": "15621359",
+                "name": "Churchgate"
+            },
+            {
+                "location_id": "15621455",
+                "name": "South Mumbai"
+            }
+        ],
+        "description": "Bordering the Arabian Sea, this famous road is a popular spot for watching sunsets, and is gorgeous when lit up at night.",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            },
+            {
+                "key": "61",
+                "name": "Outdoor Activities"
+            }
+        ]
+    },
+    {
+        "name": "Bandra-Worli Sea Link",
+        "num_reviews": "9568",
+        "rating": "4.5",
+        "ranking_position": "4",
+        "neighborhood_info": null,
+        "description": "This is a bridge which links Mumbai\u2019s suburbs to South Mumbai. It\u2019s a very prestigious bridge which was opened in 2009.",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            }
+        ]
+    },
+    {
+        "name": "Gateway of India",
+        "num_reviews": "12635",
+        "rating": "4.2",
+        "ranking_position": "1",
+        "neighborhood_info": [
+            {
+                "location_id": "15621470",
+                "name": "Wellington Pier"
+            },
+            {
+                "location_id": "15621455",
+                "name": "South Mumbai"
+            },
+            {
+                "location_id": "13088022",
+                "name": "Colaba"
+            },
+            {
+                "location_id": "21002105",
+                "name": "Gateway of India"
+            }
+        ],
+        "description": "Built in 1911 to welcome the King and Queen of England, this stone archway in Colaba is now a historic landmark.",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            }
+        ]
+    },
+    {
+        "name": "Kanheri Caves",
+        "num_reviews": "1262",
+        "rating": "4.3",
+        "ranking_position": "23",
+        "neighborhood_info": [
+            {
+                "location_id": "15621370",
+                "name": "Eastern Suburbs"
+            },
+            {
+                "location_id": "15621471",
+                "name": "Western Suburbs"
+            }
+        ],
+        "description": "",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            },
+            {
+                "key": "57",
+                "name": "Nature & Parks"
+            }
+        ]
+    },
+    {
+        "name": "Global Vipassana Pagoda",
+        "num_reviews": "807",
+        "rating": "4.5",
+        "ranking_position": "6",
+        "neighborhood_info": [
+            {
+                "location_id": "15621381",
+                "name": "Gorai"
+            }
+        ],
+        "description": "The Global Vipassana Pagoda is a Meditation Hall near Gorai, North-west of Mumbai, India. The Pagoda was inaugurated by Pratibha Patil, then President of India on 8 February 2009.[1] It is built on donated land on a peninsula between Gorai creek and the Arabian Sea. The pagoda is to serve as a monument of peace and harmony. The Global Vipassana Pagoda has been built out of gratitude to the Buddha, his teaching and the community of monks practicing his teaching. Its traditional Burmese design is an expression of gratitude towards the country of Myanmar for preserving the practice of Vipassana. The shape of the pagoda is a copy of the Shwedagon Pagoda (Golden Pagoda) in Yangon, Myanmar. It was built combining ancient Indian and modern technology to enable it to last for a thousand years. The center of the Global Vipassana Pagoda contains the world's largest stone dome built without any supporting pillars. The height of the dome is approximately 29 metres, while the height of the building is 96.12 meters, which is twice the size of the previously largest hollow stone monument in the world, the Gol Gumbaz Dome in Bijapur, India. External diameter of the largest section of the dome is 97.46m and the shorter sections is 94.82m. Internal diameter of the dome is 85.15m.[4] The inside of the pagoda is hollow and serves as a very large meditation hall with an area covering more than 6000 m2 (65,000 ft2). The massive inner dome seats over 8000 people enabling them to practice the non-sectarian Vipassana meditation as taught by Mr S.N. Goenka and now being practiced in over 100 countries. An inaugural one-day meditation course was held at the pagoda on 21 December 2008, with Mr S.N. Goenka in attendance as the teacher. The aim of the pagoda complex is, among others, to express gratitude to Gautama Buddha for dispensing what followers believe is a universal teaching for the eradication of suffering, to educate the public about the life and teaching of the Buddha, and to provide a place for the practice of meditation. 10-day vipassana meditation courses are held free of charge at the meditation centre that is part of the Global Vipassana Pagoda complex.",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            }
+        ]
+    },
+    {
+        "name": "Shree Siddhivinayak",
+        "num_reviews": "5618",
+        "rating": "4.6",
+        "ranking_position": "5",
+        "neighborhood_info": [
+            {
+                "location_id": "15621455",
+                "name": "South Mumbai"
+            },
+            {
+                "location_id": "12984663",
+                "name": "Dadar West"
+            },
+            {
+                "location_id": "15621444",
+                "name": "Prabhadevi"
+            }
+        ],
+        "description": "Located in Mumbai\u2019s central area, Prabhadevi, this temple is the most revered Lord Ganesh temple not only of Maharashtra but also of India. ",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            }
+        ]
+    },
+    {
+        "name": "Nariman Point",
+        "num_reviews": "2418",
+        "rating": "4.5",
+        "ranking_position": "14",
+        "neighborhood_info": [
+            {
+                "location_id": "15621455",
+                "name": "South Mumbai"
+            },
+            {
+                "location_id": "15621432",
+                "name": "Nariman Point"
+            }
+        ],
+        "description": "",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            },
+            {
+                "key": "51",
+                "name": "Other"
+            }
+        ]
+    },
+    {
+        "name": "Elephanta Caves",
+        "num_reviews": "2085",
+        "rating": "4.0",
+        "ranking_position": "22",
+        "neighborhood_info": null,
+        "description": "Elephanta Caves are situated on Elephanta Island about 7 kms from Mumbai\u2019s mainland shore. The caves can be reached by an approx. 1-hour boat ride from Gateway of India.",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            },
+            {
+                "key": "57",
+                "name": "Nature & Parks"
+            }
+        ]
+    },
+    {
+        "name": "Thane Creek Flamingo Sanctuary",
+        "num_reviews": "32",
+        "rating": "4.1",
+        "ranking_position": "24",
+        "neighborhood_info": [
+            {
+                "location_id": "15621370",
+                "name": "Eastern Suburbs"
+            }
+        ],
+        "description": "",
+        "subcategory": [
+            {
+                "key": "57",
+                "name": "Nature & Parks"
+            }
+        ]
+    },
+    {
+        "name": "Mani Bhavan Gandhi Museum",
+        "num_reviews": "1799",
+        "rating": "4.4",
+        "ranking_position": "10",
+        "neighborhood_info": [
+            {
+                "location_id": "15621455",
+                "name": "South Mumbai"
+            },
+            {
+                "location_id": "13088081",
+                "name": "Malabar Hill/Peddar Road"
+            },
+            {
+                "location_id": "15621429",
+                "name": "Mumbai Central"
+            }
+        ],
+        "description": "Mahatma Gandhi once lived in this simple, two-story building, which is now a museum, library and research center depicting Gandhi's life and struggles for Indian freedom through peaceful means.",
+        "subcategory": [
+            {
+                "key": "49",
+                "name": "Museums"
+            }
+        ]
+    },
+    {
+        "name": "Dharavi",
+        "num_reviews": "528",
+        "rating": "4.2",
+        "ranking_position": "34",
+        "neighborhood_info": [
+            {
+                "location_id": "15621455",
+                "name": "South Mumbai"
+            },
+            {
+                "location_id": "15621367",
+                "name": "Dharavi"
+            }
+        ],
+        "description": "",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            },
+            {
+                "key": "51",
+                "name": "Other"
+            }
+        ]
+    },
+    {
+        "name": "Wankhede Stadium",
+        "num_reviews": "441",
+        "rating": "4.3",
+        "ranking_position": "21",
+        "neighborhood_info": [
+            {
+                "location_id": "13088018",
+                "name": "Marine Drive"
+            },
+            {
+                "location_id": "15621359",
+                "name": "Churchgate"
+            },
+            {
+                "location_id": "15621455",
+                "name": "South Mumbai"
+            }
+        ],
+        "description": "",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            }
+        ]
+    },
+    {
+        "name": "Colaba",
+        "num_reviews": "2511",
+        "rating": "4.3",
+        "ranking_position": "17",
+        "neighborhood_info": [
+            {
+                "location_id": "15621455",
+                "name": "South Mumbai"
+            },
+            {
+                "location_id": "13088022",
+                "name": "Colaba"
+            }
+        ],
+        "description": "This popular tourist district includes museums, the Gateway of India, a slew of shops and vendors on the Colaba Causeway and the Sassoon Dock, where fishing boats unload their pungent catches at dawn.",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            },
+            {
+                "key": "51",
+                "name": "Other"
+            }
+        ]
+    },
+    {
+        "name": "Chhatrapati Shivaji Terminus",
+        "num_reviews": "4540",
+        "rating": "4.4",
+        "ranking_position": "12",
+        "neighborhood_info": [
+            {
+                "location_id": "13088018",
+                "name": "Marine Drive"
+            },
+            {
+                "location_id": "15621359",
+                "name": "Churchgate"
+            },
+            {
+                "location_id": "15621455",
+                "name": "South Mumbai"
+            }
+        ],
+        "description": "India's most beautiful railway station is a masterpiece of Gothic architecture with stained-glass windows, towering spires, domed arches and buttresses and pillars with animal images carved into them.",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            }
+        ]
+    },
+    {
+        "name": "Dhobi Ghat",
+        "num_reviews": "1129",
+        "rating": "4.1",
+        "ranking_position": "26",
+        "neighborhood_info": [
+            {
+                "location_id": "15621455",
+                "name": "South Mumbai"
+            },
+            {
+                "location_id": "13088064",
+                "name": "Worli/Prabhadevi"
+            }
+        ],
+        "description": "Hundreds of people working at this traditional outdoor laundry make a colorful site.",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            }
+        ]
+    },
+    {
+        "name": "KidZania Mumbai",
+        "num_reviews": "1095",
+        "rating": "4.6",
+        "ranking_position": "3",
+        "neighborhood_info": [
+            {
+                "location_id": "15621471",
+                "name": "Western Suburbs"
+            },
+            {
+                "location_id": "15621335",
+                "name": "Amrut Nagar"
+            },
+            {
+                "location_id": "13208645",
+                "name": "Ghatkopar West"
+            },
+            {
+                "location_id": "15621370",
+                "name": "Eastern Suburbs"
+            },
+            {
+                "location_id": "15621465",
+                "name": "Vikhroli West"
+            }
+        ],
+        "description": "KIDZANIA IS A GLOBAL FAMILY INDOOR AMUSEMENT PARK. KidZania is a global indoor theme park for families that empowers, inspires and educates kids through real-life role-playing activities. By blending reality with entertainment, KidZania provides an authentic and powerful developmental platform, preparing kids to understand and manage their world better. KidZania believes it can promote change, inspire global citizenship and build strong community awareness amongst children through an experience that is hands-on, engaging, and most importantly, fun.",
+        "subcategory": [
+            {
+                "key": "52",
+                "name": "Water & Amusement Parks"
+            }
+        ]
+    },
+    {
+        "name": "Water Kingdom",
+        "num_reviews": "906",
+        "rating": "4.2",
+        "ranking_position": "28",
+        "neighborhood_info": [
+            {
+                "location_id": "15621381",
+                "name": "Gorai"
+            }
+        ],
+        "description": "Water Kingdom is Asia's Largest Theme Water Park situated in Gorai Mumbai. Many people like to come here to escape Mumbai's heat and humidity by splashing around in the many water rides! It can be reached by road as well as by taking a ferry from Marve Beach Malad or Gorai Creek Borivali Mumbai. About PAN INDIA PARYATAN PRIVATE LIMITED (PIPPL) PIPPL belongs to the Essel Group of companies, owns and operates two amusement parks viz. 'EsselWorld' and 'Water Kingdom' at Mumbai. EsselWorld is the largest amusement park in the country & 'Water Kingdom', is one of the largest Theme Water Parks in Asia, are located on 64 acres of land. Since the past 25 years EsselWorld has been responsible for setting a benchmark in the amusement park industry in India. The Island of Fun is located on the costal Gorai village in northwest Mumbai, a scenic setting injected with wholesome thrill & entertainment. The 42 acre complex boasts of over 71 attractions designed for entertainment of all age groups- perfectly justifying the title of India's largest amusement park. With time EsseWorld has evolved and added fantastic elements such as Shot N Drop, Top spin, Monsters in the Mist, Ice skating rink, Bowling alley to name a few. The amusement park is a favourite for school & corporate picnics. With all the fun & frolic it is ensured the safety of the visitors is not compromised. An amalgamation of thrill, fun, entertainment and pure happiness - EsselWorld offers it all. With conventional leisure trips, gatherings, school trips or an impromptu visit, the park has entertained over 15 million visitors till date.",
+        "subcategory": [
+            {
+                "key": "52",
+                "name": "Water & Amusement Parks"
+            }
+        ]
+    },
+    {
+        "name": "Worli Sea Face",
+        "num_reviews": "879",
+        "rating": "4.3",
+        "ranking_position": "24",
+        "neighborhood_info": [
+            {
+                "location_id": "15621455",
+                "name": "South Mumbai"
+            },
+            {
+                "location_id": "13088064",
+                "name": "Worli/Prabhadevi"
+            }
+        ],
+        "description": "",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            }
+        ]
+    },
+    {
+        "name": "Viviana Mall",
+        "num_reviews": "362",
+        "rating": "4.4",
+        "ranking_position": "19",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+            {
+                "key": "26",
+                "name": "Shopping"
+            }
+        ]
+    },
+    {
+        "name": "Colaba Causeway",
+        "num_reviews": "831",
+        "rating": "4.1",
+        "ranking_position": "32",
+        "neighborhood_info": [
+            {
+                "location_id": "15621455",
+                "name": "South Mumbai"
+            },
+            {
+                "location_id": "13088022",
+                "name": "Colaba"
+            }
+        ],
+        "description": "Colaba Causeway is a very happening commercial street and a major causeway or land link between Colaba and the Old Woman's Island in the city of Mumbai,India Leamigo provides local experiences, activities and professional guides in this city",
+        "subcategory": [
+            {
+                "key": "47",
+                "name": "Sights & Landmarks"
+            }
+        ]
+    }
+]
