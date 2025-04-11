@@ -1,0 +1,119 @@
+{
+    "user_info": {
+        "destination": "India",
+        "budget_in_inr": 200000,
+        "from_date": "2025-05-20",
+        "to_date": "2025-05-28"
+    },
+    "selected_cities": [
+        "City3",
+        "City7",
+        "City4",
+        "City2",
+        "City9"
+    ],
+    "days_allocation": {
+        "City3": 4,
+        "City7": 1,
+        "City4": 1,
+        "City2": 1,
+        "City9": 1
+    },
+    "daily_itinerary": [
+        {
+            "day": 1,
+            "city": "City3",
+            "attractions": [
+                "City3 Attraction 2",
+                "City3 Attraction 1",
+                "City3 Attraction 3"
+            ],
+            "restaurant": "City3 Restaurant 4",
+            "notes": "Enjoy dinner at City3 Restaurant 4 rated 3.7"
+        },
+        {
+            "day": 2,
+            "city": "City3",
+            "attractions": [
+                "City3 Attraction 1",
+                "City3 Attraction 4",
+                "City3 Attraction 3"
+            ],
+            "restaurant": "City3 Restaurant 1",
+            "notes": "Enjoy dinner at City3 Restaurant 1 rated 4.0"
+        },
+        {
+            "day": 3,
+            "city": "City3",
+            "attractions": [
+                "City3 Attraction 5",
+                "City3 Attraction 2",
+                "City3 Attraction 3"
+            ],
+            "restaurant": "City3 Restaurant 1",
+            "notes": "Enjoy dinner at City3 Restaurant 1 rated 4.0"
+        },
+        {
+            "day": 4,
+            "city": "City3",
+            "attractions": [
+                "City3 Attraction 1",
+                "City3 Attraction 3",
+                "City3 Attraction 5"
+            ],
+            "restaurant": "City3 Restaurant 3",
+            "notes": "Enjoy dinner at City3 Restaurant 3 rated 4.2"
+        },
+        {
+            "day": 5,
+            "city": "City7",
+            "attractions": [
+                "City7 Attraction 1",
+                "City7 Attraction 3",
+                "City7 Attraction 5"
+            ],
+            "restaurant": "City7 Restaurant 1",
+            "notes": "Enjoy dinner at City7 Restaurant 1 rated 4.1"
+        },
+        {
+            "day": 6,
+            "city": "City4",
+            "attractions": [
+                "City4 Attraction 1",
+                "City4 Attraction 5",
+                "City4 Attraction 4"
+            ],
+            "restaurant": "City4 Restaurant 3",
+            "notes": "Enjoy dinner at City4 Restaurant 3 rated 3.4"
+        },
+        {
+            "day": 7,
+            "city": "City2",
+            "attractions": [
+                "City2 Attraction 1",
+                "City2 Attraction 2",
+                "City2 Attraction 5"
+            ],
+            "restaurant": "City2 Restaurant 4",
+            "notes": "Enjoy dinner at City2 Restaurant 4 rated 4.1"
+        },
+        {
+            "day": 8,
+            "city": "City9",
+            "attractions": [
+                "City9 Attraction 1",
+                "City9 Attraction 3",
+                "City9 Attraction 5"
+            ],
+            "restaurant": "City9 Restaurant 1",
+            "notes": "Enjoy dinner at City9 Restaurant 1 rated 4.5"
+        }
+    ],
+    "costs": {
+        "hotel": 15502.999999999998,
+        "food": 8133.0,
+        "attraction": 8019,
+        "flights": 8631,
+        "total_estimated": 40286.0
+    }
+}
