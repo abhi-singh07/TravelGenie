@@ -1,0 +1,22 @@
+{
+    "Austin": {
+        "Date": "2025-06-01",
+        "Airport": "AUS"
+    },
+    "Frisco": {
+        "Date": "2025-06-04",
+        "Airport": "DDJ"
+    },
+    "San Antonio": {
+        "Date": "2025-06-07",
+        "Airport": "SAT"
+    },
+    "Dallas": {
+        "Date": "2025-06-10",
+        "Airport": "DFW"
+    },
+    "Houston": {
+        "Date": "2025-06-12",
+        "Airport": "IAH"
+    }
+}
