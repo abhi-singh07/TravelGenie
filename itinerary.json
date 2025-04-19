@@ -1,0 +1,22 @@
+{
+    "Amsterdam": {
+        "Arrival Date": "2025-06-01",
+        "Departure Date": "2025-06-03",
+        "Airport": "AMS"
+    },
+    "The Hague": {
+        "Arrival Date": "2025-06-03",
+        "Departure Date": "2025-06-05",
+        "Airport": "RTM"
+    },
+    "Maastricht": {
+        "Arrival Date": "2025-06-05",
+        "Departure Date": "2025-06-08",
+        "Airport": "MST"
+    },
+    "Eindhoven": {
+        "Arrival Date": "2025-06-08",
+        "Departure Date": "2025-06-10",
+        "Airport": "EIN"
+    }
+}
