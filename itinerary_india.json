@@ -1,0 +1,22 @@
+{
+    "Ooty": {
+        "Date": "2025-06-01",
+        "Airport": "CJB"
+    },
+    "Kannur": {
+        "Date": "2025-06-04",
+        "Airport": "CNN"
+    },
+    "Mysuru": {
+        "Date": "2025-06-07",
+        "Airport": "MYQ"
+    },
+    "Manali": {
+        "Date": "2025-06-10",
+        "Airport": "KUU"
+    },
+    "Shimla": {
+        "Date": "2025-06-12",
+        "Airport": "SLV"
+    }
+}
