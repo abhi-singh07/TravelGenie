@@ -4,7 +4,7 @@ import json
 import google.generativeai as genai
 from datetime import datetime
 
-country = "Italy"
+country = "Netherlands"
 from_date = "2025-06-01"
 to_date = "2025-06-10"
 num_cities = "3 to 5"

@@ -1,22 +1,22 @@
 {
-    "Naples": {
+    "Amsterdam": {
         "Arrival Date": "2025-06-01",
         "Departure Date": "2025-06-03",
-        "Airport": "NAP"
+        "Airport": "AMS"
     },
-    "Cinque Terre": {
+    "The Hague": {
         "Arrival Date": "2025-06-03",
         "Departure Date": "2025-06-05",
-        "Airport": "PSA"
+        "Airport": "RTM"
     },
-    "Florence": {
+    "Maastricht": {
         "Arrival Date": "2025-06-05",
         "Departure Date": "2025-06-08",
-        "Airport": "FLR"
+        "Airport": "MST"
     },
-    "Olbia": {
+    "Eindhoven": {
         "Arrival Date": "2025-06-08",
         "Departure Date": "2025-06-10",
-        "Airport": "OLB"
+        "Airport": "EIN"
     }
 }
