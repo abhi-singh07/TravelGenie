@@ -6,12 +6,13 @@ from datetime import datetime
 
 country = "Italy"
 from_date = "2025-06-01"
-to_date = "2025-06-05"
+to_date = "2025-06-10"
 num_cities = "3 to 5"
 user_pref = "I want to go to hill stations and beaches."
+num_people = 5
 
-
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+GOOGLE_API_KEY = 'AIzaSyAhZpOTfkUrnAqJOJ1l0OidlmfvcDUxsek'
+genai.configure(api_key=GOOGLE_API_KEY)
 
 def llm_retrieve():    
     # Define the model
@@ -19,7 +20,7 @@ def llm_retrieve():
 
     # Create a prompt for LLM
     prompt = f"""You are a travel assistant. Give me an itinerary of {num_cities} cities to visit in {country} in the month of {datetime.strptime(from_date, "%Y-%m-%d").strftime("%B")} along with dates to visit between {from_date} to {to_date}.
-    The places must be conducive to the season and the city should have an airport. Output in this json formatwithout any comments: {{City Name: {{Date: Date arriving in, Airport: Airport code}}}}.
+    The places must be conducive to the season and the city should have an airport. Output in this json formatwithout any comments: {{City Name: {{Arrival Date: Date arriving in, Departure Date: Date Leaving, Airport: Airport code}}}}.
     {user_pref}
     """
 

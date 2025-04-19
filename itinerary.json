@@ -1,18 +1,22 @@
 {
     "Naples": {
-        "Date": "2025-06-01",
+        "Arrival Date": "2025-06-01",
+        "Departure Date": "2025-06-03",
         "Airport": "NAP"
     },
     "Cinque Terre": {
-        "Date": "2025-06-02",
+        "Arrival Date": "2025-06-03",
+        "Departure Date": "2025-06-05",
         "Airport": "PSA"
     },
     "Florence": {
-        "Date": "2025-06-03",
+        "Arrival Date": "2025-06-05",
+        "Departure Date": "2025-06-08",
         "Airport": "FLR"
     },
     "Olbia": {
-        "Date": "2025-06-04",
+        "Arrival Date": "2025-06-08",
+        "Departure Date": "2025-06-10",
         "Airport": "OLB"
     }
 }
