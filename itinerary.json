@@ -1,34 +1,18 @@
 {
-    "Nice": {
+    "Naples": {
         "Date": "2025-06-01",
-        "Airport": "NCE"
+        "Airport": "NAP"
     },
-    "Ajaccio (Corsica)": {
+    "Cinque Terre": {
+        "Date": "2025-06-02",
+        "Airport": "PSA"
+    },
+    "Florence": {
+        "Date": "2025-06-03",
+        "Airport": "FLR"
+    },
+    "Olbia": {
         "Date": "2025-06-04",
-        "Airport": "AJA"
-    },
-    "Marseille": {
-        "Date": "2025-06-07",
-        "Airport": "MRS"
-    },
-    "Lyon": {
-        "Date": "2025-06-10",
-        "Airport": "LYS"
-    },
-    "Grenoble": {
-        "Date": "2025-06-12",
-        "Airport": "GNB"
-    },
-    "Annecy": {
-        "Date": "2025-06-14",
-        "Airport": "NCY"
-    },
-    "Chamb\u00e9ry": {
-        "Date": "2025-06-16",
-        "Airport": "CMF"
-    },
-    "Paris": {
-        "Date": "2025-06-18",
-        "Airport": "CDG"
+        "Airport": "OLB"
     }
 }
