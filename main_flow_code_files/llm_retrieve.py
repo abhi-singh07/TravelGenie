@@ -4,22 +4,18 @@ import json
 import google.generativeai as genai
 from datetime import datetime
 
-# Read user inputs
-with open("user_inputs.json", "r") as f:
-    inputs = json.load(f)
+def llm_retrieve(inputs:json):
+    country = inputs["country"]
+    from_date = inputs["from_date"]
+    to_date = inputs["to_date"]
+    num_cities = inputs["num_cities"]
+    user_pref = inputs["user_pref"]
+    # num_people = inputs["num_people"]
 
-country = inputs["country"]
-from_date = inputs["from_date"]
-to_date = inputs["to_date"]
-num_cities = inputs["num_cities"]
-user_pref = inputs["user_pref"]
-num_people = inputs["num_people"]
+    # Gemini API setup
+    GOOGLE_API_KEY = 'AIzaSyAhZpOTfkUrnAqJOJ1l0OidlmfvcDUxsek'  # Replace with environment variable for security
+    genai.configure(api_key=GOOGLE_API_KEY)
 
-# Gemini API setup
-GOOGLE_API_KEY = 'AIzaSyAhZpOTfkUrnAqJOJ1l0OidlmfvcDUxsek'  # Replace with environment variable for security
-genai.configure(api_key=GOOGLE_API_KEY)
-
-def llm_retrieve():    
     model = genai.GenerativeModel("models/gemini-1.5-pro-002")
 
     prompt = f"""You are a travel assistant. Give me an itinerary of {num_cities} cities to visit in {country} in the month of {datetime.strptime(from_date, "%Y-%m-%d").strftime("%B")} along with dates to visit between {from_date} to {to_date}.
@@ -43,7 +39,10 @@ def clean_itinerary(itinerary_text: str):
         return "Itinerary not generated"
 
 if __name__ == "__main__":
-    itinerary_dic = llm_retrieve()
+    with open("user_inputs.json", "r") as f:
+        inputs = json.load(f)
+
+    itinerary_dic = llm_retrieve(inputs)
 
     if itinerary_dic and isinstance(itinerary_dic, dict):
         with open("itinerary.json", "w") as file:

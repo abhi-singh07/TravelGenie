@@ -1,223 +1,5 @@
 [
   {
-    "city": "Leh",
-    "attractions": [
-      {
-        "name": "Coca-Cola Park",
-        "num_reviews": "647",
-        "rating": "4.7",
-        "ranking_position": "1",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "56",
-            "name": "Fun & Games"
-          }
-        ]
-      },
-      {
-        "name": "SteelStacks",
-        "num_reviews": "661",
-        "rating": "4.6",
-        "ranking_position": "3",
-        "neighborhood_info": null,
-        "description": "SteelStacks is a ten-acre campus in Bethlehem, PA, dedicated to arts, culture, family events, community celebrations, education and fun. The campus is in the shadow of the blast furnaces of the former Bethlehem Steel plant.",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          },
-          {
-            "key": "49",
-            "name": "Museums"
-          }
-        ]
-      },
-      {
-        "name": "Allentown Fish Hatchery",
-        "num_reviews": "352",
-        "rating": "4.4",
-        "ranking_position": "5",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Hoover Mason Trestle",
-        "num_reviews": "217",
-        "rating": "4.7",
-        "ranking_position": "4",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Allentown Farmers Market",
-        "num_reviews": "266",
-        "rating": "4.4",
-        "ranking_position": "7",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          },
-          {
-            "key": "36",
-            "name": "Food & Drink"
-          }
-        ]
-      },
-      {
-        "name": "Klein Farms Dairy and Creamery",
-        "num_reviews": "139",
-        "rating": "4.7",
-        "ranking_position": "10",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "PPL Center",
-        "num_reviews": "407",
-        "rating": "4.3",
-        "ranking_position": "11",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Allentown Rose Gardens",
-        "num_reviews": "78",
-        "rating": "4.7",
-        "ranking_position": "16",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "America On Wheels Museum",
-        "num_reviews": "385",
-        "rating": "4.6",
-        "ranking_position": "2",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "49",
-            "name": "Museums"
-          }
-        ]
-      },
-      {
-        "name": "National Museum of Industrial History",
-        "num_reviews": "151",
-        "rating": "4.6",
-        "ranking_position": "8",
-        "neighborhood_info": null,
-        "description": "National Museum of Industrial History",
-        "subcategory": [
-          {
-            "key": "49",
-            "name": "Museums"
-          }
-        ]
-      }
-    ],
-    "hotels": {
-      "bayesian_review_score": [
-        {
-          "name": "Tendance et Charmant F2",
-          "price": 227.84
-        },
-        {
-          "name": "\"L'escapade Havraise\" Studio Parking gratuit Coeur de Ville",
-          "price": 138.84
-        },
-        {
-          "name": "L'ESTUAIRE",
-          "price": 170.88
-        }
-      ],
-      "popularity": [
-        {
-          "name": "All Suites Appart Hotel Le Havre",
-          "price": 195.76
-        },
-        {
-          "name": "The Originals Boutique, H\u00f4tel Le Marignan,Le Havre Centre Gare",
-          "price": 278.43
-        },
-        {
-          "name": "Hotel Spa Le Pasino",
-          "price": 374.87
-        }
-      ],
-      "price": [
-        {
-          "name": "Bel appartement avec parking et terrasse plein sud",
-          "price": 89.71
-        },
-        {
-          "name": "Studio Center",
-          "price": 92.56
-        },
-        {
-          "name": "Paradise cach\u00e9",
-          "price": 98.25
-        }
-      ]
-    },
-    "flights": [
-      {
-        "to": "Srinagar",
-        "date": "2025-07-14",
-        "flights": [
-          {
-            "type": "FASTEST",
-            "price_usd": 807,
-            "departure_time": "2025-07-14T07:40:00",
-            "arrival_time": "2025-07-14T11:50:00"
-          },
-          {
-            "type": "BEST",
-            "price_usd": 591,
-            "departure_time": "2025-07-14T08:30:00",
-            "arrival_time": "2025-07-14T12:45:00"
-          }
-        ],
-        "note": null
-      }
-    ]
-  },
-  {
     "city": "Srinagar",
     "attractions": [
       {
@@ -328,7 +110,7 @@
       },
       {
         "name": "Badamwari Garden",
-        "num_reviews": "157",
+        "num_reviews": "158",
         "rating": "4.5",
         "ranking_position": "16",
         "neighborhood_info": null,
@@ -373,50 +155,194 @@
       "bayesian_review_score": [
         {
           "name": "John's Homestay",
-          "price": 55.1
+          "price": 82.65
         },
         {
           "name": "Ikraam Inn Bed & Breakfast",
-          "price": 100.36
+          "price": 150.54
         },
         {
           "name": "Movie land group of house boats",
-          "price": 125.29
+          "price": 187.93
         }
       ],
       "popularity": [
         {
-          "name": "Houseboat Zaindari Palace",
-          "price": 326.2
-        },
-        {
           "name": "Dilnaaz group of houseboats",
-          "price": 73.47
+          "price": 110.2
         },
         {
           "name": "Amina Group Of Houseboats",
-          "price": 174.93
+          "price": 262.4
+        },
+        {
+          "name": "The Altaf Group Of Houseboats",
+          "price": 96.43
         }
       ],
       "price": [
         {
           "name": "LalaApartment",
-          "price": 13.07
+          "price": 19.6
         },
         {
           "name": "Young Gulshan Apartment",
-          "price": 17.19
+          "price": 25.78
         },
         {
           "name": "Shaheen Luxuries",
-          "price": 17.71
+          "price": 26.57
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Leh",
+        "date": "2025-07-13",
+        "flights": [
+          {
+            "type": "FASTEST",
+            "price_usd": 1339,
+            "departure_time": "2025-07-13T08:15:00",
+            "arrival_time": "2025-07-13T12:25:00"
+          },
+          {
+            "type": "BEST",
+            "price_usd": 751,
+            "departure_time": "2025-07-13T07:35:00",
+            "arrival_time": "2025-07-13T12:25:00"
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
+    "city": "Leh",
+    "attractions": [],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Hyatt Place Salt Lake City/Lehi",
+          "price": 606.92
+        },
+        {
+          "name": "Holiday Inn Express & Suites Lehi - Thanksgiving Point by IHG",
+          "price": 494.55
+        },
+        {
+          "name": "Staybridge Suites - Lehi - Traverse Ridge Center by IHG",
+          "price": 526.67
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Hyatt Place Salt Lake City/Lehi",
+          "price": 606.92
+        },
+        {
+          "name": "Holiday Inn Express & Suites Lehi - Thanksgiving Point by IHG",
+          "price": 494.55
+        },
+        {
+          "name": "Tru By Hilton Lehi, Ut",
+          "price": 381.4
+        }
+      ],
+      "price": [
+        {
+          "name": "Motel 6 Lehi, UT - Thanksgiving Point",
+          "price": 200.05
+        },
+        {
+          "name": "Private Room with Shared Spaces in Fully Equipped Lehi Home",
+          "price": 201.65
+        },
+        {
+          "name": "Days Inn by Wyndham Lehi",
+          "price": 256.5
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Chandigarh",
+        "date": "2025-07-16",
+        "flights": [
+          {
+            "type": "CHEAPEST",
+            "price_usd": 265,
+            "departure_time": "2025-07-16T08:30:00",
+            "arrival_time": "2025-07-16T14:55:00"
+          },
+          {
+            "type": "FASTEST",
+            "price_usd": 611,
+            "departure_time": "2025-07-16T11:30:00",
+            "arrival_time": "2025-07-16T14:55:00"
+          },
+          {
+            "type": "BEST",
+            "price_usd": 311,
+            "departure_time": "2025-07-16T13:55:00",
+            "arrival_time": "2025-07-16T18:20:00"
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
+    "city": "Chandigarh",
+    "attractions": [],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Anchorage 42",
+          "price": 183.67
+        },
+        {
+          "name": "Hotel Woodlark Zirakpur Chandigarh !! Top Rated & Most Awarded Properties in Tricity !!",
+          "price": 30.11
+        },
+        {
+          "name": "The Oberoi Sukhvilas Spa Resort, New Chandigarh",
+          "price": 1116.13
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Hyatt Regency Chandigarh",
+          "price": 303.53
+        },
+        {
+          "name": "Holiday Inn Chandigarh ZKP by IHG",
+          "price": 259.33
+        },
+        {
+          "name": "The Lalit Chandigarh",
+          "price": 351.35
+        }
+      ],
+      "price": [
+        {
+          "name": "Hotel Golden Height2",
+          "price": 10.69
+        },
+        {
+          "name": "Hotel Amron2",
+          "price": 14.15
+        },
+        {
+          "name": "Hotel Grand City2",
+          "price": 14.15
         }
       ]
     },
     "flights": [
       {
         "to": "Shimla",
-        "date": "2025-07-16",
+        "date": "2025-07-18",
         "flights": null,
         "note": "No flights for these locations. Check alternate way of travel!"
       }
@@ -424,52 +350,66 @@
   },
   {
     "city": "Shimla",
+    "attractions": [],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Wildflower Hall, An Oberoi Resort, Shimla",
+          "price": 1050.47
+        },
+        {
+          "name": "SIMLA HOTEL H G N near park and temple",
+          "price": 49.2
+        },
+        {
+          "name": "GS cottage near Mall Road",
+          "price": 118.07
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Victory Hotel and Restaurant by GS Hospitality",
+          "price": 78.72
+        },
+        {
+          "name": "Royal Green Mashobra - Mountain and valley view rooms",
+          "price": 29.39
+        },
+        {
+          "name": "HANU VATIKA The FAMILY CHOICE",
+          "price": 40.05
+        }
+      ],
+      "price": [
+        {
+          "name": "Staynest Mashobra with balcony",
+          "price": 14.69
+        },
+        {
+          "name": "The Hostelers Homestay Shiimla - Near HPU, Bypass Crossing, ISBT and Advance Study",
+          "price": 17.71
+        },
+        {
+          "name": "Nature Ville",
+          "price": 20.97
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Dehradun",
+        "date": "2025-07-20",
+        "flights": null,
+        "note": "No flights for these locations. Check alternate way of travel!"
+      }
+    ]
+  },
+  {
+    "city": "Dehradun",
     "attractions": [
       {
-        "name": "Jakhu Hanuman Temple",
-        "num_reviews": "2091",
-        "rating": "4.4",
-        "ranking_position": "3",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "The Mall",
-        "num_reviews": "2932",
-        "rating": "4.2",
-        "ranking_position": "7",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Kalka - Shimla Railway",
-        "num_reviews": "1826",
-        "rating": "4.3",
-        "ranking_position": "9",
-        "neighborhood_info": null,
-        "description": "This railway was built in 1903 to connect the summer capital of India to Punjab.",
-        "subcategory": [
-          {
-            "key": "42",
-            "name": "Tours"
-          }
-        ]
-      },
-      {
-        "name": "Indian Institute of Advanced Study",
-        "num_reviews": "770",
+        "name": "Forest Research Institute",
+        "num_reviews": "700",
         "rating": "4.5",
         "ranking_position": "1",
         "neighborhood_info": null,
@@ -482,10 +422,10 @@
         ]
       },
       {
-        "name": "Viceregal Lodge",
-        "num_reviews": "1515",
-        "rating": "4.4",
-        "ranking_position": "6",
+        "name": "Tibetan Buddhist Temple",
+        "num_reviews": "365",
+        "rating": "4.5",
+        "ranking_position": "2",
         "neighborhood_info": null,
         "description": "",
         "subcategory": [
@@ -496,9 +436,336 @@
         ]
       },
       {
-        "name": "The Ridge",
-        "num_reviews": "968",
+        "name": "Pacific Mall",
+        "num_reviews": "143",
+        "rating": "4.1",
+        "ranking_position": "4",
+        "neighborhood_info": null,
+        "description": "SHOPPING MALL OUR STORY OF SUCCESS Pacific Mall is Dehradun\u2019s beloved shopping, dining and lifestyle destination. Back in 2013, it was the beginning of this revolutionary project which later evolved into the prime shopping complex in Uttarakhand. The prominent national and international brands joined together to introduce the unmatched shopping experience for the shoppers in Dehradun and neighboring locale. People, from every corner of the city and even beyond, visit this place for fun, entertainment, and obviously for an authentic shopping experience. More than 175 handpicked brands welcome at least 25k shoppers every day. Besides its unparalleled shopping attribute, the mall has some of the best hangout spots in Dehradun. The five-screen PVR multiplex right before the prominent food court Salt is a perfect domain for fun and entertainment. In addition, the visitors spend hours after hours in the Funky Kingdom. The Funky Kingdom is a play zone where there is something for everyone.",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          }
+        ]
+      },
+      {
+        "name": "Chetwoode Hall (Indian Military Academy)",
+        "num_reviews": "69",
+        "rating": "4.8",
+        "ranking_position": "5",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Shiv Mandir",
+        "num_reviews": "88",
+        "rating": "4.5",
+        "ranking_position": "3",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Lacchiwalla Nature Park",
+        "num_reviews": "84",
+        "rating": "3.9",
+        "ranking_position": "9",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Forest Research Institute Museum",
+        "num_reviews": "49",
         "rating": "4.4",
+        "ranking_position": "6",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "49",
+            "name": "Museums"
+          }
+        ]
+      },
+      {
+        "name": "Subir Raha Oil Museum",
+        "num_reviews": "25",
+        "rating": "4.5",
+        "ranking_position": "8",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "49",
+            "name": "Museums"
+          }
+        ]
+      },
+      {
+        "name": "Crossroads Mall",
+        "num_reviews": "44",
+        "rating": "3.5",
+        "ranking_position": "10",
+        "neighborhood_info": null,
+        "description": "Find your favourite brands and the hottest new trends in fashion, beauty, lifestyle, food and entertainment only at Crossroads Mall Dehradun.",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          }
+        ]
+      },
+      {
+        "name": "Ramakrishna Ashrama Temple",
+        "num_reviews": "13",
+        "rating": "4.3",
+        "ranking_position": "13",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      }
+    ],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Rootz",
+          "price": 70.25
+        },
+        {
+          "name": "vera home stay",
+          "price": 39.36
+        },
+        {
+          "name": "Oxygen Homestay-A Blissful Retreat",
+          "price": 44.16
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Treebo Kanopy Greens",
+          "price": 83.96
+        },
+        {
+          "name": "Stayble Homestay",
+          "price": 31.88
+        },
+        {
+          "name": "Vastu Serene Studio Apartment",
+          "price": 94.88
+        }
+      ],
+      "price": [
+        {
+          "name": "Ananda Vatika Homestay",
+          "price": 16.53
+        },
+        {
+          "name": "Apna Guest House Dehradun",
+          "price": 18.89
+        },
+        {
+          "name": "Hotel Shiv Kripa",
+          "price": 20.96
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Jaipur",
+        "date": "2025-07-22",
+        "flights": [
+          {
+            "type": "CHEAPEST",
+            "price_usd": 134,
+            "departure_time": "2025-07-22T07:30:00",
+            "arrival_time": "2025-07-22T08:45:00"
+          },
+          {
+            "type": "FASTEST",
+            "price_usd": 134,
+            "departure_time": "2025-07-22T07:30:00",
+            "arrival_time": "2025-07-22T08:45:00"
+          },
+          {
+            "type": "BEST",
+            "price_usd": 134,
+            "departure_time": "2025-07-22T07:30:00",
+            "arrival_time": "2025-07-22T08:45:00"
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
+    "city": "Jaipur",
+    "attractions": [],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Home of the world",
+          "price": 106.27
+        },
+        {
+          "name": "Le Fort Homestay",
+          "price": 92.1
+        },
+        {
+          "name": "Jasvilas",
+          "price": 226.31
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Treebo Premium Baramasi By Jai Club Prime",
+          "price": 312.47
+        },
+        {
+          "name": "Hyatt Regency Jaipur Mansarovar",
+          "price": 456.13
+        },
+        {
+          "name": "ASHOK VILLA",
+          "price": 99.18
+        }
+      ],
+      "price": [
+        {
+          "name": "Eco Family Hostel",
+          "price": 14.7
+        },
+        {
+          "name": "HOTEL PREMIUM TOURIST INN Near Hockey Ring Jaipur",
+          "price": 14.76
+        },
+        {
+          "name": "Mostel hotel",
+          "price": 19.77
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Delhi",
+        "date": "2025-07-25",
+        "flights": [
+          {
+            "type": "CHEAPEST",
+            "price_usd": 92,
+            "departure_time": "2025-07-25T12:45:00",
+            "arrival_time": "2025-07-25T14:00:00"
+          },
+          {
+            "type": "FASTEST",
+            "price_usd": 99,
+            "departure_time": "2025-07-25T07:15:00",
+            "arrival_time": "2025-07-25T08:15:00"
+          },
+          {
+            "type": "BEST",
+            "price_usd": 99,
+            "departure_time": "2025-07-25T07:15:00",
+            "arrival_time": "2025-07-25T08:15:00"
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
+    "city": "Delhi",
+    "attractions": [
+      {
+        "name": "Qutub Minar",
+        "num_reviews": "13493",
+        "rating": "4.5",
+        "ranking_position": "1",
+        "neighborhood_info": [
+          {
+            "location_id": "13087835",
+            "name": "Mehrauli/Qutub Minar"
+          },
+          {
+            "location_id": "21002113",
+            "name": "Mahrauli"
+          }
+        ],
+        "description": "Construction on this sandstone minaret was begun in 1192. Surrounded by other historical sites, it is the most popular monument in India. Miniature Souvenir is available at Luv Indiya, 12 B Janpath Market, Connaught Place, New Delhi",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "DLF Cyber Hub",
+        "num_reviews": "2963",
+        "rating": "4.6",
+        "ranking_position": "3",
+        "neighborhood_info": [
+          {
+            "location_id": "13087754",
+            "name": "DLF Cyber City"
+          }
+        ],
+        "description": "DLF CyberHub is a unique, one-of-its-kind concept in India \u2013 a premium food , entertainment and Retail destination; however it is the ambiance that makes DLF CyberHub an unparalleled experience and an ideal destination for stepping out. The Center of Attraction and Attention CyberHub is strategically located on the main artery that connects Gurugram to Delhi, the National Highway 8. It is surrounded by areas teeming with the young and the affluent, searching for new experiences. Uniquely designed Spaces, world-class design and structural ambiance with roof top terrace, amphitheater, exhibit area and media room allow for stimulating entertainment options.",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          },
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Swaminarayan Akshardham",
+        "num_reviews": "12041",
+        "rating": "4.6",
+        "ranking_position": "2",
+        "neighborhood_info": null,
+        "description": "Fantastic site to visit - unimaginable architechture, great theme show, diaorama and I max presentation. If any tourist, irresepctive of his religion or creed, has half a day to spare, this is a must see. It is one man's creation in five years totally with voluntary support. A monument which makes every indian proud!",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          },
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Gurudwara Bangla Sahib",
+        "num_reviews": "6893",
+        "rating": "4.7",
         "ranking_position": "4",
         "neighborhood_info": null,
         "description": "",
@@ -510,40 +777,25 @@
         ]
       },
       {
-        "name": "Annandale Ground",
-        "num_reviews": "260",
-        "rating": "4.6",
+        "name": "Humayun's Tomb",
+        "num_reviews": "10584",
+        "rating": "4.5",
         "ranking_position": "5",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
+        "neighborhood_info": [
           {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Green Valley",
-        "num_reviews": "384",
-        "rating": "4.1",
-        "ranking_position": "11",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
+            "location_id": "21002114",
+            "name": "Minto Road"
+          },
           {
-            "key": "57",
-            "name": "Nature & Parks"
+            "location_id": "13087804",
+            "name": "Nizamuddin"
+          },
+          {
+            "location_id": "21002115",
+            "name": "Nizamuddin"
           }
-        ]
-      },
-      {
-        "name": "Kali Bari Temple",
-        "num_reviews": "262",
-        "rating": "4.4",
-        "ranking_position": "10",
-        "neighborhood_info": null,
-        "description": "",
+        ],
+        "description": "This tomb, built in 1570, is of particular cultural significance as it was the first garden-tomb on the Indian subcontinent. It inspired several major architectural innovations, culminating in the construction of the Taj Mahal and many other Mughal architecture and garden complexes in India.",
         "subcategory": [
           {
             "key": "47",
@@ -552,16 +804,86 @@
         ]
       },
       {
-        "name": "Jakhoo Hill",
-        "num_reviews": "126",
-        "rating": "4.3",
-        "ranking_position": "13",
+        "name": "Lodhi Garden",
+        "num_reviews": "4187",
+        "rating": "4.5",
+        "ranking_position": "8",
         "neighborhood_info": null,
-        "description": "",
+        "description": "An oasis in an otherwise crowded, dusty city, Lodi Gardens is the perfect place to spend a relaxing afternoon admiring nature.",
         "subcategory": [
           {
             "key": "57",
             "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Delhi Private Taxi Service In India",
+        "num_reviews": "2665",
+        "rating": "4.7",
+        "ranking_position": "84",
+        "neighborhood_info": null,
+        "description": "Looking for a reliable private taxi service in Delhi? W9 Holidays offers affordable and comfortable cab services for local and outstation travel. Whether you need a taxi for sightseeing, airport transfers, corporate travel, or long-distance journeys, we provide well-maintained vehicles with professional drivers. Our fleet includes sedans, SUVs, and luxury cars to suit your travel needs. Enjoy hassle-free booking, competitive prices, and 24/7 customer support. Book your private taxi in Delhi today for a smooth and safe ride across India.",
+        "subcategory": [
+          {
+            "key": "59",
+            "name": "Transportation"
+          }
+        ]
+      },
+      {
+        "name": "Pasar Chandni Chowk",
+        "num_reviews": "4481",
+        "rating": "4.1",
+        "ranking_position": "24",
+        "neighborhood_info": [
+          {
+            "location_id": "21002109",
+            "name": "Chandni Chowk"
+          },
+          {
+            "location_id": "13087732",
+            "name": "Chandni Chowk"
+          }
+        ],
+        "description": "The bustling wholesale market here is an excellent place to shop, explore, eat and soak up life in New Delhi.\n",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          }
+        ]
+      },
+      {
+        "name": "India Gate",
+        "num_reviews": "10460",
+        "rating": "4.2",
+        "ranking_position": "17",
+        "neighborhood_info": [
+          {
+            "location_id": "21002114",
+            "name": "Minto Road"
+          }
+        ],
+        "description": "The India Gate, built in 1931 and designed by Sir Edwin Lutyens, was inspired by the Arc de Triomphe. It commemorates India's war dead and houses an eternal flame.",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Amrit Udyan",
+        "num_reviews": "669",
+        "rating": "4.5",
+        "ranking_position": "367",
+        "neighborhood_info": null,
+        "description": "Spread over a vast expanse of 15 acres, Amrit Udyan has often been portrayed, and deservedly so, as the soul of the Rashtrapati Bhavan. Originally, it included East Lawn, Central Lawn, Long Garden and Circular Garden. During the term of former Presidents Dr. A.P.J. Abdul Kalam and Shri Ram Nath Kovind, more gardens were developed, namely, Herbal-I, Herbal-II, Tactile Garden, Bonsai Garden and Arogya Vanam. Further, visitors can spend time in multiple attractions, a specially curated garden for children called Bal Vatika with a story of a 225-year-old Sheesham tree, a treehouse, Nature\u2019s classroom etc. Then there are the Bonsai, Circular Gardens with a diverse variety of flora and fauna. Visitors can visit the gardens in Feb-March and Aug-Sep from 1000 hrs to 1800 hrs (last entry 1715 hrs). Entry will be from Gate No. 35 of the Rashtrapati Bhavan, near North Avenue.",
+        "subcategory": [
+          {
+            "key": "42",
+            "name": "Tours"
           }
         ]
       }
@@ -569,44 +891,44 @@
     "hotels": {
       "bayesian_review_score": [
         {
-          "name": "Wildflower Hall, An Oberoi Resort, Shimla",
-          "price": 1575.71
+          "name": "Tatvamasi Homestay",
+          "price": 152.27
         },
         {
-          "name": "SIMLA HOTEL H G N near park and temple",
-          "price": 73.8
+          "name": "The Oberoi New Delhi",
+          "price": 1399.48
         },
         {
-          "name": "GS cottage near Mall Road",
-          "price": 177.11
+          "name": "The Imperial, New Delhi",
+          "price": 950.19
         }
       ],
       "popularity": [
         {
-          "name": "Victory Hotel and Restaurant by GS Hospitality",
-          "price": 118.07
+          "name": "Hotel N Maharani",
+          "price": 132.8
         },
         {
-          "name": "Royal Green Mashobra - Mountain and valley view rooms",
-          "price": 44.08
+          "name": "Mehul- Near Cannaught Place",
+          "price": 78.7
         },
         {
-          "name": "HANU VATIKA The FAMILY CHOICE",
-          "price": 59.49
+          "name": "The Atlantiis Suite Near IGI Airport",
+          "price": 49.58
         }
       ],
       "price": [
         {
-          "name": "Staynest Mashobra with balcony",
-          "price": 22.04
+          "name": "Hotel Aerotech Plaza",
+          "price": 17.19
         },
         {
-          "name": "The Hostelers Homestay Shiimla - Near HPU, Bypass Crossing, ISBT and Advance Study",
-          "price": 26.57
+          "name": "Hotel City Lite Near Delhi Airport",
+          "price": 17.8
         },
         {
-          "name": "Nature Ville",
-          "price": 31.45
+          "name": "Hotel Aerotech",
+          "price": 17.94
         }
       ]
     },

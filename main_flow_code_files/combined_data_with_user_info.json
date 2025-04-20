@@ -8,47 +8,88 @@
   },
   "data": [
     {
-      "city": "Leh",
+      "city": "Calgary",
       "attractions": [
         {
-          "name": "Coca-Cola Park",
-          "num_reviews": "647",
-          "rating": "4.7",
-          "ranking_position": "1",
-          "neighborhood_info": null,
-          "description": "",
-          "subcategory": [
-            {
-              "key": "56",
-              "name": "Fun & Games"
-            }
-          ]
-        },
-        {
-          "name": "SteelStacks",
-          "num_reviews": "661",
+          "name": "Heritage Park Historical Village",
+          "num_reviews": "3119",
           "rating": "4.6",
-          "ranking_position": "3",
-          "neighborhood_info": null,
-          "description": "SteelStacks is a ten-acre campus in Bethlehem, PA, dedicated to arts, culture, family events, community celebrations, education and fun. The campus is in the shadow of the blast furnaces of the former Bethlehem Steel plant.",
+          "ranking_position": "8",
+          "neighborhood_info": [
+            {
+              "location_id": "20933691",
+              "name": "Southeast Calgary"
+            }
+          ],
+          "description": "With more than 200 exhibits and attractions spread over 127 acres of lush parkland, Heritage Park Historical Village has a lot to offer both the history buff and the pleasure seeker. It\u2019s the perfect balance between historical fact, adventure, discovery and fun that makes our take on the tale of Western Canada\u2019s history so unique. Tour the Park on an antique steam train, set sail aboard Calgary's only paddlewheel ship, visit the farm animals at the ranch, learn about Blackfoot culture in the First Nations area, engage with Western Canada\u2019s energy past, present and future at Prospect Ridge, explore a bustling young prairie town and discover one of the world\u2019s largest public collections of antique vehicles at Gasoline Alley Museum. The Historical Village is open daily from 10 a.m. to 5 p.m. from the May long weekend until the first weekend in September, then open weekends until mid-October. Gasoline Alley Museum is open year-round.",
           "subcategory": [
             {
-              "key": "26",
-              "name": "Shopping"
+              "key": "47",
+              "name": "Sights & Landmarks"
             },
             {
-              "key": "49",
-              "name": "Museums"
+              "key": "57",
+              "name": "Nature & Parks"
             }
           ]
         },
         {
-          "name": "Allentown Fish Hatchery",
-          "num_reviews": "352",
+          "name": "The Calgary Zoo",
+          "num_reviews": "4567",
           "rating": "4.4",
-          "ranking_position": "5",
+          "ranking_position": "15",
+          "neighborhood_info": [
+            {
+              "location_id": "20933691",
+              "name": "Southeast Calgary"
+            }
+          ],
+          "description": "From the splendor of the Rocky Mountains to the heart of Destination Africa, the Wilder Institute/Calgary Zoo takes you to see over 1,000 animals from around the world. Trek through the African Rainforest to see the gorilla troop, safari over the African Savannah to watch the hippos swim, or climb the Canadian Wilds to see grizzly bears! Cool off and practice your waddle with 4 species of penguins in our popular Penguin Plunge or visit endangered red pandas and Amur tigers in Exploration Asia! Wind down your trip with a walk through our fragrant Dorothy Harvie Gardens or sit with the butterflies (seasonal) in the ENMAX Conservatory. You'll love knowing that every visit helps protect endangered animals at home and in the wild. NEW in 2021 is the unique and immersive permanent Gateway to Asia building featuring Komodo dragons, white-handed gibbons, and a Malayan tapir. Coming in December 2023 is the return of an iconic Canadian species - polar bears!",
+          "subcategory": [
+            {
+              "key": "48",
+              "name": "Zoos & Aquariums"
+            },
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            },
+            {
+              "key": "61",
+              "name": "Outdoor Activities"
+            }
+          ]
+        },
+        {
+          "name": "Calgary Stampede",
+          "num_reviews": "3149",
+          "rating": "4.5",
+          "ranking_position": "14",
+          "neighborhood_info": [
+            {
+              "location_id": "20483771",
+              "name": "Beltline"
+            },
+            {
+              "location_id": "20933692",
+              "name": "Southwest Calgary"
+            }
+          ],
+          "description": "Welcome to the Greatest Outdoor Show on Earth! The Calgary Stampede is an annual, 10-day rodeo, exhibition and festival held every July in Calgary, Alberta. It features the world's largest outdoor rodeo, a parade, stage shows, rides and games, shopping, concerts, agricultural competitions, chuckwagon racing and Indigenous experiences. The Calgary Stampede is the most authentic, memorable western experience you could pack into a vacation. Calgary is located only one hour from Canada\u2019s majestic Rocky Mountains making the Stampede the perfect place to kick off a true western vacation, and an experience that is unrivaled in excitement.",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Prince's Island Park",
+          "num_reviews": "1427",
+          "rating": "4.5",
+          "ranking_position": "9",
           "neighborhood_info": null,
-          "description": "",
+          "description": "This recreational island is located in the Bow River, providing stressed-out urbanites opportunities to bike, hike and fish.",
           "subcategory": [
             {
               "key": "57",
@@ -57,104 +98,105 @@
           ]
         },
         {
-          "name": "Hoover Mason Trestle",
-          "num_reviews": "217",
-          "rating": "4.7",
-          "ranking_position": "4",
-          "neighborhood_info": null,
-          "description": "",
+          "name": "Glenbow",
+          "num_reviews": "865",
+          "rating": "4.5",
+          "ranking_position": "11",
+          "neighborhood_info": [
+            {
+              "location_id": "21001920",
+              "name": "Downtown"
+            }
+          ],
+          "description": "Glenbow is currently closed for renovations as we transform the museum through Glenbow Reimagined, our campaign to deliver a revitalized museum with you \u2014 our community \u2014 at its core. Glenbow will reopen in its renovated home, the JR Shaw Centre for Arts & Culture, in 2026. We look forward to welcoming you back!",
           "subcategory": [
             {
-              "key": "47",
-              "name": "Sights & Landmarks"
+              "key": "49",
+              "name": "Museums"
             }
           ]
         },
         {
-          "name": "Allentown Farmers Market",
-          "num_reviews": "266",
-          "rating": "4.4",
+          "name": "Bow River",
+          "num_reviews": "753",
+          "rating": "4.6",
           "ranking_position": "7",
           "neighborhood_info": null,
-          "description": "",
+          "description": "This feisty waterway is popular for its adjacent walkways used by walkers and bicyclers.",
           "subcategory": [
             {
-              "key": "26",
-              "name": "Shopping"
-            },
-            {
-              "key": "36",
-              "name": "Food & Drink"
+              "key": "57",
+              "name": "Nature & Parks"
             }
           ]
         },
         {
-          "name": "Klein Farms Dairy and Creamery",
-          "num_reviews": "139",
-          "rating": "4.7",
+          "name": "Calgary Tower",
+          "num_reviews": "3432",
+          "rating": "4.1",
+          "ranking_position": "20",
+          "neighborhood_info": [
+            {
+              "location_id": "21001920",
+              "name": "Downtown"
+            }
+          ],
+          "description": "This place is temporarily closed. Located 191 metres above the downtown core, the Calgary Tower offers the best view in the city and is a must-see on any visitor's itinerary. On the Observation Deck you'll experience a spectacular 360\u00b0 view of the bustling city, the majestic Rocky Mountains, the foothills, and the prairies.",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Studio Bell, home of the National Music Centre",
+          "num_reviews": "379",
+          "rating": "4.6",
           "ranking_position": "10",
           "neighborhood_info": null,
-          "description": "",
+          "description": "Explore five floors of exhibitions that tell the story of music in Canada, celebrate music icons at the Canadian Halls of Fame, rock out with our interactive instrument installations and experiment in Soundbox\u2013 a music workshop! Everyone is welcome to Studio Bell, home of the National Music Centre.",
           "subcategory": [
             {
-              "key": "47",
-              "name": "Sights & Landmarks"
+              "key": "49",
+              "name": "Museums"
             }
           ]
         },
         {
-          "name": "PPL Center",
-          "num_reviews": "407",
+          "name": "Wonderland Sculpture",
+          "num_reviews": "517",
           "rating": "4.3",
-          "ranking_position": "11",
-          "neighborhood_info": null,
-          "description": "",
-          "subcategory": [
-            {
-              "key": "47",
-              "name": "Sights & Landmarks"
-            }
-          ]
-        },
-        {
-          "name": "Allentown Rose Gardens",
-          "num_reviews": "78",
-          "rating": "4.7",
           "ranking_position": "16",
           "neighborhood_info": null,
           "description": "",
           "subcategory": [
             {
-              "key": "57",
-              "name": "Nature & Parks"
+              "key": "47",
+              "name": "Sights & Landmarks"
             }
           ]
         },
         {
-          "name": "America On Wheels Museum",
-          "num_reviews": "385",
-          "rating": "4.6",
-          "ranking_position": "2",
-          "neighborhood_info": null,
+          "name": "Bowness Park",
+          "num_reviews": "309",
+          "rating": "4.5",
+          "ranking_position": "18",
+          "neighborhood_info": [
+            {
+              "location_id": "20933690",
+              "name": "Northwest Calgary"
+            }
+          ],
           "description": "",
           "subcategory": [
             {
-              "key": "49",
-              "name": "Museums"
-            }
-          ]
-        },
-        {
-          "name": "National Museum of Industrial History",
-          "num_reviews": "151",
-          "rating": "4.6",
-          "ranking_position": "8",
-          "neighborhood_info": null,
-          "description": "National Museum of Industrial History",
-          "subcategory": [
+              "key": "47",
+              "name": "Sights & Landmarks"
+            },
             {
-              "key": "49",
-              "name": "Museums"
+              "key": "57",
+              "name": "Nature & Parks"
             }
           ]
         }
@@ -162,135 +204,80 @@
       "hotels": {
         "bayesian_review_score": [
           {
-            "name": "Tendance et Charmant F2",
-            "price": 227.84
+            "name": "You will love this 2BR Guest Suite in SE Calgary",
+            "price": 1030.73
           },
           {
-            "name": "\"L'escapade Havraise\" Studio Parking gratuit Coeur de Ville",
-            "price": 138.84
+            "name": "Gorgeous House&30 second Bus station Close C-Train& Free Parking",
+            "price": 471.49
           },
           {
-            "name": "L'ESTUAIRE",
-            "price": 170.88
+            "name": "Best Garden House&3 mins Bus station Close C-Train&Free Parking",
+            "price": 409.47
           }
         ],
         "popularity": [
           {
-            "name": "All Suites Appart Hotel Le Havre",
-            "price": 195.76
+            "name": "Calm and cozy",
+            "price": 381.75
           },
           {
-            "name": "The Originals Boutique, H\u00f4tel Le Marignan,Le Havre Centre Gare",
-            "price": 278.43
+            "name": "Park Inn by Radisson, Calgary Airport North, AB",
+            "price": 886.67
           },
           {
-            "name": "Hotel Spa Le Pasino",
-            "price": 374.87
+            "name": "Ramada Plaza by Wyndham Calgary Downtown",
+            "price": 1340.62
           }
         ],
         "price": [
           {
-            "name": "Bel appartement avec parking et terrasse plein sud",
-            "price": 89.71
+            "name": "Cozy lot",
+            "price": 164.41
           },
           {
-            "name": "Studio Center",
-            "price": 92.56
+            "name": "DLush room",
+            "price": 181.45
           },
           {
-            "name": "Paradise cach\u00e9",
-            "price": 98.25
+            "name": "Beautiful and cozy room",
+            "price": 212.67
           }
         ]
       },
       "flights": [
         {
-          "to": "Srinagar",
-          "date": "2025-07-14",
-          "flights": [
-            {
-              "type": "FASTEST",
-              "price_usd": 807,
-              "departure_time": "2025-07-14T07:40:00",
-              "arrival_time": "2025-07-14T11:50:00"
-            },
-            {
-              "type": "BEST",
-              "price_usd": 591,
-              "departure_time": "2025-07-14T08:30:00",
-              "arrival_time": "2025-07-14T12:45:00"
-            }
-          ],
-          "note": null
+          "to": "Banff",
+          "date": "2025-07-13",
+          "flights": null,
+          "note": "No flights for these locations. Check alternate way of travel!"
         }
       ]
     },
     {
-      "city": "Srinagar",
+      "city": "Banff",
       "attractions": [
         {
-          "name": "Dal Lake",
-          "num_reviews": "4329",
-          "rating": "4.3",
-          "ranking_position": "6",
-          "neighborhood_info": null,
-          "description": "",
-          "subcategory": [
-            {
-              "key": "57",
-              "name": "Nature & Parks"
-            }
-          ]
-        },
-        {
-          "name": "Indira Gandhi Tulip Garden",
-          "num_reviews": "1146",
+          "name": "Banff Gondola",
+          "num_reviews": "13807",
           "rating": "4.6",
-          "ranking_position": "2",
-          "neighborhood_info": null,
-          "description": "",
-          "subcategory": [
-            {
-              "key": "57",
-              "name": "Nature & Parks"
-            }
-          ]
-        },
-        {
-          "name": "Sonamarg Hill Station",
-          "num_reviews": "1174",
-          "rating": "4.4",
-          "ranking_position": "4",
-          "neighborhood_info": null,
-          "description": "",
-          "subcategory": [
-            {
-              "key": "57",
-              "name": "Nature & Parks"
-            }
-          ]
-        },
-        {
-          "name": "Shankaracharya Hill",
-          "num_reviews": "2147",
-          "rating": "4.5",
           "ranking_position": "1",
           "neighborhood_info": null,
-          "description": "",
+          "description": "Sulphur Mountain summit is easily accessible via the Banff Gondola. The ride takes just 8 minutes\u2014you\u2019ll get to enjoy the amazing views of six mountain ranges as you coast over the treetops. Once you\u2019re at the 7,486-foot-high mountaintop, take a stroll along the ridgetop boardwalk before spending the afternoon at the multi-sensory theater, rooftop observation deck, restaurant and interactive exhibits.",
           "subcategory": [
             {
-              "key": "47",
-              "name": "Sights & Landmarks"
+              "key": "59",
+              "name": "Transportation"
             }
           ]
         },
         {
-          "name": "Nishat Garden",
-          "num_reviews": "1332",
-          "rating": "4.2",
+          "name": "Lake Minnewanka",
+          "num_reviews": "3868",
+          "rating": "4.4",
           "ranking_position": "5",
           "neighborhood_info": null,
-          "description": "",
+          "description": "There\u2019s no comparing the emerald green waters of Minnewanka with any urban landscape. Mountain ridges stretch as far as the eye can see, eventually blurring into a blissful cascade of colours.",
           "subcategory": [
             {
               "key": "57",
@@ -299,10 +286,10 @@
           ]
         },
         {
-          "name": "Nigeen Lake",
-          "num_reviews": "1120",
-          "rating": "4.4",
-          "ranking_position": "3",
+          "name": "Bow Falls",
+          "num_reviews": "4237",
+          "rating": "4.3",
+          "ranking_position": "7",
           "neighborhood_info": null,
           "description": "",
           "subcategory": [
@@ -313,10 +300,24 @@
           ]
         },
         {
-          "name": "Yousmarg",
-          "num_reviews": "249",
-          "rating": "4.4",
-          "ranking_position": "15",
+          "name": "Sunshine Meadows",
+          "num_reviews": "594",
+          "rating": "4.7",
+          "ranking_position": "3",
+          "neighborhood_info": null,
+          "description": "Located only a short distance, 16km/10m, from the Town of Banff, the pristine beauty of Sunshine Meadows is easily accessible for everyone, and can be best experienced and enjoyed through the relaxed comfort of our facilities. Take a ride up to the skies in Banff\u2019s biggest gondola (8-passenger cabin capacity) with room for the whole family. Start at the base at an elevation of 1,660 m and ride the gondola 4.6km to the top gondola village terminal at 2,164 m where the Alpine Village is located. Take in all the views of the valley, mountain peaks and wildlife. Once you have reached the top \u2013 the Sunshine Village area, or just \u201cthe Village\u201d \u2013 stop in at our new interpretive center before embarking on an exploration of the six diverse, graveled hiking trails, that wind their way through three alpine lakes, waterfalls and flower filled meadows covering more than 12 Km through the Sunshine Meadows. For a more revealing experience, join one of our hosted trail tours and enjoy learning about the wonders of the alpine world of Sunshine Meadows and more as you through some of Banff National Park\u2019s most spectacular spots. Feel on top of the world when you summit Mt Standish via our Standish Express Sightseeing Chairlift. With an elevation of 2,400m/7,875ft, it will give you a full 360 degree view of the area. From here you can enjoy an unobstructed view the famous Mount Assiniboine \u2013 the Matterhorn of the Canadian Rockies at 3,618m/ 11,871ft \u2013 as well as other joys on the horizon, such as Rock Isle, Laryx and Grizzly Alpine lakes. There are three retail stores awaiting you for all your hiking essentials and Canadian Rockies souvenirs. After taking in the captivating views, indulge in one of our six licensed food outlets, including four fully serviced restaurants, including a BBQ deck of outside Mad Trapper\u2019s Smokehouse. Come by to wind down with a drink before making your way back down the gondola.",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "Bow Valley Parkway",
+          "num_reviews": "2419",
+          "rating": "4.5",
+          "ranking_position": "6",
           "neighborhood_info": null,
           "description": "",
           "subcategory": [
@@ -335,38 +336,74 @@
           ]
         },
         {
-          "name": "Badamwari Garden",
-          "num_reviews": "157",
-          "rating": "4.5",
-          "ranking_position": "16",
+          "name": "Tunnel Mountain Trail",
+          "num_reviews": "794",
+          "rating": "4.6",
+          "ranking_position": "4",
           "neighborhood_info": null,
           "description": "",
           "subcategory": [
             {
               "key": "57",
               "name": "Nature & Parks"
+            },
+            {
+              "key": "61",
+              "name": "Outdoor Activities"
             }
           ]
         },
         {
-          "name": "Mughal Gardens",
-          "num_reviews": "788",
-          "rating": "4.2",
-          "ranking_position": "10",
+          "name": "Parker Ridge Trail",
+          "num_reviews": "570",
+          "rating": "4.8",
+          "ranking_position": "2",
           "neighborhood_info": null,
           "description": "",
           "subcategory": [
             {
               "key": "57",
               "name": "Nature & Parks"
+            },
+            {
+              "key": "61",
+              "name": "Outdoor Activities"
             }
           ]
         },
         {
-          "name": "Shalimar Bagh",
-          "num_reviews": "778",
-          "rating": "4.2",
-          "ranking_position": "9",
+          "name": "Cave and Basin National Historic Site",
+          "num_reviews": "1617",
+          "rating": "4.1",
+          "ranking_position": "20",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Banff Avenue",
+          "num_reviews": "1524",
+          "rating": "4.3",
+          "ranking_position": "11",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Two Jack Lake",
+          "num_reviews": "155",
+          "rating": "4.6",
+          "ranking_position": "17",
           "neighborhood_info": null,
           "description": "",
           "subcategory": [
@@ -380,178 +417,108 @@
       "hotels": {
         "bayesian_review_score": [
           {
-            "name": "John's Homestay",
-            "price": 55.1
+            "name": "Hotel Canoe and Suites",
+            "price": 1520.7
           },
           {
-            "name": "Ikraam Inn Bed & Breakfast",
-            "price": 100.36
+            "name": "Moose Hotel and Suites",
+            "price": 1681.05
           },
           {
-            "name": "Movie land group of house boats",
-            "price": 125.29
+            "name": "Fairmont Banff Springs",
+            "price": 2162.07
           }
         ],
         "popularity": [
           {
-            "name": "Houseboat Zaindari Palace",
-            "price": 326.2
+            "name": "Best Western Plus Siding 29 Lodge",
+            "price": 1120.09
           },
           {
-            "name": "Dilnaaz group of houseboats",
-            "price": 73.47
+            "name": "Samesun Banff Hostel",
+            "price": 1968.37
           },
           {
-            "name": "Amina Group Of Houseboats",
-            "price": 174.93
+            "name": "Brewster Mountain Lodge",
+            "price": 1142.53
           }
         ],
         "price": [
           {
-            "name": "LalaApartment",
-            "price": 13.07
+            "name": "Sunshine Mountain Lodge",
+            "price": 510.83
           },
           {
-            "name": "Young Gulshan Apartment",
-            "price": 17.19
+            "name": "HI Banff Alpine Centre - Hostel",
+            "price": 673.02
           },
           {
-            "name": "Shaheen Luxuries",
-            "price": 17.71
+            "name": "Douglas Fir Resort & Chalets",
+            "price": 703.46
           }
         ]
       },
       "flights": [
         {
-          "to": "Shimla",
-          "date": "2025-07-16",
+          "to": "Quebec City",
+          "date": "2025-07-15",
           "flights": null,
           "note": "No flights for these locations. Check alternate way of travel!"
         }
       ]
     },
     {
-      "city": "Shimla",
+      "city": "Quebec City",
       "attractions": [
         {
-          "name": "Jakhu Hanuman Temple",
-          "num_reviews": "2091",
-          "rating": "4.4",
-          "ranking_position": "3",
-          "neighborhood_info": null,
-          "description": "",
-          "subcategory": [
-            {
-              "key": "47",
-              "name": "Sights & Landmarks"
-            }
-          ]
-        },
-        {
-          "name": "The Mall",
-          "num_reviews": "2932",
-          "rating": "4.2",
-          "ranking_position": "7",
-          "neighborhood_info": null,
-          "description": "",
-          "subcategory": [
-            {
-              "key": "47",
-              "name": "Sights & Landmarks"
-            }
-          ]
-        },
-        {
-          "name": "Kalka - Shimla Railway",
-          "num_reviews": "1826",
-          "rating": "4.3",
-          "ranking_position": "9",
-          "neighborhood_info": null,
-          "description": "This railway was built in 1903 to connect the summer capital of India to Punjab.",
-          "subcategory": [
-            {
-              "key": "42",
-              "name": "Tours"
-            }
-          ]
-        },
-        {
-          "name": "Indian Institute of Advanced Study",
-          "num_reviews": "770",
-          "rating": "4.5",
+          "name": "Old Quebec",
+          "num_reviews": "13730",
+          "rating": "4.8",
           "ranking_position": "1",
-          "neighborhood_info": null,
+          "neighborhood_info": [
+            {
+              "location_id": "21001993",
+              "name": "Downtown Quebec City"
+            }
+          ],
           "description": "",
           "subcategory": [
             {
               "key": "47",
               "name": "Sights & Landmarks"
+            },
+            {
+              "key": "51",
+              "name": "Other"
             }
           ]
         },
         {
-          "name": "Viceregal Lodge",
-          "num_reviews": "1515",
+          "name": "Parc de la Chute-Montmorency",
+          "num_reviews": "10437",
           "rating": "4.4",
-          "ranking_position": "6",
+          "ranking_position": "19",
           "neighborhood_info": null,
-          "description": "",
+          "description": "These 275-foot falls on the Montmorency River tower higher than even the legendary Niagara Falls. The 2013 season promises to be exhilarating for people who will visit Parc de la Chute-Montmorency \u2013 Montmorency Falls, the second most visited site of the provincial capital after Old Quebec. The highlight of all the new summer activities is certainly the opening of two via ferrata routes built in the Boischatel fault near the waterfalls. Via ferrata \u2013 this is Italian for \u201ciron roads\u201d - is an activity accessible to everyone over 12 years old that combines hiking and rock climbing. The two paths are built on the rock face on the eastern side of the waterfall. The less adventurous will also be able to get stunning views of the 83-meter high waterfall aboard the cable car which now runs with sparkling new cabins. History buffs will be glad to know that guided tours are now offered each weekend in the company of Sir Frederick Haldimand, who served as Governor of Quebec from 1778 to 1786 and Mathilde Robin, best known as the Lady in White, who lost her fiance during the Montmorency Battle in 1759. Guided tours are offered in French or English until Labour Day weekend.",
           "subcategory": [
             {
-              "key": "47",
-              "name": "Sights & Landmarks"
+              "key": "57",
+              "name": "Nature & Parks"
             }
           ]
         },
         {
-          "name": "The Ridge",
-          "num_reviews": "968",
-          "rating": "4.4",
-          "ranking_position": "4",
-          "neighborhood_info": null,
-          "description": "",
-          "subcategory": [
-            {
-              "key": "47",
-              "name": "Sights & Landmarks"
-            }
-          ]
-        },
-        {
-          "name": "Annandale Ground",
-          "num_reviews": "260",
+          "name": "Terrasse Dufferin",
+          "num_reviews": "3717",
           "rating": "4.6",
-          "ranking_position": "5",
-          "neighborhood_info": null,
-          "description": "",
-          "subcategory": [
+          "ranking_position": "3",
+          "neighborhood_info": [
             {
-              "key": "57",
-              "name": "Nature & Parks"
+              "location_id": "21001993",
+              "name": "Downtown Quebec City"
             }
-          ]
-        },
-        {
-          "name": "Green Valley",
-          "num_reviews": "384",
-          "rating": "4.1",
-          "ranking_position": "11",
-          "neighborhood_info": null,
-          "description": "",
-          "subcategory": [
-            {
-              "key": "57",
-              "name": "Nature & Parks"
-            }
-          ]
-        },
-        {
-          "name": "Kali Bari Temple",
-          "num_reviews": "262",
-          "rating": "4.4",
-          "ranking_position": "10",
-          "neighborhood_info": null,
-          "description": "",
+          ],
+          "description": "This elevated area offers panoramic views of Old Quebec and the St. Lawrence River. Winter adrenalin junkies line up by the thousands at Les Glissades de la Terrasse to experience the rush of zooming downhill from 270 feet high (82 meters) in a toboggan speeding up to 60 mph (90 kilometers per hour) to the bottom 500 feet (152 meters) away. Located on the Dufferin Terrace overlooking the St. Lawrence River behind Fairmont Le Ch\u00e2teau Frontenac, the ride is open from mid-December through late March.",
           "subcategory": [
             {
               "key": "47",
@@ -560,16 +527,150 @@
           ]
         },
         {
-          "name": "Jakhoo Hill",
-          "num_reviews": "126",
-          "rating": "4.3",
-          "ranking_position": "13",
-          "neighborhood_info": null,
-          "description": "",
+          "name": "Place Royale",
+          "num_reviews": "1956",
+          "rating": "4.6",
+          "ranking_position": "4",
+          "neighborhood_info": [
+            {
+              "location_id": "21001993",
+              "name": "Downtown Quebec City"
+            }
+          ],
+          "description": "This famous town plaza is the heart of historic Lower Town and has been an important social center since the city's founding.",
           "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            },
+            {
+              "key": "51",
+              "name": "Other"
+            }
+          ]
+        },
+        {
+          "name": "Notre Dame De Quebec Basilica Cathedral",
+          "num_reviews": "2652",
+          "rating": "4.5",
+          "ranking_position": "9",
+          "neighborhood_info": [
+            {
+              "location_id": "21001993",
+              "name": "Downtown Quebec City"
+            }
+          ],
+          "description": "This famous 17th-century cathedral has been restored several times but still provides visitors with an ambiance of centuries past.",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Lower Town (Basse-Ville)",
+          "num_reviews": "2420",
+          "rating": "4.6",
+          "ranking_position": "6",
+          "neighborhood_info": [
+            {
+              "location_id": "21001993",
+              "name": "Downtown Quebec City"
+            }
+          ],
+          "description": "The location of the city's original settlement, historic Lower Town is situated on the banks of the St. Lawrence.",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            },
+            {
+              "key": "51",
+              "name": "Other"
+            }
+          ]
+        },
+        {
+          "name": "Quebec City Ferry",
+          "num_reviews": "1418",
+          "rating": "4.4",
+          "ranking_position": "15",
+          "neighborhood_info": null,
+          "description": "One of Qu\u00e9bec\u2019s best-kept secrets and one of the most spectacular view of the Old Town. Located at the heart of Old Qu\u00e9bec City, the ride (one-way) takes about 12 minutes. During summertime, discover the marked bike paths located on both sides of the shore: Corridor du Littoral (Quebec City) and Parcours des Anses (L\u00e9vis). In winter, the mouvement of the ice on the St. Lawrence River is truly impressing.",
+          "subcategory": [
+            {
+              "key": "59",
+              "name": "Transportation"
+            }
+          ]
+        },
+        {
+          "name": "Plains of Abraham",
+          "num_reviews": "2478",
+          "rating": "4.4",
+          "ranking_position": "18",
+          "neighborhood_info": [
+            {
+              "location_id": "21001993",
+              "name": "Downtown Quebec City"
+            }
+          ],
+          "description": "Site of major battles, the Battlefields Park includes the Plains of Abraham and Des Braves Park. Apart from its historical past, the Park is to Qu\u00e9bec what Central Park and Hyde Park are to New York and London: a city park of outstanding value, the lungs of the city. The Plains of Abraham Museum is the gateway to the Park, offering exhibitions, activities, services and all information for your visit. Year-round, dive into history with an interactive exhibition on the battles of Qu\u00e9bec and an exhibition on artefacts from the Park's archeological collection. From July to the end of October, explore the Plains of Abraham with the Escape Bag Rally or a family treasure hunt. Discover also the dark side of the Plains with fun and terrifying activities for all ages during Halloween and the Month of the Dead. In winter, enjoy cross-country skiing, snowshoeing or ice skating! Equipment rental on site ($).",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            },
             {
               "key": "57",
               "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "La Citadelle de Quebec",
+          "num_reviews": "3950",
+          "rating": "4.4",
+          "ranking_position": "16",
+          "neighborhood_info": [
+            {
+              "location_id": "21001993",
+              "name": "Downtown Quebec City"
+            }
+          ],
+          "description": "National Historic Site and active military base, the Citadelle welcomes you with its guided tours and access to the Mus\u00e9e Royal 22e R\u00e9giment. Located on the highest natural point in Quebec City, the Citadelle allows you to enjoy spectacular views on the town and the Saint Lawrence River. Discover the fortress of Old Quebec, home of the Royal 22e R\u00e9giment, the only French-speaking regiment with in the Canadian Armed Forces. Tickets include an hour-long guided tour of the Citadelle, mostly outside, and the access to the Mus\u00e9e Royal 22e R\u00e9giment. In order to protect the health and safety of our visitors and employees, we have adopted the guidelines by the Qu\u00e9bec Ministry of Public Health, including social distancing standards and applicable health measures.",
+          "subcategory": [
+            {
+              "key": "49",
+              "name": "Museums"
+            }
+          ]
+        },
+        {
+          "name": "Notre-Dame-de-Bon-Secours Chapel",
+          "num_reviews": "1191",
+          "rating": "4.5",
+          "ranking_position": "12",
+          "neighborhood_info": [
+            {
+              "location_id": "15621134",
+              "name": "Ville-Marie"
+            },
+            {
+              "location_id": "7674830",
+              "name": "Vieux-Montreal (Old Montreal)"
+            },
+            {
+              "location_id": "15621133",
+              "name": "Old Port of Montreal"
+            }
+          ],
+          "description": "Called the Sailors' Church because of the wooden ship models that hang from its ceiling, this church was originally designed by Marguerite Bougeoys, one of Montreal's first teachers. Next to the Chapel, the Marguerite Bourgeoys Museum ($) presents fascinating stories/accounts a\u00e6nd significant objects to showcase the life and work of Margue\u00e6rite Bourgeoys, Montreal's first teacher. Visitors can explore the 18th-century stone crypt and climb the tower to admire a stunning view of the St. Lawrence, Old Montreal and downtown. The archaeological site, opened in 1998, has witnessed more than 2,400 years of history. In addition to its new permanent exhibition opened in 2020, the Museum offers a variety of temporary exhibitions and cultural activities, along with school programs. A seasonal music festival is held every December, featuring free concerts with vocal ensembles.",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
             }
           ]
         }
@@ -577,44 +678,366 @@
       "hotels": {
         "bayesian_review_score": [
           {
-            "name": "Wildflower Hall, An Oberoi Resort, Shimla",
-            "price": 1575.71
+            "name": "Auberge Saint-Antoine",
+            "price": 1637.87
           },
           {
-            "name": "SIMLA HOTEL H G N near park and temple",
-            "price": 73.8
+            "name": "Le Widor",
+            "price": 762.66
           },
           {
-            "name": "GS cottage near Mall Road",
-            "price": 177.11
+            "name": "Monsieur Jean - H\u00f4tel Particulier",
+            "price": 1104.79
           }
         ],
         "popularity": [
           {
-            "name": "Victory Hotel and Restaurant by GS Hospitality",
-            "price": 118.07
+            "name": "H\u00f4tel Le Concorde Qu\u00e9bec",
+            "price": 709.23
           },
           {
-            "name": "Royal Green Mashobra - Mountain and valley view rooms",
-            "price": 44.08
+            "name": "Hotel du Nord",
+            "price": 584.1
           },
           {
-            "name": "HANU VATIKA The FAMILY CHOICE",
-            "price": 59.49
+            "name": "APPART-HOTEL L'UNI",
+            "price": 566.92
           }
         ],
         "price": [
           {
-            "name": "Staynest Mashobra with balcony",
-            "price": 22.04
+            "name": "R\u00e9sidences Campus Notre-Dame-de-Foy",
+            "price": 162.07
           },
           {
-            "name": "The Hostelers Homestay Shiimla - Near HPU, Bypass Crossing, ISBT and Advance Study",
-            "price": 26.57
+            "name": "The International House Hostel",
+            "price": 174.53
           },
           {
-            "name": "Nature Ville",
-            "price": 31.45
+            "name": "G\u00eete le 812",
+            "price": 216.48
+          }
+        ]
+      },
+      "flights": [
+        {
+          "to": "Montreal",
+          "date": "2025-07-18",
+          "flights": [
+            {
+              "type": "CHEAPEST",
+              "price_usd": 281,
+              "departure_time": "2025-07-18T22:15:00",
+              "arrival_time": "2025-07-18T23:05:00"
+            },
+            {
+              "type": "FASTEST",
+              "price_usd": 281,
+              "departure_time": "2025-07-18T22:15:00",
+              "arrival_time": "2025-07-18T23:05:00"
+            },
+            {
+              "type": "BEST",
+              "price_usd": 281,
+              "departure_time": "2025-07-18T22:15:00",
+              "arrival_time": "2025-07-18T23:05:00"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "city": "Montreal",
+      "attractions": [
+        {
+          "name": "Mount Royal Park",
+          "num_reviews": "10706",
+          "rating": "4.6",
+          "ranking_position": "5",
+          "neighborhood_info": [
+            {
+              "location_id": "15621134",
+              "name": "Ville-Marie"
+            },
+            {
+              "location_id": "7674833",
+              "name": "Parc du Mont-Royal"
+            }
+          ],
+          "description": "This park is one of Montreal's largest greenspaces and is a great place for admiring a wide variety of flora and fauna. Designed by Frederick Law Olmsted, the same person behind New York's Central Park, Mount Royal Park boasts miles of trails and superb views of the city. Here, you can stroll down the tree-lined paths and recharge with a picnic on the grass by Beaver Lake. You can also enjoy outdoor activities year-round, such as canoeing in the summer and skiing in the wintertime. There\u2019s a mild climb to reach the viewing area at the top. Alternatively, you can hop on a public bus to reach the peak. \u2013 Tripadvisor",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "Old Montreal",
+          "num_reviews": "13884",
+          "rating": "4.5",
+          "ranking_position": "2",
+          "neighborhood_info": [
+            {
+              "location_id": "15621134",
+              "name": "Ville-Marie"
+            },
+            {
+              "location_id": "7674830",
+              "name": "Vieux-Montreal (Old Montreal)"
+            }
+          ],
+          "description": "Old Montreal is a historic neighborhood in Canada with a charming Parisian flair. Be transported back in time as you wander down the cobblestone streets and admire the stunning architecture. Check out the Bonsecours Market for some unique shopping, stroll along St. Paul Street, and visit the Notre-Dame Basilica of Montreal to admire the incredible stained glass windows. You can also head to the old port for a Ferris wheel ride, zipline, or cruise. Take a walking tour to learn more about its history or a ghost tour to explore the neighborhood after dark. Visit in the winter to see the beautiful holiday decorations. \u2013 Tripadvisor",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Notre-Dame Basilica",
+          "num_reviews": "20456",
+          "rating": "4.7",
+          "ranking_position": "1",
+          "neighborhood_info": [
+            {
+              "location_id": "15621134",
+              "name": "Ville-Marie"
+            },
+            {
+              "location_id": "7674830",
+              "name": "Vieux-Montreal (Old Montreal)"
+            }
+          ],
+          "description": "Montreal's oldest Catholic church, built in 1656, is known for its intricately designed interior, which includes stained glass chronicling the history of the city.",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Saint Joseph's Oratory of Mount Royal",
+          "num_reviews": "5402",
+          "rating": "4.5",
+          "ranking_position": "13",
+          "neighborhood_info": [
+            {
+              "location_id": "7674833",
+              "name": "Parc du Mont-Royal"
+            },
+            {
+              "location_id": "15621123",
+              "name": "Westmount"
+            },
+            {
+              "location_id": "21001971",
+              "name": "Cote-des-Neiges-Notre-Dame-de-Grace"
+            }
+          ],
+          "description": "Saint Joseph's Oratory of Mount-Royal, founded by Saint Brother Andr\u00e9 in 1904, is a catholic sanctuary and the largest shrine dedicated to Saint Joseph in the world. It receives over 2 million visitors yearly. We welcome everyone to partake in panoramic views, music concerts and special religious celebrations; come discover natural, cultural and spiritual treasures in the heart of the city. You will marvel at the votive chapel containing 10,000 candles, the Oratory Museum featuring nativity scenes from around the world, the Original Chapel, the spectacular Garden of the Way of Cross, the Crypt Church and the largest domed Basilica in North America.",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Montreal Botanical Garden",
+          "num_reviews": "7657",
+          "rating": "4.5",
+          "ranking_position": "24",
+          "neighborhood_info": [
+            {
+              "location_id": "7674841",
+              "name": "Rosemont-La Petite-Patrie"
+            }
+          ],
+          "description": "Recognized as one of the world's leading botanical gardens, the Jardin botanique de Montr\u00e9al is a true living museum, featuring plants from every region of the globe. This Montr\u00e9al jewel invites you to visit some twenty thematic gardens, an arboretum, the Fr\u00e9d\u00e9ric-Back Tree House and three exceptional cultural gardens: the Chinese Garden, the Japanese Garden and the First Nations Garden.  Let yourself be swept away by its beauty!",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "Musee des beaux-arts de Montreal",
+          "num_reviews": "4607",
+          "rating": "4.5",
+          "ranking_position": "11",
+          "neighborhood_info": [
+            {
+              "location_id": "15621134",
+              "name": "Ville-Marie"
+            },
+            {
+              "location_id": "15621148",
+              "name": "Golden Square Mile"
+            },
+            {
+              "location_id": "7674834",
+              "name": "Centre-Ville (Downtown)"
+            }
+          ],
+          "description": "The MMFA is one of Canada\u2019s most visited museums and the eighth-most visited museum in North America, boasting more than 1.3 million visitors. The MMFA's original temporary exhibitions combine various artistic disciplines \u2013 fine arts, music, film, fashion and design \u2013 and are exported around the world. Its rich encyclopedic collection, distributed among five pavilions, includes international art, world cultures, decorative arts and design, and Quebec and Canadian art. The Museum has seen exceptional growth in recent years with the addition of two new pavilions: the Claire and Marc Bourgie Pavilion, in 2011, and the Michal and Renata Hornstein Pavilion for Peace, in 2016. The MMFA complex includes Bourgie Hall, a 460-seat concert hall. The Museum also houses the Michel de la Cheneli\u00e8re International Atelier for Education and Art Therapy, the largest educational complex in a North American art museum, enabling the MMFA to offer innovative educational, wellness and art therapy programmes",
+          "subcategory": [
+            {
+              "key": "49",
+              "name": "Museums"
+            }
+          ]
+        },
+        {
+          "name": "Barbie Expo",
+          "num_reviews": "1384",
+          "rating": "4.7",
+          "ranking_position": "4",
+          "neighborhood_info": [
+            {
+              "location_id": "15621134",
+              "name": "Ville-Marie"
+            },
+            {
+              "location_id": "15621148",
+              "name": "Golden Square Mile"
+            },
+            {
+              "location_id": "7674834",
+              "name": "Centre-Ville (Downtown)"
+            },
+            {
+              "location_id": "15621153",
+              "name": "The Underground City"
+            }
+          ],
+          "description": "This property is Temporarily Closed This is not Barbie as you once knew her! The Barbie Expo, conveniently located in the heart of downtown, in Les Cours Mont Royal, Montreal\u2019s most prestigious upscale shopping mall, is a brilliant and exciting way to showcase the haute couture fashion available at the exclusive flagship boutiques within the mall. The stunning display houses over 1000 dolls, and is the largest permanent Barbie doll Expo in the world! A truly incredible selection of world-renowned designers have magnificently fashioned breathtaking outfits for every possible occasion\u2014all of them modeled by the 11.5 inch fashion icon herself. Admission is free. Designers on display include Christian Dior, Donna Karan, Armani, Ralph Laurent, Vera Wang, Bill Blass, Oscar de la Renta, Christian Louboutin, Zac Posen, Carolina Herrera, Bob Mackie, and many other authentic fashion all-stars!",
+          "subcategory": [
+            {
+              "key": "49",
+              "name": "Museums"
+            },
+            {
+              "key": "62",
+              "name": "Events"
+            }
+          ]
+        },
+        {
+          "name": "Museum of History and Heritage Dorval",
+          "num_reviews": "9",
+          "rating": "4.7",
+          "ranking_position": "1",
+          "neighborhood_info": [
+            {
+              "location_id": "15621125",
+              "name": "Dorval"
+            }
+          ],
+          "description": "Open since 2002, the Dorval Museum of Local History and Heritage combines historic cachet, innovative multimedia installations and original exhibitions to offer its visitors a unique experience in the heart of Dorval\u2019s history. The Museum is divided into four sections: - the former stalls which are quite rare in Canada, - the Hall of Fame of Dorval, featuring several characters who have shaped Dorval since its origins, - the atrium with its unparalleled view of Lake Saint-Louis, - upstairs, a timeline punctuated by artifacts and multimedia installations tells us the great events of the Dorval history.",
+          "subcategory": [
+            {
+              "key": "49",
+              "name": "Museums"
+            }
+          ]
+        },
+        {
+          "name": "Relay",
+          "num_reviews": "4",
+          "rating": "4.0",
+          "ranking_position": "2",
+          "neighborhood_info": [
+            {
+              "location_id": "15621125",
+              "name": "Dorval"
+            }
+          ],
+          "description": "",
+          "subcategory": [
+            {
+              "key": "26",
+              "name": "Shopping"
+            }
+          ]
+        },
+        {
+          "name": "Marche Jean-talon (jean-talon Market)",
+          "num_reviews": "1941",
+          "rating": "4.5",
+          "ranking_position": "20",
+          "neighborhood_info": [
+            {
+              "location_id": "7674841",
+              "name": "Rosemont-La Petite-Patrie"
+            },
+            {
+              "location_id": "15621136",
+              "name": "La Petite-Patrie"
+            },
+            {
+              "location_id": "15621169",
+              "name": "Little Italy"
+            }
+          ],
+          "description": "",
+          "subcategory": [
+            {
+              "key": "26",
+              "name": "Shopping"
+            },
+            {
+              "key": "36",
+              "name": "Food & Drink"
+            }
+          ]
+        }
+      ],
+      "hotels": {
+        "bayesian_review_score": [
+          {
+            "name": "Maison Des Jardins B & B",
+            "price": 162.93
+          },
+          {
+            "name": "HONEYROSE Hotel, Montreal, a Tribute Portfolio Hotel",
+            "price": 508.54
+          },
+          {
+            "name": "ApartHotelMontreal by Les Terrasses Saint Urbain 2225I2",
+            "price": 375.6
+          }
+        ],
+        "popularity": [
+          {
+            "name": "Hotel St-Denis",
+            "price": 155.59
+          },
+          {
+            "name": "Hotel les Suites Labelle",
+            "price": 196.99
+          },
+          {
+            "name": "Econo Lodge",
+            "price": 181.49
+          }
+        ],
+        "price": [
+          {
+            "name": "PVT Hostel",
+            "price": 57.37
+          },
+          {
+            "name": "Bright room near Metro Monk station with Self Check-in",
+            "price": 72.84
+          },
+          {
+            "name": "Delightful room near Metro Monk station with Self Check-in",
+            "price": 78.82
           }
         ]
       },
