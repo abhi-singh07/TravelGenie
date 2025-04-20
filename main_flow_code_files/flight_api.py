@@ -50,7 +50,7 @@ def structure_flight_data(flight_dict):
 
     return structured_data
 
-def FlightRetriever(input):
+def FlightRetriever(input,numadults):
     FullyFinalFlightHash = {}
     real_cities, cities, _, departures, airports = JSONconverter(input)
 
@@ -70,7 +70,7 @@ def FlightRetriever(input):
             'x-rapidapi-key': "cd3649e95amsh19e77450d847972p129963jsn55e782c26fc6",
             'x-rapidapi-host': "booking-com15.p.rapidapi.com"
         }
-        url = f"/api/v1/flights/searchFlights?fromId={start}.AIRPORT&toId={end}.AIRPORT&pageNo=1&adults=1&children=0%2C17&sort=BEST&cabinClass=ECONOMY&currency_code=USD&departDate={departuredate}"
+        url = f"/api/v1/flights/searchFlights?fromId={start}.AIRPORT&toId={end}.AIRPORT&pageNo=1&adults={numadults}&children=0%2C17&sort=BEST&cabinClass=ECONOMY&currency_code=USD&departDate={departuredate}"
 
         try:
             conn.request("GET", url, headers=headers)
