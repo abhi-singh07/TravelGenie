@@ -1,0 +1,22 @@
+{
+    "Srinagar": {
+        "Arrival Date": "2025-06-01",
+        "Departure Date": "2025-06-03",
+        "Airport": "SXR"
+    },
+    "Leh": {
+        "Arrival Date": "2025-06-03",
+        "Departure Date": "2025-06-06",
+        "Airport": "IXL"
+    },
+    "Shimla": {
+        "Arrival Date": "2025-06-06",
+        "Departure Date": "2025-06-09",
+        "Airport": "SLV"
+    },
+    "Chandigarh": {
+        "Arrival Date": "2025-06-09",
+        "Departure Date": "2025-06-10",
+        "Airport": "IXC"
+    }
+}

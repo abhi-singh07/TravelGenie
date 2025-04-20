@@ -1,60 +1,80 @@
-import aiohttp
-import asyncio
+import json
+import http.client
+import urllib.parse
 
-HOTEL_HEADERS = {
-    'x-rapidapi-key': "YOUR_HOTEL_KEY",
-    'x-rapidapi-host': "booking-com15.p.rapidapi.com"
-}
+def JSONconverter(input):
+    cities = list(input.keys())
+    arrivals = []
+    departures = []
+    airports = []
+    encoded_cities = []
 
-async def fetch_hotels(session: aiohttp.ClientSession, city: str) -> dict:
-    """Fetch & clean top hotels for a single city."""
-    try:
-        # 1. get dest_id
-        async with session.get(
-            f"https://booking-com15.p.rapidapi.com/api/v1/hotels/searchDestination?query={city}",
-            headers=HOTEL_HEADERS
-        ) as res:
-            dest_data = await res.json()
-        dest_id = next(
-            (d["dest_id"] for d in dest_data["data"] if d["search_type"] == "city"),
-            None
-        )
-        if not dest_id:
-            return {"city": city, "hotels": []}
+    for keys, values in input.items():
+        encoded_city = urllib.parse.quote(keys)
+        encoded_cities.append(encoded_city)
+        arrivals.append(values["Arrival Date"])
+        departures.append(values["Departure Date"])
+        airports.append(values["Airport"])
 
-        # 2. search hotels
-        params = {
-            "dest_id": dest_id,
-            "search_type": "CITY",
-            "adults": 2,
-            "children_age": "10,17",
-            "room_qty": 1,
-            "arrival_date": "2025-03-22",
-            "departure_date": "2025-03-23",
-            "sort_by": "bayesian_review_score",
-            "currency_code": "USD"
+    return cities, encoded_cities, arrivals, departures, airports
+
+def restructure_hotel_data(raw_data):
+    structured_data = []
+    for city, rankings in raw_data.items():
+        city_entry = {
+            "city": city,
+            "hotels_by": {}
         }
-        query = "&".join(f"{k}={v}" for k, v in params.items())
-        async with session.get(
-            f"https://booking-com15.p.rapidapi.com/api/v1/hotels/searchHotels?{query}",
-            headers=HOTEL_HEADERS
-        ) as res:
-            hotel_data = await res.json()
-        hotels = hotel_data["data"]["hotels"][:5]
+        for criterion, hotels in rankings.items():
+            city_entry["hotels_by"][criterion] = [
+                {"name": hotel_name, "price": round(price, 2)} for hotel_name, price in hotels
+            ]
+        structured_data.append(city_entry)
+    return structured_data
 
-        # 3. fetch details in parallel
-        tasks = [
-            session.get(
-                f"https://booking-com15.p.rapidapi.com/api/v1/hotels/getDescriptionAndInfo"
-                f"?hotel_id={h['hotel_id']}&languagecode=en-us",
-                headers=HOTEL_HEADERS
-            )
-            for h in hotels
-        ]
-        responses = await asyncio.gather(*tasks)
-        for h, resp in zip(hotels, responses):
-            h["details"] = await resp.json()
+def HotelRetriever(input, numadults):
+    realcities, cities, arrivals, departures, _ = JSONconverter(input)
+    conn = http.client.HTTPSConnection("booking-com15.p.rapidapi.com")
+    headers = {
+        'x-rapidapi-key': "cd3649e95amsh19e77450d847972p129963jsn55e782c26fc6",
+        'x-rapidapi-host': "booking-com15.p.rapidapi.com"
+    }
+    FinalHotelArray = {}
+    for i in range(len(cities)):
+        real_city_name = realcities[i]
+        city_name = cities[i]
+        arrival_date = arrivals[i]
+        departure_date = departures[i]
 
-        return {"city": city, "hotels": hotels}
-    except Exception as e:
-        return {"city": city, "hotels": [], "error": str(e)}
+        conn.request("GET", f"/api/v1/hotels/searchDestination?query={city_name}", headers=headers)
+        res = conn.getresponse()
+        data = res.read()
+        data_json = json.loads(data.decode("utf-8"))
+
+        dest_id = None
+        for dest in data_json['data']:
+            if dest['search_type'] == "city":
+                dest_id = dest['dest_id']
+                break
+        if not dest_id:
+            continue
+
+        Sortings = ['bayesian_review_score', 'popularity', 'price']
+        HotelArray = {}
+        for sorts in Sortings:
+            url = f"/api/v1/hotels/searchHotels?dest_id={dest_id}&search_type=CITY&adults={numadults}&arrival_date={arrival_date}&departure_date={departure_date}&sort_by={sorts}&currency_code=USD"
+            conn.request("GET", url, headers=headers)
+            res = conn.getresponse()
+            data = res.read()
+            data_json = json.loads(data.decode("utf-8"))
+            num = 0
+            for hotels in data_json['data']['hotels']:
+                if num == 3:
+                    break
+                if sorts not in HotelArray:
+                    HotelArray[sorts] = [(hotels['property']['name'], hotels['property']['priceBreakdown']['grossPrice']['value'])]
+                else:
+                    HotelArray[sorts].append((hotels['property']['name'], hotels['property']['priceBreakdown']['grossPrice']['value']))
+                num += 1
+        FinalHotelArray[real_city_name] = HotelArray
+    return restructure_hotel_data(FinalHotelArray)

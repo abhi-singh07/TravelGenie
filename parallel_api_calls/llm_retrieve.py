@@ -42,11 +42,12 @@ def clean_itinerary(itinerary_text:str):
     else:
         return "Itinerary not generated"
 
-itinerary_dic = llm_retrieve()
+if __name__ == "__main__":
+    itinerary_dic = llm_retrieve()
 
-if itinerary_dic:
-    with open("itinerary.json", "w") as file:
-        json.dump(itinerary_dic, file, indent=4)
-    print("Itinerary saved to itinerary.json")
-else:
-    print("Itinerary not saved due to invalid or missing format.")
+    if itinerary_dic:
+        with open("itinerary.json", "w") as file:
+            json.dump(itinerary_dic, file, indent=4)
+        print("Itinerary saved to itinerary.json")
+    else:
+        print("Itinerary not saved due to invalid or missing format.")
