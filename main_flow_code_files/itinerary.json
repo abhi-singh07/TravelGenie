@@ -1,0 +1,17 @@
+{
+    "Ras Al Khaimah": {
+        "Arrival Date": "2025-07-10",
+        "Departure Date": "2025-07-13",
+        "Airport": "RKT"
+    },
+    "Fujairah": {
+        "Arrival Date": "2025-07-13",
+        "Departure Date": "2025-07-16",
+        "Airport": "FJR"
+    },
+    "Al Ain": {
+        "Arrival Date": "2025-07-16",
+        "Departure Date": "2025-07-19",
+        "Airport": "AAN"
+    }
+}

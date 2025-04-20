@@ -1,0 +1,457 @@
+[
+  {
+    "city": "Leh",
+    "attractions": [],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Tendance et Charmant F2",
+          "price": 341.75
+        },
+        {
+          "name": "\"L'escapade Havraise\" Studio Parking gratuit Coeur de Ville",
+          "price": 208.26
+        },
+        {
+          "name": "L'ESTUAIRE",
+          "price": 256.31
+        }
+      ],
+      "popularity": [
+        {
+          "name": "All Suites Appart Hotel Le Havre",
+          "price": 294.62
+        },
+        {
+          "name": "The Originals Boutique, H\u00f4tel Le Marignan,Le Havre Centre Gare",
+          "price": 330.3
+        },
+        {
+          "name": "Premiere Classe Le Havre Centre-LES DOCKS",
+          "price": 232.0
+        }
+      ],
+      "price": [
+        {
+          "name": "Bel appartement avec parking et terrasse plein sud",
+          "price": 134.57
+        },
+        {
+          "name": "Studio Center",
+          "price": 138.84
+        },
+        {
+          "name": "Paradise cach\u00e9",
+          "price": 147.38
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Srinagar",
+        "date": "2025-07-13",
+        "flights": [
+          {
+            "type": "FASTEST",
+            "price_usd": 780,
+            "departure_time": "2025-07-13T08:30:00",
+            "arrival_time": "2025-07-13T12:45:00"
+          },
+          {
+            "type": "BEST",
+            "price_usd": 780,
+            "departure_time": "2025-07-13T08:30:00",
+            "arrival_time": "2025-07-13T12:45:00"
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
+    "city": "Srinagar",
+    "attractions": [],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "John's Homestay",
+          "price": 82.65
+        },
+        {
+          "name": "Ikraam Inn Bed & Breakfast",
+          "price": 150.54
+        },
+        {
+          "name": "Movie land group of house boats",
+          "price": 187.93
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Dilnaaz group of houseboats",
+          "price": 110.2
+        },
+        {
+          "name": "Amina Group Of Houseboats",
+          "price": 262.4
+        },
+        {
+          "name": "The Altaf Group Of Houseboats",
+          "price": 96.43
+        }
+      ],
+      "price": [
+        {
+          "name": "LalaApartment",
+          "price": 19.6
+        },
+        {
+          "name": "Young Gulshan Apartment",
+          "price": 25.78
+        },
+        {
+          "name": "Shaheen Luxuries",
+          "price": 26.57
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Chandigarh",
+        "date": "2025-07-16",
+        "flights": [
+          {
+            "type": "CHEAPEST",
+            "price_usd": 114,
+            "departure_time": "2025-07-16T15:15:00",
+            "arrival_time": "2025-07-16T16:25:00"
+          },
+          {
+            "type": "FASTEST",
+            "price_usd": 114,
+            "departure_time": "2025-07-16T15:15:00",
+            "arrival_time": "2025-07-16T16:25:00"
+          },
+          {
+            "type": "BEST",
+            "price_usd": 114,
+            "departure_time": "2025-07-16T15:15:00",
+            "arrival_time": "2025-07-16T16:25:00"
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
+    "city": "Chandigarh",
+    "attractions": [],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Anchorage 42",
+          "price": 183.67
+        },
+        {
+          "name": "Hotel Woodlark Zirakpur Chandigarh !! Top Rated & Most Awarded Properties in Tricity !!",
+          "price": 30.11
+        },
+        {
+          "name": "The Oberoi Sukhvilas Spa Resort, New Chandigarh",
+          "price": 1116.13
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Hyatt Regency Chandigarh",
+          "price": 303.53
+        },
+        {
+          "name": "Holiday Inn Chandigarh ZKP by IHG",
+          "price": 259.33
+        },
+        {
+          "name": "The Lalit Chandigarh",
+          "price": 351.35
+        }
+      ],
+      "price": [
+        {
+          "name": "Hotel Golden Height2",
+          "price": 10.69
+        },
+        {
+          "name": "Hotel Amron2",
+          "price": 14.15
+        },
+        {
+          "name": "Hotel Grand City2",
+          "price": 14.15
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Shimla",
+        "date": "2025-07-18",
+        "flights": null,
+        "note": "No flights for these locations. Check alternate way of travel!"
+      }
+    ]
+  },
+  {
+    "city": "Shimla",
+    "attractions": [],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Wildflower Hall, An Oberoi Resort, Shimla",
+          "price": 1050.47
+        },
+        {
+          "name": "SIMLA HOTEL H G N near park and temple",
+          "price": 49.2
+        },
+        {
+          "name": "GS cottage near Mall Road",
+          "price": 118.07
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Victory Hotel and Restaurant by GS Hospitality",
+          "price": 78.72
+        },
+        {
+          "name": "Royal Green Mashobra - Mountain and valley view rooms",
+          "price": 29.39
+        },
+        {
+          "name": "HANU VATIKA The FAMILY CHOICE",
+          "price": 40.05
+        }
+      ],
+      "price": [
+        {
+          "name": "Staynest Mashobra with balcony",
+          "price": 14.69
+        },
+        {
+          "name": "The Hostelers Homestay Shiimla - Near HPU, Bypass Crossing, ISBT and Advance Study",
+          "price": 17.71
+        },
+        {
+          "name": "Nature Ville",
+          "price": 20.97
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Dehradun",
+        "date": "2025-07-20",
+        "flights": null,
+        "note": "No flights for these locations. Check alternate way of travel!"
+      }
+    ]
+  },
+  {
+    "city": "Dehradun",
+    "attractions": [],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Rootz",
+          "price": 70.25
+        },
+        {
+          "name": "vera home stay",
+          "price": 39.36
+        },
+        {
+          "name": "Oxygen Homestay-A Blissful Retreat",
+          "price": 44.16
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Treebo Kanopy Greens",
+          "price": 83.96
+        },
+        {
+          "name": "Stayble Homestay",
+          "price": 31.88
+        },
+        {
+          "name": "Vastu Serene Studio Apartment",
+          "price": 94.88
+        }
+      ],
+      "price": [
+        {
+          "name": "Ananda Vatika Homestay",
+          "price": 16.53
+        },
+        {
+          "name": "Apna Guest House Dehradun",
+          "price": 18.89
+        },
+        {
+          "name": "Hotel Shiv Kripa",
+          "price": 20.96
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Jaipur",
+        "date": "2025-07-22",
+        "flights": [
+          {
+            "type": "CHEAPEST",
+            "price_usd": 134,
+            "departure_time": "2025-07-22T07:30:00",
+            "arrival_time": "2025-07-22T08:45:00"
+          },
+          {
+            "type": "FASTEST",
+            "price_usd": 134,
+            "departure_time": "2025-07-22T07:30:00",
+            "arrival_time": "2025-07-22T08:45:00"
+          },
+          {
+            "type": "BEST",
+            "price_usd": 134,
+            "departure_time": "2025-07-22T07:30:00",
+            "arrival_time": "2025-07-22T08:45:00"
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
+    "city": "Jaipur",
+    "attractions": [],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Home of the world",
+          "price": 106.27
+        },
+        {
+          "name": "Le Fort Homestay",
+          "price": 92.1
+        },
+        {
+          "name": "Jasvilas",
+          "price": 226.31
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Treebo Premium Baramasi By Jai Club Prime",
+          "price": 312.47
+        },
+        {
+          "name": "Hyatt Regency Jaipur Mansarovar",
+          "price": 456.13
+        },
+        {
+          "name": "ASHOK VILLA",
+          "price": 99.18
+        }
+      ],
+      "price": [
+        {
+          "name": "Eco Family Hostel",
+          "price": 14.7
+        },
+        {
+          "name": "HOTEL PREMIUM TOURIST INN Near Hockey Ring Jaipur",
+          "price": 14.76
+        },
+        {
+          "name": "Mostel hotel",
+          "price": 19.77
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Udaipur",
+        "date": "2025-07-25",
+        "flights": [
+          {
+            "type": "CHEAPEST",
+            "price_usd": 125,
+            "departure_time": "2025-07-25T06:55:00",
+            "arrival_time": "2025-07-25T07:55:00"
+          },
+          {
+            "type": "FASTEST",
+            "price_usd": 125,
+            "departure_time": "2025-07-25T06:55:00",
+            "arrival_time": "2025-07-25T07:55:00"
+          },
+          {
+            "type": "BEST",
+            "price_usd": 125,
+            "departure_time": "2025-07-25T06:55:00",
+            "arrival_time": "2025-07-25T07:55:00"
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
+    "city": "Udaipur",
+    "attractions": [],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Oolala - Your lake house in the center of Udaipur",
+          "price": 255.82
+        },
+        {
+          "name": "Little Garden Guest House",
+          "price": 191.77
+        },
+        {
+          "name": "The Oberoi Udaivilas Udaipur",
+          "price": 1247.43
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Hotel The Grand Bhagwat Inn City Centre",
+          "price": 51.79
+        },
+        {
+          "name": "Champa Lodge",
+          "price": 414.62
+        },
+        {
+          "name": "THE MANGAL VIEW RESIDENCY - A Luxury Boutique Business Hotel",
+          "price": 81.83
+        }
+      ],
+      "price": [
+        {
+          "name": "Hotel stay inn",
+          "price": 14.13
+        },
+        {
+          "name": "Pre",
+          "price": 19.68
+        },
+        {
+          "name": "Gyanav Hotel and Restaurent",
+          "price": 22.32
+        }
+      ]
+    },
+    "flights": []
+  }
+]

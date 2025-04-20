@@ -1,0 +1,27 @@
+{
+    "Ooty": {
+        "Arrival Date": "2025-06-01",
+        "Departure Date": "2025-06-03",
+        "Airport": "CJB"
+    },
+    "Kannur": {
+        "Arrival Date": "2025-06-03",
+        "Departure Date": "2025-06-05",
+        "Airport": "CNN"
+    },
+    "Mysuru": {
+        "Arrival Date": "2025-06-05",
+        "Departure Date": "2025-06-08",
+        "Airport": "MYQ"
+    },
+    "Manali": {
+        "Arrival Date": "2025-06-08",
+        "Departure Date": "2025-06-10",
+        "Airport": "KUU"
+    },
+    "Shimla": {
+        "Arrival Date": "2025-06-10",
+        "Departure Date": "2025-06-13",
+        "Airport": "SLV"
+    }
+}
