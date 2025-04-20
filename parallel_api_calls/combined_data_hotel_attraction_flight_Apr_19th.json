@@ -1,0 +1,812 @@
+[
+  {
+    "city": "Srinagar",
+    "attractions": [
+      {
+        "name": "Dal Lake",
+        "num_reviews": "4329",
+        "rating": "4.3",
+        "ranking_position": "6",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Indira Gandhi Tulip Garden",
+        "num_reviews": "1146",
+        "rating": "4.6",
+        "ranking_position": "2",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Sonamarg Hill Station",
+        "num_reviews": "1174",
+        "rating": "4.4",
+        "ranking_position": "4",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Shankaracharya Hill",
+        "num_reviews": "2147",
+        "rating": "4.5",
+        "ranking_position": "1",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Nishat Garden",
+        "num_reviews": "1332",
+        "rating": "4.2",
+        "ranking_position": "5",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Nigeen Lake",
+        "num_reviews": "1120",
+        "rating": "4.4",
+        "ranking_position": "3",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Yousmarg",
+        "num_reviews": "249",
+        "rating": "4.4",
+        "ranking_position": "15",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          },
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          },
+          {
+            "key": "61",
+            "name": "Outdoor Activities"
+          }
+        ]
+      },
+      {
+        "name": "Badamwari Garden",
+        "num_reviews": "157",
+        "rating": "4.5",
+        "ranking_position": "16",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Mughal Gardens",
+        "num_reviews": "788",
+        "rating": "4.2",
+        "ranking_position": "10",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Shalimar Bagh",
+        "num_reviews": "778",
+        "rating": "4.2",
+        "ranking_position": "9",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      }
+    ],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "John's Homestay",
+          "price": 55.1
+        },
+        {
+          "name": "Ikraam Inn Bed & Breakfast",
+          "price": 100.36
+        },
+        {
+          "name": "Movie land group of house boats",
+          "price": 125.29
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Dilnaaz group of houseboats",
+          "price": 82.65
+        },
+        {
+          "name": "Amina Group Of Houseboats",
+          "price": 174.93
+        },
+        {
+          "name": "The Altaf Group Of Houseboats",
+          "price": 165.3
+        }
+      ],
+      "price": [
+        {
+          "name": "LalaApartment",
+          "price": 13.07
+        },
+        {
+          "name": "Young Gulshan Apartment",
+          "price": 17.19
+        },
+        {
+          "name": "Shaheen Luxuries",
+          "price": 17.71
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Leh",
+        "date": "2025-06-03",
+        "flights": [
+          {
+            "type": "FASTEST",
+            "price_usd": 1319,
+            "departure_time": "2025-06-03T08:15:00",
+            "arrival_time": "2025-06-03T12:25:00"
+          },
+          {
+            "type": "BEST",
+            "price_usd": 800,
+            "departure_time": "2025-06-03T07:35:00",
+            "arrival_time": "2025-06-03T12:25:00"
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
+    "city": "Leh",
+    "attractions": [
+      {
+        "name": "Coca-Cola Park",
+        "num_reviews": "647",
+        "rating": "4.7",
+        "ranking_position": "1",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "56",
+            "name": "Fun & Games"
+          }
+        ]
+      },
+      {
+        "name": "SteelStacks",
+        "num_reviews": "661",
+        "rating": "4.6",
+        "ranking_position": "3",
+        "neighborhood_info": null,
+        "description": "SteelStacks is a ten-acre campus in Bethlehem, PA, dedicated to arts, culture, family events, community celebrations, education and fun. The campus is in the shadow of the blast furnaces of the former Bethlehem Steel plant.",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          },
+          {
+            "key": "49",
+            "name": "Museums"
+          }
+        ]
+      },
+      {
+        "name": "Allentown Fish Hatchery",
+        "num_reviews": "352",
+        "rating": "4.4",
+        "ranking_position": "5",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Hoover Mason Trestle",
+        "num_reviews": "217",
+        "rating": "4.7",
+        "ranking_position": "4",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Allentown Farmers Market",
+        "num_reviews": "266",
+        "rating": "4.4",
+        "ranking_position": "7",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          },
+          {
+            "key": "36",
+            "name": "Food & Drink"
+          }
+        ]
+      },
+      {
+        "name": "Klein Farms Dairy and Creamery",
+        "num_reviews": "139",
+        "rating": "4.7",
+        "ranking_position": "10",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "PPL Center",
+        "num_reviews": "407",
+        "rating": "4.3",
+        "ranking_position": "11",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Allentown Rose Gardens",
+        "num_reviews": "78",
+        "rating": "4.7",
+        "ranking_position": "16",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "America On Wheels Museum",
+        "num_reviews": "385",
+        "rating": "4.6",
+        "ranking_position": "2",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "49",
+            "name": "Museums"
+          }
+        ]
+      },
+      {
+        "name": "National Museum of Industrial History",
+        "num_reviews": "151",
+        "rating": "4.6",
+        "ranking_position": "8",
+        "neighborhood_info": null,
+        "description": "National Museum of Industrial History",
+        "subcategory": [
+          {
+            "key": "49",
+            "name": "Museums"
+          }
+        ]
+      }
+    ],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Tendance et Charmant F2",
+          "price": 313.27
+        },
+        {
+          "name": "Escapade Culturelle Havraise",
+          "price": 304.14
+        },
+        {
+          "name": "L'ESTUAIRE",
+          "price": 242.08
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Nomad Hotel le Havre Centre Gare",
+          "price": 357.88
+        },
+        {
+          "name": "All Suites Appart Hotel Le Havre",
+          "price": 310.88
+        },
+        {
+          "name": "The Originals Boutique, H\u00f4tel Le Marignan,Le Havre Centre Gare",
+          "price": 273.09
+        }
+      ],
+      "price": [
+        {
+          "name": "Eklo Hotels Le Havre",
+          "price": 128.03
+        },
+        {
+          "name": "Studio Center",
+          "price": 138.84
+        },
+        {
+          "name": "Paradise cach\u00e9",
+          "price": 139.19
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Shimla",
+        "date": "2025-06-06",
+        "flights": null,
+        "note": "No flights for these locations. Check alternate way of travel!"
+      }
+    ]
+  },
+  {
+    "city": "Shimla",
+    "attractions": [
+      {
+        "name": "Jakhu Hanuman Temple",
+        "num_reviews": "2091",
+        "rating": "4.4",
+        "ranking_position": "3",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "The Mall",
+        "num_reviews": "2932",
+        "rating": "4.2",
+        "ranking_position": "7",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Kalka - Shimla Railway",
+        "num_reviews": "1826",
+        "rating": "4.3",
+        "ranking_position": "9",
+        "neighborhood_info": null,
+        "description": "This railway was built in 1903 to connect the summer capital of India to Punjab.",
+        "subcategory": [
+          {
+            "key": "42",
+            "name": "Tours"
+          }
+        ]
+      },
+      {
+        "name": "Indian Institute of Advanced Study",
+        "num_reviews": "770",
+        "rating": "4.5",
+        "ranking_position": "1",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Viceregal Lodge",
+        "num_reviews": "1515",
+        "rating": "4.4",
+        "ranking_position": "6",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "The Ridge",
+        "num_reviews": "968",
+        "rating": "4.4",
+        "ranking_position": "4",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Annandale Ground",
+        "num_reviews": "260",
+        "rating": "4.6",
+        "ranking_position": "5",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Green Valley",
+        "num_reviews": "384",
+        "rating": "4.1",
+        "ranking_position": "11",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Kali Bari Temple",
+        "num_reviews": "262",
+        "rating": "4.4",
+        "ranking_position": "10",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Jakhoo Hill",
+        "num_reviews": "126",
+        "rating": "4.3",
+        "ranking_position": "13",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      }
+    ],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Wildflower Hall, An Oberoi Resort, Shimla",
+          "price": 1812.06
+        },
+        {
+          "name": "Residence Inn Homestay",
+          "price": 60.22
+        },
+        {
+          "name": "SIMLA HOTEL H G N near park and temple",
+          "price": 137.71
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Victory Hotel and Restaurant by GS Hospitality",
+          "price": 137.75
+        },
+        {
+          "name": "Royal Green Mashobra - Mountain and valley view rooms",
+          "price": 176.32
+        },
+        {
+          "name": "HANU VATIKA The FAMILY CHOICE",
+          "price": 123.25
+        }
+      ],
+      "price": [
+        {
+          "name": "Nature Ville",
+          "price": 31.45
+        },
+        {
+          "name": "The City Escape Camping",
+          "price": 31.85
+        },
+        {
+          "name": "Perfect getaway in the mountains",
+          "price": 39.32
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Chandigarh",
+        "date": "2025-06-09",
+        "flights": null,
+        "note": "No flights for these locations. Check alternate way of travel!"
+      }
+    ]
+  },
+  {
+    "city": "Chandigarh",
+    "attractions": [
+      {
+        "name": "The Rock Garden of Chandigarh",
+        "num_reviews": "3470",
+        "rating": "4.4",
+        "ranking_position": "2",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Elante mall",
+        "num_reviews": "1234",
+        "rating": "4.5",
+        "ranking_position": "1",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          }
+        ]
+      },
+      {
+        "name": "Sukhna Lake",
+        "num_reviews": "2430",
+        "rating": "4.2",
+        "ranking_position": "3",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Chandigarh Rose Garden",
+        "num_reviews": "1204",
+        "rating": "4.1",
+        "ranking_position": "5",
+        "neighborhood_info": null,
+        "description": "Next to city centre, in Sector 16 is situated Zakir Hussain Rose Garden Asia's largest Rose Garden and is spreaded over 30 acres of land having over 1600 different species or roses. These have been planted beautifully carved out lawns and flowers beds. Like the cultural zone which is just across the road in sector 10,this was also planned by Dr. M.S. Randhawa as his interest in horticulture and fondness for flowers was profuse.",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Panjab University",
+        "num_reviews": "282",
+        "rating": "4.5",
+        "ranking_position": "4",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Timber Trail",
+        "num_reviews": "439",
+        "rating": "4.0",
+        "ranking_position": "7",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Sector 17 Market",
+        "num_reviews": "85",
+        "rating": "4.2",
+        "ranking_position": "9",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          }
+        ]
+      },
+      {
+        "name": "ISKCON Temple Chandigarh",
+        "num_reviews": "122",
+        "rating": "4.5",
+        "ranking_position": "8",
+        "neighborhood_info": null,
+        "description": "The International Society for Krishna Consciousness (ISKCON) was established in 1966 by His Divine Grace A.C. Bhaktivedanta Swami Prabhupada (Srila Prabhupada). ISKCON has since developed into a worldwide confederation of 10,000 temple devotees and 250,000 congregational devotees. Better known as the Hare Krishna movement, ISKCON is comprised of more than 350 centres, 60 rural communities, 50 schools and 60 restaurants worldwide. The mission of this nonsectarian, monotheistic movement is to promote the well being of society by teaching the science of Krishna consciousness according to Bhagavad-gita and other ancient scriptures. People worldwide are given the opportunity to pursue spiritual life according to their abilities and can pursue Krishna conscious culture within their own culture and in their own language. ISKCON centres cover a wide range of activities from temple worship to preaching, book distribution, farming, free food distribution, restaurants, education, and more. There is plenty of scope in the types of activities that can be offered as service to Krishna, God. join us every SUNDAY NIGHT 7 PM (and 12 PM noon in winters) KIRTAN, dance, love & full dinner prasadam Chant HARE KRISHNA & be happy entry and everything else is also FREE 0172-2603232, 2601590",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Dhillon Plaza",
+        "num_reviews": "10",
+        "rating": "4.6",
+        "ranking_position": "29",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          }
+        ]
+      },
+      {
+        "name": "Japanese Garden",
+        "num_reviews": "80",
+        "rating": "4.1",
+        "ranking_position": "17",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      }
+    ],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Anchorage 42",
+          "price": 91.83
+        },
+        {
+          "name": "Hotel Woodlark Zirakpur Chandigarh !! Top Rated & Most Awarded Properties in Tricity !!",
+          "price": 30.99
+        },
+        {
+          "name": "Negi Lodge Chandigarh",
+          "price": 22.29
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Hyatt Regency Chandigarh",
+          "price": 160.34
+        },
+        {
+          "name": "Holiday Inn Chandigarh ZKP by IHG",
+          "price": 119.84
+        },
+        {
+          "name": "Radisson Chandigarh Zirakpur",
+          "price": 69.07
+        }
+      ],
+      "price": [
+        {
+          "name": "Hotel Golden Height2",
+          "price": 5.34
+        },
+        {
+          "name": "Hotel Amron2",
+          "price": 7.07
+        },
+        {
+          "name": "Hotel Grand City2",
+          "price": 7.07
+        }
+      ]
+    },
+    "flights": []
+  }
+]
