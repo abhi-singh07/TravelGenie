@@ -1,156 +1,76 @@
 [
   {
-    "city": "Srinagar",
-    "attractions": [
+    "city": "Leh",
+    "attractions": [],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Tendance et Charmant F2",
+          "price": 341.75
+        },
+        {
+          "name": "\"L'escapade Havraise\" Studio Parking gratuit Coeur de Ville",
+          "price": 208.26
+        },
+        {
+          "name": "L'ESTUAIRE",
+          "price": 256.31
+        }
+      ],
+      "popularity": [
+        {
+          "name": "All Suites Appart Hotel Le Havre",
+          "price": 294.62
+        },
+        {
+          "name": "The Originals Boutique, H\u00f4tel Le Marignan,Le Havre Centre Gare",
+          "price": 330.3
+        },
+        {
+          "name": "Premiere Classe Le Havre Centre-LES DOCKS",
+          "price": 232.0
+        }
+      ],
+      "price": [
+        {
+          "name": "Bel appartement avec parking et terrasse plein sud",
+          "price": 134.57
+        },
+        {
+          "name": "Studio Center",
+          "price": 138.84
+        },
+        {
+          "name": "Paradise cach\u00e9",
+          "price": 147.38
+        }
+      ]
+    },
+    "flights": [
       {
-        "name": "Dal Lake",
-        "num_reviews": "4329",
-        "rating": "4.3",
-        "ranking_position": "6",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
+        "to": "Srinagar",
+        "date": "2025-07-13",
+        "flights": [
           {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Indira Gandhi Tulip Garden",
-        "num_reviews": "1146",
-        "rating": "4.6",
-        "ranking_position": "2",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Sonamarg Hill Station",
-        "num_reviews": "1174",
-        "rating": "4.4",
-        "ranking_position": "4",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Shankaracharya Hill",
-        "num_reviews": "2147",
-        "rating": "4.5",
-        "ranking_position": "1",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Nishat Garden",
-        "num_reviews": "1332",
-        "rating": "4.2",
-        "ranking_position": "5",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Nigeen Lake",
-        "num_reviews": "1120",
-        "rating": "4.4",
-        "ranking_position": "3",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Yousmarg",
-        "num_reviews": "249",
-        "rating": "4.4",
-        "ranking_position": "15",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
+            "type": "FASTEST",
+            "price_usd": 780,
+            "departure_time": "2025-07-13T08:30:00",
+            "arrival_time": "2025-07-13T12:45:00"
           },
           {
-            "key": "57",
-            "name": "Nature & Parks"
-          },
-          {
-            "key": "61",
-            "name": "Outdoor Activities"
+            "type": "BEST",
+            "price_usd": 780,
+            "departure_time": "2025-07-13T08:30:00",
+            "arrival_time": "2025-07-13T12:45:00"
           }
-        ]
-      },
-      {
-        "name": "Badamwari Garden",
-        "num_reviews": "158",
-        "rating": "4.5",
-        "ranking_position": "16",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Mughal Gardens",
-        "num_reviews": "788",
-        "rating": "4.2",
-        "ranking_position": "10",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Shalimar Bagh",
-        "num_reviews": "778",
-        "rating": "4.2",
-        "ranking_position": "9",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
+        ],
+        "note": null
       }
-    ],
+    ]
+  },
+  {
+    "city": "Srinagar",
+    "attractions": [],
     "hotels": {
       "bayesian_review_score": [
         {
@@ -197,95 +117,26 @@
     },
     "flights": [
       {
-        "to": "Leh",
-        "date": "2025-07-13",
-        "flights": [
-          {
-            "type": "FASTEST",
-            "price_usd": 1339,
-            "departure_time": "2025-07-13T08:15:00",
-            "arrival_time": "2025-07-13T12:25:00"
-          },
-          {
-            "type": "BEST",
-            "price_usd": 751,
-            "departure_time": "2025-07-13T07:35:00",
-            "arrival_time": "2025-07-13T12:25:00"
-          }
-        ],
-        "note": null
-      }
-    ]
-  },
-  {
-    "city": "Leh",
-    "attractions": [],
-    "hotels": {
-      "bayesian_review_score": [
-        {
-          "name": "Hyatt Place Salt Lake City/Lehi",
-          "price": 606.92
-        },
-        {
-          "name": "Holiday Inn Express & Suites Lehi - Thanksgiving Point by IHG",
-          "price": 494.55
-        },
-        {
-          "name": "Staybridge Suites - Lehi - Traverse Ridge Center by IHG",
-          "price": 526.67
-        }
-      ],
-      "popularity": [
-        {
-          "name": "Hyatt Place Salt Lake City/Lehi",
-          "price": 606.92
-        },
-        {
-          "name": "Holiday Inn Express & Suites Lehi - Thanksgiving Point by IHG",
-          "price": 494.55
-        },
-        {
-          "name": "Tru By Hilton Lehi, Ut",
-          "price": 381.4
-        }
-      ],
-      "price": [
-        {
-          "name": "Motel 6 Lehi, UT - Thanksgiving Point",
-          "price": 200.05
-        },
-        {
-          "name": "Private Room with Shared Spaces in Fully Equipped Lehi Home",
-          "price": 201.65
-        },
-        {
-          "name": "Days Inn by Wyndham Lehi",
-          "price": 256.5
-        }
-      ]
-    },
-    "flights": [
-      {
         "to": "Chandigarh",
         "date": "2025-07-16",
         "flights": [
           {
             "type": "CHEAPEST",
-            "price_usd": 265,
-            "departure_time": "2025-07-16T08:30:00",
-            "arrival_time": "2025-07-16T14:55:00"
+            "price_usd": 114,
+            "departure_time": "2025-07-16T15:15:00",
+            "arrival_time": "2025-07-16T16:25:00"
           },
           {
             "type": "FASTEST",
-            "price_usd": 611,
-            "departure_time": "2025-07-16T11:30:00",
-            "arrival_time": "2025-07-16T14:55:00"
+            "price_usd": 114,
+            "departure_time": "2025-07-16T15:15:00",
+            "arrival_time": "2025-07-16T16:25:00"
           },
           {
             "type": "BEST",
-            "price_usd": 311,
-            "departure_time": "2025-07-16T13:55:00",
-            "arrival_time": "2025-07-16T18:20:00"
+            "price_usd": 114,
+            "departure_time": "2025-07-16T15:15:00",
+            "arrival_time": "2025-07-16T16:25:00"
           }
         ],
         "note": null
@@ -406,148 +257,7 @@
   },
   {
     "city": "Dehradun",
-    "attractions": [
-      {
-        "name": "Forest Research Institute",
-        "num_reviews": "700",
-        "rating": "4.5",
-        "ranking_position": "1",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Tibetan Buddhist Temple",
-        "num_reviews": "365",
-        "rating": "4.5",
-        "ranking_position": "2",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Pacific Mall",
-        "num_reviews": "143",
-        "rating": "4.1",
-        "ranking_position": "4",
-        "neighborhood_info": null,
-        "description": "SHOPPING MALL OUR STORY OF SUCCESS Pacific Mall is Dehradun\u2019s beloved shopping, dining and lifestyle destination. Back in 2013, it was the beginning of this revolutionary project which later evolved into the prime shopping complex in Uttarakhand. The prominent national and international brands joined together to introduce the unmatched shopping experience for the shoppers in Dehradun and neighboring locale. People, from every corner of the city and even beyond, visit this place for fun, entertainment, and obviously for an authentic shopping experience. More than 175 handpicked brands welcome at least 25k shoppers every day. Besides its unparalleled shopping attribute, the mall has some of the best hangout spots in Dehradun. The five-screen PVR multiplex right before the prominent food court Salt is a perfect domain for fun and entertainment. In addition, the visitors spend hours after hours in the Funky Kingdom. The Funky Kingdom is a play zone where there is something for everyone.",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          }
-        ]
-      },
-      {
-        "name": "Chetwoode Hall (Indian Military Academy)",
-        "num_reviews": "69",
-        "rating": "4.8",
-        "ranking_position": "5",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Shiv Mandir",
-        "num_reviews": "88",
-        "rating": "4.5",
-        "ranking_position": "3",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Lacchiwalla Nature Park",
-        "num_reviews": "84",
-        "rating": "3.9",
-        "ranking_position": "9",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Forest Research Institute Museum",
-        "num_reviews": "49",
-        "rating": "4.4",
-        "ranking_position": "6",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "49",
-            "name": "Museums"
-          }
-        ]
-      },
-      {
-        "name": "Subir Raha Oil Museum",
-        "num_reviews": "25",
-        "rating": "4.5",
-        "ranking_position": "8",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "49",
-            "name": "Museums"
-          }
-        ]
-      },
-      {
-        "name": "Crossroads Mall",
-        "num_reviews": "44",
-        "rating": "3.5",
-        "ranking_position": "10",
-        "neighborhood_info": null,
-        "description": "Find your favourite brands and the hottest new trends in fashion, beauty, lifestyle, food and entertainment only at Crossroads Mall Dehradun.",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          }
-        ]
-      },
-      {
-        "name": "Ramakrishna Ashrama Temple",
-        "num_reviews": "13",
-        "rating": "4.3",
-        "ranking_position": "13",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      }
-    ],
+    "attractions": [],
     "hotels": {
       "bayesian_review_score": [
         {
@@ -669,26 +379,26 @@
     },
     "flights": [
       {
-        "to": "Delhi",
+        "to": "Udaipur",
         "date": "2025-07-25",
         "flights": [
           {
             "type": "CHEAPEST",
-            "price_usd": 92,
-            "departure_time": "2025-07-25T12:45:00",
-            "arrival_time": "2025-07-25T14:00:00"
+            "price_usd": 125,
+            "departure_time": "2025-07-25T06:55:00",
+            "arrival_time": "2025-07-25T07:55:00"
           },
           {
             "type": "FASTEST",
-            "price_usd": 99,
-            "departure_time": "2025-07-25T07:15:00",
-            "arrival_time": "2025-07-25T08:15:00"
+            "price_usd": 125,
+            "departure_time": "2025-07-25T06:55:00",
+            "arrival_time": "2025-07-25T07:55:00"
           },
           {
             "type": "BEST",
-            "price_usd": 99,
-            "departure_time": "2025-07-25T07:15:00",
-            "arrival_time": "2025-07-25T08:15:00"
+            "price_usd": 125,
+            "departure_time": "2025-07-25T06:55:00",
+            "arrival_time": "2025-07-25T07:55:00"
           }
         ],
         "note": null
@@ -696,239 +406,49 @@
     ]
   },
   {
-    "city": "Delhi",
-    "attractions": [
-      {
-        "name": "Qutub Minar",
-        "num_reviews": "13493",
-        "rating": "4.5",
-        "ranking_position": "1",
-        "neighborhood_info": [
-          {
-            "location_id": "13087835",
-            "name": "Mehrauli/Qutub Minar"
-          },
-          {
-            "location_id": "21002113",
-            "name": "Mahrauli"
-          }
-        ],
-        "description": "Construction on this sandstone minaret was begun in 1192. Surrounded by other historical sites, it is the most popular monument in India. Miniature Souvenir is available at Luv Indiya, 12 B Janpath Market, Connaught Place, New Delhi",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "DLF Cyber Hub",
-        "num_reviews": "2963",
-        "rating": "4.6",
-        "ranking_position": "3",
-        "neighborhood_info": [
-          {
-            "location_id": "13087754",
-            "name": "DLF Cyber City"
-          }
-        ],
-        "description": "DLF CyberHub is a unique, one-of-its-kind concept in India \u2013 a premium food , entertainment and Retail destination; however it is the ambiance that makes DLF CyberHub an unparalleled experience and an ideal destination for stepping out. The Center of Attraction and Attention CyberHub is strategically located on the main artery that connects Gurugram to Delhi, the National Highway 8. It is surrounded by areas teeming with the young and the affluent, searching for new experiences. Uniquely designed Spaces, world-class design and structural ambiance with roof top terrace, amphitheater, exhibit area and media room allow for stimulating entertainment options.",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          },
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Swaminarayan Akshardham",
-        "num_reviews": "12041",
-        "rating": "4.6",
-        "ranking_position": "2",
-        "neighborhood_info": null,
-        "description": "Fantastic site to visit - unimaginable architechture, great theme show, diaorama and I max presentation. If any tourist, irresepctive of his religion or creed, has half a day to spare, this is a must see. It is one man's creation in five years totally with voluntary support. A monument which makes every indian proud!",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          },
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Gurudwara Bangla Sahib",
-        "num_reviews": "6893",
-        "rating": "4.7",
-        "ranking_position": "4",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Humayun's Tomb",
-        "num_reviews": "10584",
-        "rating": "4.5",
-        "ranking_position": "5",
-        "neighborhood_info": [
-          {
-            "location_id": "21002114",
-            "name": "Minto Road"
-          },
-          {
-            "location_id": "13087804",
-            "name": "Nizamuddin"
-          },
-          {
-            "location_id": "21002115",
-            "name": "Nizamuddin"
-          }
-        ],
-        "description": "This tomb, built in 1570, is of particular cultural significance as it was the first garden-tomb on the Indian subcontinent. It inspired several major architectural innovations, culminating in the construction of the Taj Mahal and many other Mughal architecture and garden complexes in India.",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Lodhi Garden",
-        "num_reviews": "4187",
-        "rating": "4.5",
-        "ranking_position": "8",
-        "neighborhood_info": null,
-        "description": "An oasis in an otherwise crowded, dusty city, Lodi Gardens is the perfect place to spend a relaxing afternoon admiring nature.",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Delhi Private Taxi Service In India",
-        "num_reviews": "2665",
-        "rating": "4.7",
-        "ranking_position": "84",
-        "neighborhood_info": null,
-        "description": "Looking for a reliable private taxi service in Delhi? W9 Holidays offers affordable and comfortable cab services for local and outstation travel. Whether you need a taxi for sightseeing, airport transfers, corporate travel, or long-distance journeys, we provide well-maintained vehicles with professional drivers. Our fleet includes sedans, SUVs, and luxury cars to suit your travel needs. Enjoy hassle-free booking, competitive prices, and 24/7 customer support. Book your private taxi in Delhi today for a smooth and safe ride across India.",
-        "subcategory": [
-          {
-            "key": "59",
-            "name": "Transportation"
-          }
-        ]
-      },
-      {
-        "name": "Pasar Chandni Chowk",
-        "num_reviews": "4481",
-        "rating": "4.1",
-        "ranking_position": "24",
-        "neighborhood_info": [
-          {
-            "location_id": "21002109",
-            "name": "Chandni Chowk"
-          },
-          {
-            "location_id": "13087732",
-            "name": "Chandni Chowk"
-          }
-        ],
-        "description": "The bustling wholesale market here is an excellent place to shop, explore, eat and soak up life in New Delhi.\n",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          }
-        ]
-      },
-      {
-        "name": "India Gate",
-        "num_reviews": "10460",
-        "rating": "4.2",
-        "ranking_position": "17",
-        "neighborhood_info": [
-          {
-            "location_id": "21002114",
-            "name": "Minto Road"
-          }
-        ],
-        "description": "The India Gate, built in 1931 and designed by Sir Edwin Lutyens, was inspired by the Arc de Triomphe. It commemorates India's war dead and houses an eternal flame.",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Amrit Udyan",
-        "num_reviews": "669",
-        "rating": "4.5",
-        "ranking_position": "367",
-        "neighborhood_info": null,
-        "description": "Spread over a vast expanse of 15 acres, Amrit Udyan has often been portrayed, and deservedly so, as the soul of the Rashtrapati Bhavan. Originally, it included East Lawn, Central Lawn, Long Garden and Circular Garden. During the term of former Presidents Dr. A.P.J. Abdul Kalam and Shri Ram Nath Kovind, more gardens were developed, namely, Herbal-I, Herbal-II, Tactile Garden, Bonsai Garden and Arogya Vanam. Further, visitors can spend time in multiple attractions, a specially curated garden for children called Bal Vatika with a story of a 225-year-old Sheesham tree, a treehouse, Nature\u2019s classroom etc. Then there are the Bonsai, Circular Gardens with a diverse variety of flora and fauna. Visitors can visit the gardens in Feb-March and Aug-Sep from 1000 hrs to 1800 hrs (last entry 1715 hrs). Entry will be from Gate No. 35 of the Rashtrapati Bhavan, near North Avenue.",
-        "subcategory": [
-          {
-            "key": "42",
-            "name": "Tours"
-          }
-        ]
-      }
-    ],
+    "city": "Udaipur",
+    "attractions": [],
     "hotels": {
       "bayesian_review_score": [
         {
-          "name": "Tatvamasi Homestay",
-          "price": 152.27
+          "name": "Oolala - Your lake house in the center of Udaipur",
+          "price": 255.82
         },
         {
-          "name": "The Oberoi New Delhi",
-          "price": 1399.48
+          "name": "Little Garden Guest House",
+          "price": 191.77
         },
         {
-          "name": "The Imperial, New Delhi",
-          "price": 950.19
+          "name": "The Oberoi Udaivilas Udaipur",
+          "price": 1247.43
         }
       ],
       "popularity": [
         {
-          "name": "Hotel N Maharani",
-          "price": 132.8
+          "name": "Hotel The Grand Bhagwat Inn City Centre",
+          "price": 51.79
         },
         {
-          "name": "Mehul- Near Cannaught Place",
-          "price": 78.7
+          "name": "Champa Lodge",
+          "price": 414.62
         },
         {
-          "name": "The Atlantiis Suite Near IGI Airport",
-          "price": 49.58
+          "name": "THE MANGAL VIEW RESIDENCY - A Luxury Boutique Business Hotel",
+          "price": 81.83
         }
       ],
       "price": [
         {
-          "name": "Hotel Aerotech Plaza",
-          "price": 17.19
+          "name": "Hotel stay inn",
+          "price": 14.13
         },
         {
-          "name": "Hotel City Lite Near Delhi Airport",
-          "price": 17.8
+          "name": "Pre",
+          "price": 19.68
         },
         {
-          "name": "Hotel Aerotech",
-          "price": 17.94
+          "name": "Gyanav Hotel and Restaurent",
+          "price": 22.32
         }
       ]
     },
