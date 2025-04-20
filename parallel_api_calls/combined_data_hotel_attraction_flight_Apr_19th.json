@@ -168,16 +168,16 @@
       ],
       "popularity": [
         {
+          "name": "Houseboat Zaindari Palace",
+          "price": 326.2
+        },
+        {
           "name": "Dilnaaz group of houseboats",
-          "price": 82.65
+          "price": 73.47
         },
         {
           "name": "Amina Group Of Houseboats",
           "price": 174.93
-        },
-        {
-          "name": "The Altaf Group Of Houseboats",
-          "price": 165.3
         }
       ],
       "price": [
@@ -198,24 +198,28 @@
     "flights": [
       {
         "to": "Leh",
-        "date": "2025-06-03",
+        "date": "2025-07-14",
         "flights": [
           {
             "type": "FASTEST",
-            "price_usd": 1319,
-            "departure_time": "2025-06-03T08:15:00",
-            "arrival_time": "2025-06-03T12:25:00"
+            "price_usd": 1301,
+            "departure_time": "2025-07-14T08:15:00",
+            "arrival_time": "2025-07-14T12:25:00"
           },
           {
             "type": "BEST",
-            "price_usd": 800,
-            "departure_time": "2025-06-03T07:35:00",
-            "arrival_time": "2025-06-03T12:25:00"
+            "price_usd": 681,
+            "departure_time": "2025-07-14T07:35:00",
+            "arrival_time": "2025-07-14T12:25:00"
           }
         ],
         "note": null
       }
-    ]
+    ],
+    "arrival_date": "2025-07-12",
+    "departure_date": "2025-07-14",
+    "airport": "SXR",
+    "travellers": 4
   },
   {
     "city": "Leh",
@@ -372,55 +376,59 @@
     "hotels": {
       "bayesian_review_score": [
         {
-          "name": "Tendance et Charmant F2",
-          "price": 313.27
+          "name": "Hyatt Place Salt Lake City/Lehi",
+          "price": 449.82
         },
         {
-          "name": "Escapade Culturelle Havraise",
-          "price": 304.14
+          "name": "Holiday Inn Express & Suites Lehi - Thanksgiving Point by IHG",
+          "price": 343.58
         },
         {
-          "name": "L'ESTUAIRE",
-          "price": 242.08
+          "name": "Staybridge Suites - Lehi - Traverse Ridge Center by IHG",
+          "price": 385.4
         }
       ],
       "popularity": [
         {
-          "name": "Nomad Hotel le Havre Centre Gare",
-          "price": 357.88
+          "name": "Hyatt Place Salt Lake City/Lehi",
+          "price": 449.82
         },
         {
-          "name": "All Suites Appart Hotel Le Havre",
-          "price": 310.88
+          "name": "Holiday Inn Express & Suites Lehi - Thanksgiving Point by IHG",
+          "price": 343.58
         },
         {
-          "name": "The Originals Boutique, H\u00f4tel Le Marignan,Le Havre Centre Gare",
-          "price": 273.09
+          "name": "Tru By Hilton Lehi, Ut",
+          "price": 228.64
         }
       ],
       "price": [
         {
-          "name": "Eklo Hotels Le Havre",
-          "price": 128.03
+          "name": "Motel 6 Lehi, UT - Thanksgiving Point",
+          "price": 133.36
         },
         {
-          "name": "Studio Center",
-          "price": 138.84
+          "name": "Private Room with Shared Spaces in Fully Equipped Lehi Home",
+          "price": 149.7
         },
         {
-          "name": "Paradise cach\u00e9",
-          "price": 139.19
+          "name": "Days Inn by Wyndham Lehi",
+          "price": 171.0
         }
       ]
     },
     "flights": [
       {
         "to": "Shimla",
-        "date": "2025-06-06",
+        "date": "2025-07-16",
         "flights": null,
         "note": "No flights for these locations. Check alternate way of travel!"
       }
-    ]
+    ],
+    "arrival_date": "2025-07-14",
+    "departure_date": "2025-07-16",
+    "airport": "IXL",
+    "travellers": 4
   },
   {
     "city": "Shimla",
@@ -570,243 +578,50 @@
       "bayesian_review_score": [
         {
           "name": "Wildflower Hall, An Oberoi Resort, Shimla",
-          "price": 1812.06
-        },
-        {
-          "name": "Residence Inn Homestay",
-          "price": 60.22
+          "price": 1575.71
         },
         {
           "name": "SIMLA HOTEL H G N near park and temple",
-          "price": 137.71
+          "price": 73.8
+        },
+        {
+          "name": "GS cottage near Mall Road",
+          "price": 177.11
         }
       ],
       "popularity": [
         {
           "name": "Victory Hotel and Restaurant by GS Hospitality",
-          "price": 137.75
+          "price": 118.07
         },
         {
           "name": "Royal Green Mashobra - Mountain and valley view rooms",
-          "price": 176.32
+          "price": 44.08
         },
         {
           "name": "HANU VATIKA The FAMILY CHOICE",
-          "price": 123.25
+          "price": 59.49
         }
       ],
       "price": [
+        {
+          "name": "Staynest Mashobra with balcony",
+          "price": 22.04
+        },
+        {
+          "name": "The Hostelers Homestay Shiimla - Near HPU, Bypass Crossing, ISBT and Advance Study",
+          "price": 26.57
+        },
         {
           "name": "Nature Ville",
           "price": 31.45
-        },
-        {
-          "name": "The City Escape Camping",
-          "price": 31.85
-        },
-        {
-          "name": "Perfect getaway in the mountains",
-          "price": 39.32
         }
       ]
     },
-    "flights": [
-      {
-        "to": "Chandigarh",
-        "date": "2025-06-09",
-        "flights": null,
-        "note": "No flights for these locations. Check alternate way of travel!"
-      }
-    ]
-  },
-  {
-    "city": "Chandigarh",
-    "attractions": [
-      {
-        "name": "The Rock Garden of Chandigarh",
-        "num_reviews": "3470",
-        "rating": "4.4",
-        "ranking_position": "2",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Elante mall",
-        "num_reviews": "1234",
-        "rating": "4.5",
-        "ranking_position": "1",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          }
-        ]
-      },
-      {
-        "name": "Sukhna Lake",
-        "num_reviews": "2430",
-        "rating": "4.2",
-        "ranking_position": "3",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Chandigarh Rose Garden",
-        "num_reviews": "1204",
-        "rating": "4.1",
-        "ranking_position": "5",
-        "neighborhood_info": null,
-        "description": "Next to city centre, in Sector 16 is situated Zakir Hussain Rose Garden Asia's largest Rose Garden and is spreaded over 30 acres of land having over 1600 different species or roses. These have been planted beautifully carved out lawns and flowers beds. Like the cultural zone which is just across the road in sector 10,this was also planned by Dr. M.S. Randhawa as his interest in horticulture and fondness for flowers was profuse.",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Panjab University",
-        "num_reviews": "282",
-        "rating": "4.5",
-        "ranking_position": "4",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Timber Trail",
-        "num_reviews": "439",
-        "rating": "4.0",
-        "ranking_position": "7",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Sector 17 Market",
-        "num_reviews": "85",
-        "rating": "4.2",
-        "ranking_position": "9",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          }
-        ]
-      },
-      {
-        "name": "ISKCON Temple Chandigarh",
-        "num_reviews": "122",
-        "rating": "4.5",
-        "ranking_position": "8",
-        "neighborhood_info": null,
-        "description": "The International Society for Krishna Consciousness (ISKCON) was established in 1966 by His Divine Grace A.C. Bhaktivedanta Swami Prabhupada (Srila Prabhupada). ISKCON has since developed into a worldwide confederation of 10,000 temple devotees and 250,000 congregational devotees. Better known as the Hare Krishna movement, ISKCON is comprised of more than 350 centres, 60 rural communities, 50 schools and 60 restaurants worldwide. The mission of this nonsectarian, monotheistic movement is to promote the well being of society by teaching the science of Krishna consciousness according to Bhagavad-gita and other ancient scriptures. People worldwide are given the opportunity to pursue spiritual life according to their abilities and can pursue Krishna conscious culture within their own culture and in their own language. ISKCON centres cover a wide range of activities from temple worship to preaching, book distribution, farming, free food distribution, restaurants, education, and more. There is plenty of scope in the types of activities that can be offered as service to Krishna, God. join us every SUNDAY NIGHT 7 PM (and 12 PM noon in winters) KIRTAN, dance, love & full dinner prasadam Chant HARE KRISHNA & be happy entry and everything else is also FREE 0172-2603232, 2601590",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Dhillon Plaza",
-        "num_reviews": "10",
-        "rating": "4.6",
-        "ranking_position": "29",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          }
-        ]
-      },
-      {
-        "name": "Japanese Garden",
-        "num_reviews": "80",
-        "rating": "4.1",
-        "ranking_position": "17",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      }
-    ],
-    "hotels": {
-      "bayesian_review_score": [
-        {
-          "name": "Anchorage 42",
-          "price": 91.83
-        },
-        {
-          "name": "Hotel Woodlark Zirakpur Chandigarh !! Top Rated & Most Awarded Properties in Tricity !!",
-          "price": 30.99
-        },
-        {
-          "name": "Negi Lodge Chandigarh",
-          "price": 22.29
-        }
-      ],
-      "popularity": [
-        {
-          "name": "Hyatt Regency Chandigarh",
-          "price": 160.34
-        },
-        {
-          "name": "Holiday Inn Chandigarh ZKP by IHG",
-          "price": 119.84
-        },
-        {
-          "name": "Radisson Chandigarh Zirakpur",
-          "price": 69.07
-        }
-      ],
-      "price": [
-        {
-          "name": "Hotel Golden Height2",
-          "price": 5.34
-        },
-        {
-          "name": "Hotel Amron2",
-          "price": 7.07
-        },
-        {
-          "name": "Hotel Grand City2",
-          "price": 7.07
-        }
-      ]
-    },
-    "flights": []
+    "flights": [],
+    "arrival_date": "2025-07-16",
+    "departure_date": "2025-07-19",
+    "airport": "SLV",
+    "travellers": 4
   }
 ]
