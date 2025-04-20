@@ -1,142 +1,243 @@
 [
   {
-    "city": "Leh",
-    "attractions": [],
+    "city": "Gold Coast",
+    "attractions": [
+      {
+        "name": "Tamborine Mountain",
+        "num_reviews": "500",
+        "rating": "4.5",
+        "ranking_position": "19",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Surfers Paradise Beach",
+        "num_reviews": "5980",
+        "rating": "4.5",
+        "ranking_position": "17",
+        "neighborhood_info": null,
+        "description": "The iconic skyline and golden beaches of Surfers Paradise is the Gold Coast\u2019s postcard image to Australia and the world. Each year, millions of visitors discover an energetic foreshore precinct boasting an incredible diversity of restaurant, cafe, shopping and fashion and nightlife experiences. Restaurants offering everything from fresh seafood to international cuisine have made Surfers Paradise a serious dining hub, while shopping centres and arcades display top labels and the best in lifestyle and beauty. Surfers Paradise contains 50% of the Gold Coast\u2019s accommodation \u2013 everything from five-star beachfront resorts to cheerful backpacker digs \u2013 making it the perfect base from which to explore the region. Locals and visitors are kept busy with a year-round calendar of events, highlighted by free family entertainment. And fronting it all \u2013 Surfers Paradise Beach, Australia\u2019s iconic beach and a locale that conjures up \u2018paradise\u2019 to millions. It's \"Always On\" in Surfers Paradise!",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          },
+          {
+            "key": "61",
+            "name": "Outdoor Activities"
+          }
+        ]
+      },
+      {
+        "name": "Pacific Fair Shopping Centre",
+        "num_reviews": "3235",
+        "rating": "4.3",
+        "ranking_position": "20",
+        "neighborhood_info": null,
+        "description": "Pacific Fair is centrally located in the heart of the Gold Coast adjacent to the Star Gold Coast and the Broadbeach entertainment precinct. Pacific Fair is one of Australia's largest shopping centres and boasts an outstanding collection of luxury, high-street fashion, and dining and bar experiences, plus a world-class indoor/outdoor leisure and entertainment precinct and around 400 specialty stores. The centre also boasts two supermarkets, a fresh food market, Big W, David Jones, Kmart, Target and the Gold Coast\u2019s largest Myer. Pacific Fair has a first-class Visitor Lounge including showers/amenities, luggage storage, coach set-down, free WiFi, stylist service, quiet room and an exclusive Visitor Privileges Pass with over a hundred special offers. There's also a free shopping shuttle that services Sea World (Southport) in the north to Burleigh Heads in the south daily (see website for timetable). A visit to the Gold Coast isn\u2019t complete without a visit to Pacific Fair.",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          }
+        ]
+      },
+      {
+        "name": "Point Danger",
+        "num_reviews": "132",
+        "rating": "4.6",
+        "ranking_position": "38",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Sea World",
+        "num_reviews": "6193",
+        "rating": "3.8",
+        "ranking_position": "71",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "48",
+            "name": "Zoos & Aquariums"
+          },
+          {
+            "key": "52",
+            "name": "Water & Amusement Parks"
+          },
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Warner Bros. Movie World",
+        "num_reviews": "6202",
+        "rating": "3.5",
+        "ranking_position": "249",
+        "neighborhood_info": null,
+        "description": "Become lost in a world of fantasy and fun, meet your favourite stars and super-heroes and experience the exhilaration of world-class adventure rides and movie attractions at Warner Bros. Movie World. The tallest, longest and fastest HyperCoaster in the Southern Hemisphere is now open! Ride the DC Rivals HyperCoaster now! Don't miss Justice League 3D - The Ride, GREEN LANTERN coaster, 'Arkham Asylum' (now with VR!), and there are more thrills to come on the awesome Batwing Spaceshot and the adrenalin pumping Superman Escape. Sit back and experience the multi-million dollar live action stunt show Hollywood Stunt Driver 2, a world class stunt show. And the Kids will love the colourful Kids' WB! Fun Zone! Catch the magical parade where you can see all on your favourite characters on Main Street. Enjoy plenty of live action throughout the day. Experience Hollywood on the Gold Coast in true star style at Warner Bros. Movie World!",
+        "subcategory": [
+          {
+            "key": "52",
+            "name": "Water & Amusement Parks"
+          }
+        ]
+      },
+      {
+        "name": "Federation Walk Coastal Reserve",
+        "num_reviews": "121",
+        "rating": "4.5",
+        "ranking_position": "40",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Currumbin Beach",
+        "num_reviews": "171",
+        "rating": "4.7",
+        "ranking_position": "32",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          },
+          {
+            "key": "61",
+            "name": "Outdoor Activities"
+          }
+        ]
+      },
+      {
+        "name": "Kirra Beach",
+        "num_reviews": "686",
+        "rating": "4.7",
+        "ranking_position": "11",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          },
+          {
+            "key": "61",
+            "name": "Outdoor Activities"
+          }
+        ]
+      },
+      {
+        "name": "Mariner's Cove Marina",
+        "num_reviews": "61",
+        "rating": "4.2",
+        "ranking_position": "80",
+        "neighborhood_info": null,
+        "description": "Mariners Cove Marina is at Main beach, Surfers Paradise. We have many great adventures at this marina with all the fun water sports opportunities. Jetboat rides, Parasailing, Jetskis, Boat Hire, Canal cruises, Helicopter tours, Fishing trips, Shopping, and many great restaurants, Marina berths, Tavern, Whale watching tours; we have a great information and booking office to help you with all your tour needs.",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      }
+    ],
     "hotels": {
       "bayesian_review_score": [
         {
-          "name": "Tendance et Charmant F2",
-          "price": 341.75
+          "name": "Vue Broadbeach - Official",
+          "price": 929.072634232886,
+          "review_score": 9.3
         },
         {
-          "name": "\"L'escapade Havraise\" Studio Parking gratuit Coeur de Ville",
-          "price": 208.26
+          "name": "Encore Broadbeach - Official",
+          "price": 954.540634074796,
+          "review_score": 9.3
         },
         {
-          "name": "L'ESTUAIRE",
-          "price": 256.31
+          "name": "Solnamara Beachfront Apartments",
+          "price": 522.794366754813,
+          "review_score": 9.3
         }
       ],
       "popularity": [
         {
-          "name": "All Suites Appart Hotel Le Havre",
-          "price": 294.62
+          "name": "Sea World Resort",
+          "price": 597.224596292795,
+          "review_score": 8.3
         },
         {
-          "name": "The Originals Boutique, H\u00f4tel Le Marignan,Le Havre Centre Gare",
-          "price": 330.3
+          "name": "The Langham, Gold Coast and Jewel Residences",
+          "price": 636.063296051708,
+          "review_score": 8.9
         },
         {
-          "name": "Premiere Classe Le Havre Centre-LES DOCKS",
-          "price": 232.0
+          "name": "Hilton Surfers Paradise Hotel & Residences",
+          "price": 494.779566928711,
+          "review_score": 8.1
         }
       ],
       "price": [
         {
-          "name": "Bel appartement avec parking et terrasse plein sud",
-          "price": 134.57
+          "name": "Tequila Sunrise Podstel",
+          "price": 85.6170484685418,
+          "review_score": 8.5
         },
         {
-          "name": "Studio Center",
-          "price": 138.84
+          "name": "A5U3 Hostel",
+          "price": 123.774479231684,
+          "review_score": 5.6
         },
         {
-          "name": "Paradise cach\u00e9",
-          "price": 147.38
+          "name": "Surf Inn Boutique Backpackers - FREE BREAKFAST",
+          "price": 127.339999209551,
+          "review_score": 8.9
         }
       ]
     },
     "flights": [
       {
-        "to": "Srinagar",
+        "to": "Sunshine Coast",
         "date": "2025-07-13",
         "flights": [
           {
-            "type": "FASTEST",
-            "price_usd": 780,
-            "departure_time": "2025-07-13T08:30:00",
-            "arrival_time": "2025-07-13T12:45:00"
-          },
-          {
-            "type": "BEST",
-            "price_usd": 780,
-            "departure_time": "2025-07-13T08:30:00",
-            "arrival_time": "2025-07-13T12:45:00"
-          }
-        ],
-        "note": null
-      }
-    ]
-  },
-  {
-    "city": "Srinagar",
-    "attractions": [],
-    "hotels": {
-      "bayesian_review_score": [
-        {
-          "name": "John's Homestay",
-          "price": 82.65
-        },
-        {
-          "name": "Ikraam Inn Bed & Breakfast",
-          "price": 150.54
-        },
-        {
-          "name": "Movie land group of house boats",
-          "price": 187.93
-        }
-      ],
-      "popularity": [
-        {
-          "name": "Dilnaaz group of houseboats",
-          "price": 110.2
-        },
-        {
-          "name": "Amina Group Of Houseboats",
-          "price": 262.4
-        },
-        {
-          "name": "The Altaf Group Of Houseboats",
-          "price": 96.43
-        }
-      ],
-      "price": [
-        {
-          "name": "LalaApartment",
-          "price": 19.6
-        },
-        {
-          "name": "Young Gulshan Apartment",
-          "price": 25.78
-        },
-        {
-          "name": "Shaheen Luxuries",
-          "price": 26.57
-        }
-      ]
-    },
-    "flights": [
-      {
-        "to": "Chandigarh",
-        "date": "2025-07-16",
-        "flights": [
-          {
             "type": "CHEAPEST",
-            "price_usd": 114,
-            "departure_time": "2025-07-16T15:15:00",
-            "arrival_time": "2025-07-16T16:25:00"
+            "price_usd": 818,
+            "departure_time": "2025-07-13T20:50:00",
+            "arrival_time": "2025-07-14T07:45:00"
           },
           {
             "type": "FASTEST",
-            "price_usd": 114,
-            "departure_time": "2025-07-16T15:15:00",
-            "arrival_time": "2025-07-16T16:25:00"
+            "price_usd": 984,
+            "departure_time": "2025-07-13T14:25:00",
+            "arrival_time": "2025-07-13T18:30:00"
           },
           {
             "type": "BEST",
-            "price_usd": 114,
-            "departure_time": "2025-07-16T15:15:00",
-            "arrival_time": "2025-07-16T16:25:00"
+            "price_usd": 984,
+            "departure_time": "2025-07-13T14:25:00",
+            "arrival_time": "2025-07-13T18:30:00"
           }
         ],
         "note": null
@@ -144,311 +245,251 @@
     ]
   },
   {
-    "city": "Chandigarh",
-    "attractions": [],
-    "hotels": {
-      "bayesian_review_score": [
-        {
-          "name": "Anchorage 42",
-          "price": 183.67
-        },
-        {
-          "name": "Hotel Woodlark Zirakpur Chandigarh !! Top Rated & Most Awarded Properties in Tricity !!",
-          "price": 30.11
-        },
-        {
-          "name": "The Oberoi Sukhvilas Spa Resort, New Chandigarh",
-          "price": 1116.13
-        }
-      ],
-      "popularity": [
-        {
-          "name": "Hyatt Regency Chandigarh",
-          "price": 303.53
-        },
-        {
-          "name": "Holiday Inn Chandigarh ZKP by IHG",
-          "price": 259.33
-        },
-        {
-          "name": "The Lalit Chandigarh",
-          "price": 351.35
-        }
-      ],
-      "price": [
-        {
-          "name": "Hotel Golden Height2",
-          "price": 10.69
-        },
-        {
-          "name": "Hotel Amron2",
-          "price": 14.15
-        },
-        {
-          "name": "Hotel Grand City2",
-          "price": 14.15
-        }
-      ]
-    },
-    "flights": [
+    "city": "Sunshine Coast",
+    "attractions": [
       {
-        "to": "Shimla",
-        "date": "2025-07-18",
-        "flights": null,
-        "note": "No flights for these locations. Check alternate way of travel!"
-      }
-    ]
-  },
-  {
-    "city": "Shimla",
-    "attractions": [],
-    "hotels": {
-      "bayesian_review_score": [
-        {
-          "name": "Wildflower Hall, An Oberoi Resort, Shimla",
-          "price": 1050.47
-        },
-        {
-          "name": "SIMLA HOTEL H G N near park and temple",
-          "price": 49.2
-        },
-        {
-          "name": "GS cottage near Mall Road",
-          "price": 118.07
-        }
-      ],
-      "popularity": [
-        {
-          "name": "Victory Hotel and Restaurant by GS Hospitality",
-          "price": 78.72
-        },
-        {
-          "name": "Royal Green Mashobra - Mountain and valley view rooms",
-          "price": 29.39
-        },
-        {
-          "name": "HANU VATIKA The FAMILY CHOICE",
-          "price": 40.05
-        }
-      ],
-      "price": [
-        {
-          "name": "Staynest Mashobra with balcony",
-          "price": 14.69
-        },
-        {
-          "name": "The Hostelers Homestay Shiimla - Near HPU, Bypass Crossing, ISBT and Advance Study",
-          "price": 17.71
-        },
-        {
-          "name": "Nature Ville",
-          "price": 20.97
-        }
-      ]
-    },
-    "flights": [
-      {
-        "to": "Dehradun",
-        "date": "2025-07-20",
-        "flights": null,
-        "note": "No flights for these locations. Check alternate way of travel!"
-      }
-    ]
-  },
-  {
-    "city": "Dehradun",
-    "attractions": [],
-    "hotels": {
-      "bayesian_review_score": [
-        {
-          "name": "Rootz",
-          "price": 70.25
-        },
-        {
-          "name": "vera home stay",
-          "price": 39.36
-        },
-        {
-          "name": "Oxygen Homestay-A Blissful Retreat",
-          "price": 44.16
-        }
-      ],
-      "popularity": [
-        {
-          "name": "Treebo Kanopy Greens",
-          "price": 83.96
-        },
-        {
-          "name": "Stayble Homestay",
-          "price": 31.88
-        },
-        {
-          "name": "Vastu Serene Studio Apartment",
-          "price": 94.88
-        }
-      ],
-      "price": [
-        {
-          "name": "Ananda Vatika Homestay",
-          "price": 16.53
-        },
-        {
-          "name": "Apna Guest House Dehradun",
-          "price": 18.89
-        },
-        {
-          "name": "Hotel Shiv Kripa",
-          "price": 20.96
-        }
-      ]
-    },
-    "flights": [
-      {
-        "to": "Jaipur",
-        "date": "2025-07-22",
-        "flights": [
+        "name": "Caloundra Surf School",
+        "num_reviews": "349",
+        "rating": "5.0",
+        "ranking_position": "1",
+        "neighborhood_info": null,
+        "description": "Surfing is just about the best fun under the sun! And Caloundra Surf School will help you to enjoy the thrill of surfing! The best way to learn to surf is to have a surf lesson with the premier surf school on the Sunshine Coast! We take great pride in providing a fantastic service to our students, so that you have the best possible surfing experience! Suitable for all ages, shapes & sizes! And don't worry - most of my students have never surfed before! It's also important to have your lesson on the best possible waves for learning to surf - this makes a huge difference in helping a new surfer do well and have the most fun! I have the exclusive Council permits to provide surf lessons at the 3 best beaches around Caloundra so I can take my classes to the best location. There are Google Maps of all these locations are on my website. I plan the lesson when we will get the best waves, so the time of our class will depend upon the conditions & vary from day to day. Contact me for details.",
+        "subcategory": [
           {
-            "type": "CHEAPEST",
-            "price_usd": 134,
-            "departure_time": "2025-07-22T07:30:00",
-            "arrival_time": "2025-07-22T08:45:00"
+            "key": "42",
+            "name": "Tours"
           },
           {
-            "type": "FASTEST",
-            "price_usd": 134,
-            "departure_time": "2025-07-22T07:30:00",
-            "arrival_time": "2025-07-22T08:45:00"
+            "key": "55",
+            "name": "Boat Tours & Water Sports"
           },
           {
-            "type": "BEST",
-            "price_usd": 134,
-            "departure_time": "2025-07-22T07:30:00",
-            "arrival_time": "2025-07-22T08:45:00"
+            "key": "61",
+            "name": "Outdoor Activities"
           }
-        ],
-        "note": null
-      }
-    ]
-  },
-  {
-    "city": "Jaipur",
-    "attractions": [],
-    "hotels": {
-      "bayesian_review_score": [
-        {
-          "name": "Home of the world",
-          "price": 106.27
-        },
-        {
-          "name": "Le Fort Homestay",
-          "price": 92.1
-        },
-        {
-          "name": "Jasvilas",
-          "price": 226.31
-        }
-      ],
-      "popularity": [
-        {
-          "name": "Treebo Premium Baramasi By Jai Club Prime",
-          "price": 312.47
-        },
-        {
-          "name": "Hyatt Regency Jaipur Mansarovar",
-          "price": 456.13
-        },
-        {
-          "name": "ASHOK VILLA",
-          "price": 99.18
-        }
-      ],
-      "price": [
-        {
-          "name": "Eco Family Hostel",
-          "price": 14.7
-        },
-        {
-          "name": "HOTEL PREMIUM TOURIST INN Near Hockey Ring Jaipur",
-          "price": 14.76
-        },
-        {
-          "name": "Mostel hotel",
-          "price": 19.77
-        }
-      ]
-    },
-    "flights": [
+        ]
+      },
       {
-        "to": "Udaipur",
-        "date": "2025-07-25",
-        "flights": [
+        "name": "Noosa Dreamboats Classic Boat Cruises",
+        "num_reviews": "369",
+        "rating": "5.0",
+        "ranking_position": "2",
+        "neighborhood_info": null,
+        "description": "Experience the style and excitement of a bygone era and feel like movie stars while you explore the beautiful Noosa River and Lakes on board a stunning, hand crafted classic mahogany speed boat. We offer private sight seeing tours and a selection of special packages where you can combine a cruise with a romantic catered sandbar picnic or a meal at a beautiful riverside restaurant. Your skipper Jimmy will give you a truly unforgettable experience. On your tour you'll enjoy a leisurely cruise around Noosa Sound and then experience the speed and excitement of classic power boating as you head up the Noosa River towards Sir Richard Branson's private Makepeace Island retreat, Lake Cooroibah and Lake Cootharaba. On your return journey, you can visit the Noosa River mouth and see our sandbars and abundant bird life. A Noosa Dreamboats classic boat cruise is a memorable and unique way to experience the natural beauty of Noosa's idyllic waterways or to celebrate any special occasion in Noosa.",
+        "subcategory": [
           {
-            "type": "CHEAPEST",
-            "price_usd": 125,
-            "departure_time": "2025-07-25T06:55:00",
-            "arrival_time": "2025-07-25T07:55:00"
+            "key": "42",
+            "name": "Tours"
           },
           {
-            "type": "FASTEST",
-            "price_usd": 125,
-            "departure_time": "2025-07-25T06:55:00",
-            "arrival_time": "2025-07-25T07:55:00"
+            "key": "55",
+            "name": "Boat Tours & Water Sports"
           },
           {
-            "type": "BEST",
-            "price_usd": 125,
-            "departure_time": "2025-07-25T06:55:00",
-            "arrival_time": "2025-07-25T07:55:00"
+            "key": "61",
+            "name": "Outdoor Activities"
           }
-        ],
-        "note": null
+        ]
+      },
+      {
+        "name": "Sunshine Coast Private Transfers",
+        "num_reviews": "186",
+        "rating": "5.0",
+        "ranking_position": "1",
+        "neighborhood_info": null,
+        "description": "Private Airport Transfers to NOOSA & Sunshine Coast Suburbs from the SUNSHINE COAST AIRPORT & BRISBANE AIRPORT. The only female-owned and operated airport transfer business in Noosa Families | Groups | Singles | Couples | Trios Child Seats Inc. FOC Bike Bags | Surfboards | Golf Bags Clean, Comfortable & Affordable E S T. 2015 with 5 5-star reviews on Google, TripAdvisor, and Facebook. Local Male & Female drivers. Attending an Event, a Special Dinner, or having a Wedding? We can cover that too! Sunshine Coast Private Transfers will get you there and back hassle-free. This is a 100% reliable pre-booked door-to-door private transfer service.",
+        "subcategory": [
+          {
+            "key": "59",
+            "name": "Transportation"
+          }
+        ]
+      },
+      {
+        "name": "Equathon",
+        "num_reviews": "705",
+        "rating": "4.9",
+        "ranking_position": "3",
+        "neighborhood_info": null,
+        "description": "Equathon Horse Riding Adventures offer award winning horse riding tours on the beach at Noosa North Shore, and the Sunshine Coast hinterland.",
+        "subcategory": [
+          {
+            "key": "42",
+            "name": "Tours"
+          },
+          {
+            "key": "61",
+            "name": "Outdoor Activities"
+          }
+        ]
+      },
+      {
+        "name": "Noosa2Fraser 4WD Hire",
+        "num_reviews": "192",
+        "rating": "5.0",
+        "ranking_position": "4",
+        "neighborhood_info": null,
+        "description": "We are a self drive 4wd hire company specialising in Beach Driving . We offer day hires to Noosa North Shore /Double Island Point/Rainbow Beach and longer hires to Fraser Island and Moreton Island. We hope we can help you have a great beach trip!",
+        "subcategory": [
+          {
+            "key": "61",
+            "name": "Outdoor Activities"
+          }
+        ]
+      },
+      {
+        "name": "Essential Bodywork",
+        "num_reviews": "279",
+        "rating": "5.0",
+        "ranking_position": "1",
+        "neighborhood_info": null,
+        "description": "Essential Bodywork is a cozy, welcoming massage studio convenient to Noosa River & Hastings Street. We have been #1 on TripAdvisor for 5 yrs. Our goal is to offer you an exceptional massage experience. Our modalities include Remedial, Relaxation, Pregnancy Massage, as well as our Signature Massage - Hawaiian Hot Stone Fusion, a divinely nourishing combination. We have delicious Aromatherapy Bath Salts to take home and extend your body experience. Essential Bodywork has 2 treatment rooms, 4 dedicated therapists, and a sum of 40 years of massage experience. Online Booking is available for your 24 hr convenience and booking ahead will guarantee your appointment in busy holiday times. Please book ahead for concurrent massage appts. EFTPOS, HICAPS & Gift Vouchers are available. We offer Health Fund Rebates for Remedial Massage, so let us know at the time of your booking if this is required. Easy street parking is available. We look forward to meeting you! The Essential Bodywork Team.",
+        "subcategory": [
+          {
+            "key": "40",
+            "name": "Spas & Wellness"
+          }
+        ]
+      },
+      {
+        "name": "Coastal Cruises Mooloolaba",
+        "num_reviews": "1810",
+        "rating": "4.9",
+        "ranking_position": "3",
+        "neighborhood_info": null,
+        "description": "Coastal Cruises is based at the Wharf Mooloolaba complex in the heart of the Sunshine Coast. We offer a variety of experiences and have an excellent reputation for affordable, reliable service. Coastal Cruises is a family business built on hard work and experience. Our company offers everything from seafood lunch cruises, sunset cruises, to private parties and boat charter.",
+        "subcategory": [
+          {
+            "key": "42",
+            "name": "Tours"
+          },
+          {
+            "key": "55",
+            "name": "Boat Tours & Water Sports"
+          },
+          {
+            "key": "61",
+            "name": "Outdoor Activities"
+          }
+        ]
+      },
+      {
+        "name": "Merrick's Noosa Learn to Surf",
+        "num_reviews": "592",
+        "rating": "4.9",
+        "ranking_position": "4",
+        "neighborhood_info": null,
+        "description": "Daily learn to surf lessons in Noosa Heads, Sunshine Coast, Queensland. Small groups at Learn to Surf with Australia's most famous and professional surf school. Learn to Surf the correct way with Australia's best surf coaches who are accomplished surfers. Fun, safe and easy. Change your life. Learn to Surf.",
+        "subcategory": [
+          {
+            "key": "42",
+            "name": "Tours"
+          },
+          {
+            "key": "55",
+            "name": "Boat Tours & Water Sports"
+          },
+          {
+            "key": "61",
+            "name": "Outdoor Activities"
+          }
+        ]
+      },
+      {
+        "name": "Joel's Journeys",
+        "num_reviews": "134",
+        "rating": "5.0",
+        "ranking_position": "1",
+        "neighborhood_info": null,
+        "description": "Joel\u2019s Journeys is an award-winning Noosa based tour operator, curating authentic bespoke experiences in and around Noosa, the Hinterland, Sunshine Coast, Mary Valley, Rainbow Beach, Glass House Mountain, and surrounds. Offering a range of all-inclusive tours for guests to experience locations that are a must see, lesser known or both, with commentary and story-telling by experienced local guides.",
+        "subcategory": [
+          {
+            "key": "36",
+            "name": "Food & Drink"
+          },
+          {
+            "key": "42",
+            "name": "Tours"
+          },
+          {
+            "key": "51",
+            "name": "Other"
+          },
+          {
+            "key": "61",
+            "name": "Outdoor Activities"
+          }
+        ]
+      },
+      {
+        "name": "Paradise Seaplanes",
+        "num_reviews": "340",
+        "rating": "5.0",
+        "ranking_position": "7",
+        "neighborhood_info": null,
+        "description": "\"A Magical Sunshine Coast Experience!\" Take off from the beautiful Maroochy River in our authentic Warbird spyplane and see the world from the perspective of the Dreamtime black swans and be awestruck. This is no ordinary seaplane and no ordinary joy flight. \"Willy\" is designed for observation - she has more glass than a helicopter, excels at flying low and slow, and is the quietest piston-engined aircraft on the planet! Adventure flights are made for 3 passengers only. Each one is personalised - choose where and which adventure and whether you want a 'doors on' or 'doors off' experience. Every passenger has a window seat, Bose Aviation headsets, is able to interact with the pilot and treated to expert commentary. The Sunshine Coast is the ONLY place in the southern hemisphere where you can enjoy this sustainable experience in this type of aircraft! Do not miss it! Flights start at $149 per person. See our marquee at Maroochy River every Thursday through Monday 9am-3pm.",
+        "subcategory": [
+          {
+            "key": "42",
+            "name": "Tours"
+          },
+          {
+            "key": "61",
+            "name": "Outdoor Activities"
+          }
+        ]
       }
-    ]
-  },
-  {
-    "city": "Udaipur",
-    "attractions": [],
+    ],
     "hotels": {
       "bayesian_review_score": [
         {
-          "name": "Oolala - Your lake house in the center of Udaipur",
-          "price": 255.82
+          "name": "Chez Noosa Resort Motel",
+          "price": 261.04699837958,
+          "review_score": 8.9
         },
         {
-          "name": "Little Garden Guest House",
-          "price": 191.77
+          "name": "Noosa Flashpackers",
+          "price": 207.392289712636,
+          "review_score": 8.8
         },
         {
-          "name": "The Oberoi Udaivilas Udaipur",
-          "price": 1247.43
+          "name": "Location Location, sunshine beach, 100 m to beach( HA3)",
+          "price": 716.949663549615,
+          "review_score": 8.5
         }
       ],
       "popularity": [
         {
-          "name": "Hotel The Grand Bhagwat Inn City Centre",
-          "price": 51.79
+          "name": "Sunseeker Holiday Apartments",
+          "price": 359.098797770934,
+          "review_score": 8.2
         },
         {
-          "name": "Champa Lodge",
-          "price": 414.62
+          "name": "Chez Noosa Resort Motel",
+          "price": 261.04699837958,
+          "review_score": 8.9
         },
         {
-          "name": "THE MANGAL VIEW RESIDENCY - A Luxury Boutique Business Hotel",
-          "price": 81.83
+          "name": "Dolphins Backpackers",
+          "price": 203.743998735282,
+          "review_score": 7.6
         }
       ],
       "price": [
         {
-          "name": "Hotel stay inn",
-          "price": 14.13
+          "name": "Dolphins Backpackers",
+          "price": 203.743998735282,
+          "review_score": 7.6
         },
         {
-          "name": "Pre",
-          "price": 19.68
+          "name": "Noosa Flashpackers",
+          "price": 207.392289712636,
+          "review_score": 8.8
         },
         {
-          "name": "Gyanav Hotel and Restaurent",
-          "price": 22.32
+          "name": "Chez Noosa Resort Motel",
+          "price": 261.04699837958,
+          "review_score": 8.9
         }
       ]
     },

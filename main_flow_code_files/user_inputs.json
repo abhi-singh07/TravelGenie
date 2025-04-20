@@ -1,9 +1,9 @@
 {
-  "country": "India",
-  "from_date": "2025-07-10",
-  "to_date": "2025-07-28",
-  "num_cities": "6 to 10",
-  "user_pref": "I want to go to hill stations and historical sites.",
-  "num_people": 5,
-  "budget_in_usd": 2000
+  "country": "Australia",
+  "from_date": "2025-07-11",
+  "to_date": "2025-07-15",
+  "num_cities": "1 to 3",
+  "user_pref": "I want to go to beaches",
+  "num_people": 2,
+  "budget_in_usd": 3000
 }
