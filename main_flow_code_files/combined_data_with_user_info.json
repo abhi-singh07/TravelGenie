@@ -1,0 +1,624 @@
+{
+  "user_info": {
+    "destination": "India",
+    "from_date": "2025-07-12",
+    "to_date": "2025-07-19",
+    "budget_in_usd": 2000,
+    "traveller_count": 4
+  },
+  "data": [
+    {
+      "city": "Leh",
+      "attractions": [
+        {
+          "name": "Coca-Cola Park",
+          "num_reviews": "647",
+          "rating": "4.7",
+          "ranking_position": "1",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "56",
+              "name": "Fun & Games"
+            }
+          ]
+        },
+        {
+          "name": "SteelStacks",
+          "num_reviews": "661",
+          "rating": "4.6",
+          "ranking_position": "3",
+          "neighborhood_info": null,
+          "description": "SteelStacks is a ten-acre campus in Bethlehem, PA, dedicated to arts, culture, family events, community celebrations, education and fun. The campus is in the shadow of the blast furnaces of the former Bethlehem Steel plant.",
+          "subcategory": [
+            {
+              "key": "26",
+              "name": "Shopping"
+            },
+            {
+              "key": "49",
+              "name": "Museums"
+            }
+          ]
+        },
+        {
+          "name": "Allentown Fish Hatchery",
+          "num_reviews": "352",
+          "rating": "4.4",
+          "ranking_position": "5",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "Hoover Mason Trestle",
+          "num_reviews": "217",
+          "rating": "4.7",
+          "ranking_position": "4",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Allentown Farmers Market",
+          "num_reviews": "266",
+          "rating": "4.4",
+          "ranking_position": "7",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "26",
+              "name": "Shopping"
+            },
+            {
+              "key": "36",
+              "name": "Food & Drink"
+            }
+          ]
+        },
+        {
+          "name": "Klein Farms Dairy and Creamery",
+          "num_reviews": "139",
+          "rating": "4.7",
+          "ranking_position": "10",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "PPL Center",
+          "num_reviews": "407",
+          "rating": "4.3",
+          "ranking_position": "11",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Allentown Rose Gardens",
+          "num_reviews": "78",
+          "rating": "4.7",
+          "ranking_position": "16",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "America On Wheels Museum",
+          "num_reviews": "385",
+          "rating": "4.6",
+          "ranking_position": "2",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "49",
+              "name": "Museums"
+            }
+          ]
+        },
+        {
+          "name": "National Museum of Industrial History",
+          "num_reviews": "151",
+          "rating": "4.6",
+          "ranking_position": "8",
+          "neighborhood_info": null,
+          "description": "National Museum of Industrial History",
+          "subcategory": [
+            {
+              "key": "49",
+              "name": "Museums"
+            }
+          ]
+        }
+      ],
+      "hotels": {
+        "bayesian_review_score": [
+          {
+            "name": "Tendance et Charmant F2",
+            "price": 227.84
+          },
+          {
+            "name": "\"L'escapade Havraise\" Studio Parking gratuit Coeur de Ville",
+            "price": 138.84
+          },
+          {
+            "name": "L'ESTUAIRE",
+            "price": 170.88
+          }
+        ],
+        "popularity": [
+          {
+            "name": "All Suites Appart Hotel Le Havre",
+            "price": 195.76
+          },
+          {
+            "name": "The Originals Boutique, H\u00f4tel Le Marignan,Le Havre Centre Gare",
+            "price": 278.43
+          },
+          {
+            "name": "Hotel Spa Le Pasino",
+            "price": 374.87
+          }
+        ],
+        "price": [
+          {
+            "name": "Bel appartement avec parking et terrasse plein sud",
+            "price": 89.71
+          },
+          {
+            "name": "Studio Center",
+            "price": 92.56
+          },
+          {
+            "name": "Paradise cach\u00e9",
+            "price": 98.25
+          }
+        ]
+      },
+      "flights": [
+        {
+          "to": "Srinagar",
+          "date": "2025-07-14",
+          "flights": [
+            {
+              "type": "FASTEST",
+              "price_usd": 807,
+              "departure_time": "2025-07-14T07:40:00",
+              "arrival_time": "2025-07-14T11:50:00"
+            },
+            {
+              "type": "BEST",
+              "price_usd": 591,
+              "departure_time": "2025-07-14T08:30:00",
+              "arrival_time": "2025-07-14T12:45:00"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "city": "Srinagar",
+      "attractions": [
+        {
+          "name": "Dal Lake",
+          "num_reviews": "4329",
+          "rating": "4.3",
+          "ranking_position": "6",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "Indira Gandhi Tulip Garden",
+          "num_reviews": "1146",
+          "rating": "4.6",
+          "ranking_position": "2",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "Sonamarg Hill Station",
+          "num_reviews": "1174",
+          "rating": "4.4",
+          "ranking_position": "4",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "Shankaracharya Hill",
+          "num_reviews": "2147",
+          "rating": "4.5",
+          "ranking_position": "1",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Nishat Garden",
+          "num_reviews": "1332",
+          "rating": "4.2",
+          "ranking_position": "5",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "Nigeen Lake",
+          "num_reviews": "1120",
+          "rating": "4.4",
+          "ranking_position": "3",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "Yousmarg",
+          "num_reviews": "249",
+          "rating": "4.4",
+          "ranking_position": "15",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            },
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            },
+            {
+              "key": "61",
+              "name": "Outdoor Activities"
+            }
+          ]
+        },
+        {
+          "name": "Badamwari Garden",
+          "num_reviews": "157",
+          "rating": "4.5",
+          "ranking_position": "16",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "Mughal Gardens",
+          "num_reviews": "788",
+          "rating": "4.2",
+          "ranking_position": "10",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "Shalimar Bagh",
+          "num_reviews": "778",
+          "rating": "4.2",
+          "ranking_position": "9",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        }
+      ],
+      "hotels": {
+        "bayesian_review_score": [
+          {
+            "name": "John's Homestay",
+            "price": 55.1
+          },
+          {
+            "name": "Ikraam Inn Bed & Breakfast",
+            "price": 100.36
+          },
+          {
+            "name": "Movie land group of house boats",
+            "price": 125.29
+          }
+        ],
+        "popularity": [
+          {
+            "name": "Houseboat Zaindari Palace",
+            "price": 326.2
+          },
+          {
+            "name": "Dilnaaz group of houseboats",
+            "price": 73.47
+          },
+          {
+            "name": "Amina Group Of Houseboats",
+            "price": 174.93
+          }
+        ],
+        "price": [
+          {
+            "name": "LalaApartment",
+            "price": 13.07
+          },
+          {
+            "name": "Young Gulshan Apartment",
+            "price": 17.19
+          },
+          {
+            "name": "Shaheen Luxuries",
+            "price": 17.71
+          }
+        ]
+      },
+      "flights": [
+        {
+          "to": "Shimla",
+          "date": "2025-07-16",
+          "flights": null,
+          "note": "No flights for these locations. Check alternate way of travel!"
+        }
+      ]
+    },
+    {
+      "city": "Shimla",
+      "attractions": [
+        {
+          "name": "Jakhu Hanuman Temple",
+          "num_reviews": "2091",
+          "rating": "4.4",
+          "ranking_position": "3",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "The Mall",
+          "num_reviews": "2932",
+          "rating": "4.2",
+          "ranking_position": "7",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Kalka - Shimla Railway",
+          "num_reviews": "1826",
+          "rating": "4.3",
+          "ranking_position": "9",
+          "neighborhood_info": null,
+          "description": "This railway was built in 1903 to connect the summer capital of India to Punjab.",
+          "subcategory": [
+            {
+              "key": "42",
+              "name": "Tours"
+            }
+          ]
+        },
+        {
+          "name": "Indian Institute of Advanced Study",
+          "num_reviews": "770",
+          "rating": "4.5",
+          "ranking_position": "1",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Viceregal Lodge",
+          "num_reviews": "1515",
+          "rating": "4.4",
+          "ranking_position": "6",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "The Ridge",
+          "num_reviews": "968",
+          "rating": "4.4",
+          "ranking_position": "4",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Annandale Ground",
+          "num_reviews": "260",
+          "rating": "4.6",
+          "ranking_position": "5",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "Green Valley",
+          "num_reviews": "384",
+          "rating": "4.1",
+          "ranking_position": "11",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        },
+        {
+          "name": "Kali Bari Temple",
+          "num_reviews": "262",
+          "rating": "4.4",
+          "ranking_position": "10",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ]
+        },
+        {
+          "name": "Jakhoo Hill",
+          "num_reviews": "126",
+          "rating": "4.3",
+          "ranking_position": "13",
+          "neighborhood_info": null,
+          "description": "",
+          "subcategory": [
+            {
+              "key": "57",
+              "name": "Nature & Parks"
+            }
+          ]
+        }
+      ],
+      "hotels": {
+        "bayesian_review_score": [
+          {
+            "name": "Wildflower Hall, An Oberoi Resort, Shimla",
+            "price": 1575.71
+          },
+          {
+            "name": "SIMLA HOTEL H G N near park and temple",
+            "price": 73.8
+          },
+          {
+            "name": "GS cottage near Mall Road",
+            "price": 177.11
+          }
+        ],
+        "popularity": [
+          {
+            "name": "Victory Hotel and Restaurant by GS Hospitality",
+            "price": 118.07
+          },
+          {
+            "name": "Royal Green Mashobra - Mountain and valley view rooms",
+            "price": 44.08
+          },
+          {
+            "name": "HANU VATIKA The FAMILY CHOICE",
+            "price": 59.49
+          }
+        ],
+        "price": [
+          {
+            "name": "Staynest Mashobra with balcony",
+            "price": 22.04
+          },
+          {
+            "name": "The Hostelers Homestay Shiimla - Near HPU, Bypass Crossing, ISBT and Advance Study",
+            "price": 26.57
+          },
+          {
+            "name": "Nature Ville",
+            "price": 31.45
+          }
+        ]
+      },
+      "flights": []
+    }
+  ]
+}

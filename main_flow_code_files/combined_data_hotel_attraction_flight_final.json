@@ -1,5 +1,223 @@
 [
   {
+    "city": "Leh",
+    "attractions": [
+      {
+        "name": "Coca-Cola Park",
+        "num_reviews": "647",
+        "rating": "4.7",
+        "ranking_position": "1",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "56",
+            "name": "Fun & Games"
+          }
+        ]
+      },
+      {
+        "name": "SteelStacks",
+        "num_reviews": "661",
+        "rating": "4.6",
+        "ranking_position": "3",
+        "neighborhood_info": null,
+        "description": "SteelStacks is a ten-acre campus in Bethlehem, PA, dedicated to arts, culture, family events, community celebrations, education and fun. The campus is in the shadow of the blast furnaces of the former Bethlehem Steel plant.",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          },
+          {
+            "key": "49",
+            "name": "Museums"
+          }
+        ]
+      },
+      {
+        "name": "Allentown Fish Hatchery",
+        "num_reviews": "352",
+        "rating": "4.4",
+        "ranking_position": "5",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Hoover Mason Trestle",
+        "num_reviews": "217",
+        "rating": "4.7",
+        "ranking_position": "4",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Allentown Farmers Market",
+        "num_reviews": "266",
+        "rating": "4.4",
+        "ranking_position": "7",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          },
+          {
+            "key": "36",
+            "name": "Food & Drink"
+          }
+        ]
+      },
+      {
+        "name": "Klein Farms Dairy and Creamery",
+        "num_reviews": "139",
+        "rating": "4.7",
+        "ranking_position": "10",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "PPL Center",
+        "num_reviews": "407",
+        "rating": "4.3",
+        "ranking_position": "11",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Allentown Rose Gardens",
+        "num_reviews": "78",
+        "rating": "4.7",
+        "ranking_position": "16",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "America On Wheels Museum",
+        "num_reviews": "385",
+        "rating": "4.6",
+        "ranking_position": "2",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "49",
+            "name": "Museums"
+          }
+        ]
+      },
+      {
+        "name": "National Museum of Industrial History",
+        "num_reviews": "151",
+        "rating": "4.6",
+        "ranking_position": "8",
+        "neighborhood_info": null,
+        "description": "National Museum of Industrial History",
+        "subcategory": [
+          {
+            "key": "49",
+            "name": "Museums"
+          }
+        ]
+      }
+    ],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Tendance et Charmant F2",
+          "price": 227.84
+        },
+        {
+          "name": "\"L'escapade Havraise\" Studio Parking gratuit Coeur de Ville",
+          "price": 138.84
+        },
+        {
+          "name": "L'ESTUAIRE",
+          "price": 170.88
+        }
+      ],
+      "popularity": [
+        {
+          "name": "All Suites Appart Hotel Le Havre",
+          "price": 195.76
+        },
+        {
+          "name": "The Originals Boutique, H\u00f4tel Le Marignan,Le Havre Centre Gare",
+          "price": 278.43
+        },
+        {
+          "name": "Hotel Spa Le Pasino",
+          "price": 374.87
+        }
+      ],
+      "price": [
+        {
+          "name": "Bel appartement avec parking et terrasse plein sud",
+          "price": 89.71
+        },
+        {
+          "name": "Studio Center",
+          "price": 92.56
+        },
+        {
+          "name": "Paradise cach\u00e9",
+          "price": 98.25
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Srinagar",
+        "date": "2025-07-14",
+        "flights": [
+          {
+            "type": "FASTEST",
+            "price_usd": 807,
+            "departure_time": "2025-07-14T07:40:00",
+            "arrival_time": "2025-07-14T11:50:00"
+          },
+          {
+            "type": "BEST",
+            "price_usd": 591,
+            "departure_time": "2025-07-14T08:30:00",
+            "arrival_time": "2025-07-14T12:45:00"
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
     "city": "Srinagar",
     "attractions": [
       {
@@ -197,238 +415,12 @@
     },
     "flights": [
       {
-        "to": "Leh",
-        "date": "2025-07-14",
-        "flights": [
-          {
-            "type": "FASTEST",
-            "price_usd": 1301,
-            "departure_time": "2025-07-14T08:15:00",
-            "arrival_time": "2025-07-14T12:25:00"
-          },
-          {
-            "type": "BEST",
-            "price_usd": 681,
-            "departure_time": "2025-07-14T07:35:00",
-            "arrival_time": "2025-07-14T12:25:00"
-          }
-        ],
-        "note": null
-      }
-    ],
-    "arrival_date": "2025-07-12",
-    "departure_date": "2025-07-14",
-    "airport": "SXR",
-    "travellers": 4
-  },
-  {
-    "city": "Leh",
-    "attractions": [
-      {
-        "name": "Coca-Cola Park",
-        "num_reviews": "647",
-        "rating": "4.7",
-        "ranking_position": "1",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "56",
-            "name": "Fun & Games"
-          }
-        ]
-      },
-      {
-        "name": "SteelStacks",
-        "num_reviews": "661",
-        "rating": "4.6",
-        "ranking_position": "3",
-        "neighborhood_info": null,
-        "description": "SteelStacks is a ten-acre campus in Bethlehem, PA, dedicated to arts, culture, family events, community celebrations, education and fun. The campus is in the shadow of the blast furnaces of the former Bethlehem Steel plant.",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          },
-          {
-            "key": "49",
-            "name": "Museums"
-          }
-        ]
-      },
-      {
-        "name": "Allentown Fish Hatchery",
-        "num_reviews": "352",
-        "rating": "4.4",
-        "ranking_position": "5",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Hoover Mason Trestle",
-        "num_reviews": "217",
-        "rating": "4.7",
-        "ranking_position": "4",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Allentown Farmers Market",
-        "num_reviews": "266",
-        "rating": "4.4",
-        "ranking_position": "7",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          },
-          {
-            "key": "36",
-            "name": "Food & Drink"
-          }
-        ]
-      },
-      {
-        "name": "Klein Farms Dairy and Creamery",
-        "num_reviews": "139",
-        "rating": "4.7",
-        "ranking_position": "10",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "PPL Center",
-        "num_reviews": "407",
-        "rating": "4.3",
-        "ranking_position": "11",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Allentown Rose Gardens",
-        "num_reviews": "78",
-        "rating": "4.7",
-        "ranking_position": "16",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "America On Wheels Museum",
-        "num_reviews": "385",
-        "rating": "4.6",
-        "ranking_position": "2",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "49",
-            "name": "Museums"
-          }
-        ]
-      },
-      {
-        "name": "National Museum of Industrial History",
-        "num_reviews": "151",
-        "rating": "4.6",
-        "ranking_position": "8",
-        "neighborhood_info": null,
-        "description": "National Museum of Industrial History",
-        "subcategory": [
-          {
-            "key": "49",
-            "name": "Museums"
-          }
-        ]
-      }
-    ],
-    "hotels": {
-      "bayesian_review_score": [
-        {
-          "name": "Hyatt Place Salt Lake City/Lehi",
-          "price": 449.82
-        },
-        {
-          "name": "Holiday Inn Express & Suites Lehi - Thanksgiving Point by IHG",
-          "price": 343.58
-        },
-        {
-          "name": "Staybridge Suites - Lehi - Traverse Ridge Center by IHG",
-          "price": 385.4
-        }
-      ],
-      "popularity": [
-        {
-          "name": "Hyatt Place Salt Lake City/Lehi",
-          "price": 449.82
-        },
-        {
-          "name": "Holiday Inn Express & Suites Lehi - Thanksgiving Point by IHG",
-          "price": 343.58
-        },
-        {
-          "name": "Tru By Hilton Lehi, Ut",
-          "price": 228.64
-        }
-      ],
-      "price": [
-        {
-          "name": "Motel 6 Lehi, UT - Thanksgiving Point",
-          "price": 133.36
-        },
-        {
-          "name": "Private Room with Shared Spaces in Fully Equipped Lehi Home",
-          "price": 149.7
-        },
-        {
-          "name": "Days Inn by Wyndham Lehi",
-          "price": 171.0
-        }
-      ]
-    },
-    "flights": [
-      {
         "to": "Shimla",
         "date": "2025-07-16",
         "flights": null,
         "note": "No flights for these locations. Check alternate way of travel!"
       }
-    ],
-    "arrival_date": "2025-07-14",
-    "departure_date": "2025-07-16",
-    "airport": "IXL",
-    "travellers": 4
+    ]
   },
   {
     "city": "Shimla",
@@ -618,10 +610,6 @@
         }
       ]
     },
-    "flights": [],
-    "arrival_date": "2025-07-16",
-    "departure_date": "2025-07-19",
-    "airport": "SLV",
-    "travellers": 4
+    "flights": []
   }
 ]
