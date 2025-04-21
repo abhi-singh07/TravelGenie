@@ -1,17 +1,12 @@
 {
-    "Ras Al Khaimah": {
-        "Arrival Date": "2025-07-10",
+    "Shimla": {
+        "Arrival Date": "2025-07-11",
         "Departure Date": "2025-07-13",
-        "Airport": "RKT"
+        "Airport": "SLV"
     },
-    "Fujairah": {
+    "Dehradun": {
         "Arrival Date": "2025-07-13",
-        "Departure Date": "2025-07-16",
-        "Airport": "FJR"
-    },
-    "Al Ain": {
-        "Arrival Date": "2025-07-16",
-        "Departure Date": "2025-07-19",
-        "Airport": "AAN"
+        "Departure Date": "2025-07-17",
+        "Airport": "DED"
     }
 }

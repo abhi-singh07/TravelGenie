@@ -47,11 +47,6 @@
             transform: translateY(-5px);
             box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
         }
-        .country-bg {
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
         .form-input, .form-select, .form-textarea {
             background: rgba(255, 255, 255, 0.95);
             border: 1px solid rgba(255, 255, 255, 0.4);
@@ -425,7 +420,7 @@
 
         <!-- Itinerary Output -->
         <div id="itinerary" class="mt-12 p-8 glass-card rounded-2xl max-w-5xl mx-auto hidden">
-            <h2 class="itinerary-intro">Your itinerary is all set!</h2>
+            <h2 class="itinerary-intro">Here is Your AI-Generated Itinerary</h2>
             <div id="itinerary-content" class="itinerary-content"></div>
             <button id="download-btn" class="btn-primary text-white flex items-center mt-6 mx-auto hidden">
                 <i class="fas fa-download mr-2"></i> Download Itinerary
@@ -438,15 +433,6 @@
         gsap.from("header", { duration: 1, y: -100, opacity: 0, ease: "power3.out" });
         gsap.from(".glass-card", { duration: 1, scale: 0.9, opacity: 0, delay: 0.3, ease: "back.out(1.7)", stagger: 0.2 });
         gsap.from(".destination-card", { duration: 1, y: 50, opacity: 0, delay: 0.5, stagger: 0.2, ease: "power3.out" });
-
-        // Country-to-Image Mapping
-        const countryImages = {
-            'india': 'https://images.unsplash.com/photo-1609319471743-8f9c4c816a6e', // Taj Mahal
-            'japan': 'https://images.unsplash.com/photo-1542051841857-734283564c34', // Mount Fuji
-            'france': 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34', // Eiffel Tower
-            'usa': 'https://images.unsplash.com/photo-1501466044931-62695aada8e9', // New York skyline
-            'default': 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e' // Generic travel image
-        };
 
         // Form Validation and Submission
         const form = document.getElementById('travel-form');
@@ -518,12 +504,6 @@
 
                 // Hide loading and show itinerary
                 gsap.to(loading, { opacity: 0, duration: 0.5, onComplete: () => loading.classList.add('hidden') });
-
-                // Set dynamic background based on country
-                const countryKey = country.toLowerCase();
-                const bgImage = countryImages[countryKey] || countryImages['default'];
-                itinerary.classList.add('country-bg');
-                itinerary.style.backgroundImage = `url('${bgImage}')`;
 
                 // Parse markdown and wrap days in static cards
                 const itineraryHtml = marked.parse(data.itinerary);
