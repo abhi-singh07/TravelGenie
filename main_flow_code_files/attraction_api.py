@@ -2,7 +2,7 @@ import aiohttp
 import asyncio
 
 ATTRACTION_HEADERS = {
-    'x-rapidapi-key': "86b9527b5bmsh140e1c25a2909fbp1edddfjsn36a907e79010",
+    'x-rapidapi-key': "f0f12faf53mshdfd57ac1512d103p1d6d3ajsn88fef3a18e5a",
     'x-rapidapi-host': "tourist-attraction.p.rapidapi.com",
     'Content-Type': "application/x-www-form-urlencoded"
 }
