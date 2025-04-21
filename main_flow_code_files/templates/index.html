@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelGenie - AI-Powered Travel Planner</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+        .video-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            filter: brightness(0.6);
+        }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            z-index: -1;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 1rem;
+            position: relative;
+        }
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+        }
+        .country-bg {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .form-input, .form-select, .form-textarea {
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.3s ease;
+            padding-left: 4rem;
+            padding-right: 1.5rem;
+            font-size: 1.25rem;
+            border-radius: 0.75rem;
+        }
+        .form-input, .form-select {
+            height: 4rem;
+            line-height: 4rem;
+        }
+        .form-textarea {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            min-height: 6rem;
+        }
+        .form-input:focus, .form-select:focus, .form-textarea:focus {
+            background: rgba(255, 255, 255, 1);
+            border-color: #10b981;
+            box-shadow: 0 0 12px rgba(16, 185, 129, 0.5);
+            transform: scale(1.02);
+        }
+        .input-icon {
+            position: absolute;
+            left: 1.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #10b981;
+            font-size: 1.5rem;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+        .form-input:focus + .input-icon, .form-select:focus + .input-icon, .form-textarea:focus + .input-icon {
+            transform: translateY(-50%) scale(1.1);
+            color: #059669;
+        }
+        .form-label {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #ffffff;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .btn-primary {
+            background: linear-gradient(90deg, #3b82f6, #10b981);
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+        }
+        .btn-primary:hover {
+            background: linear-gradient(90deg, #2563eb, #059669);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(16, 185, 129, 0.5);
+        }
+        .btn-generate {
+            width: 50%;
+            margin: 0 auto;
+        }
+        .loader {
+            width: 80px;
+            height: 80px;
+            position: relative;
+            margin: 0 auto;
+        }
+        .loader::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 8px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+        }
+        .loader::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 8px solid #3b82f6;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 1.2s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .itinerary-content {
+            line-height: 1.8;
+            color: #e5e7eb;
+            font-size: 1.15rem;
+            font-family: 'Inter', sans-serif;
+        }
+        .itinerary-content h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #ffffff;
+            text-align: center;
+        }
+        .itinerary-content h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 1.25rem 0 0.75rem;
+            color: #ffffff;
+            background: linear-gradient(90deg, #3b82f6, #10b981);
+            padding: 0.5rem 0.75rem;
+            border-radius: 0.5rem;
+            transition: background 0.3s ease;
+        }
+        .itinerary-content h2:hover {
+            background: linear-gradient(90deg, #2563eb, #059669);
+        }
+        .itinerary-content p {
+            margin-bottom: 1rem;
+            font-size: 1.15rem;
+            color: #e5e7eb;
+        }
+        .itinerary-content ul, .itinerary-content ol {
+            margin: 0.75rem 0 1.25rem 2rem;
+            font-size: 1.15rem;
+            color: #e5e7eb;
+        }
+        .itinerary-content li {
+            margin-bottom: 0.75rem;
+            position: relative;
+            padding-left: 1rem;
+        }
+        .itinerary-content li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #34d399;
+            font-size: 1.5rem;
+            line-height: 1.15rem;
+        }
+        .itinerary-content strong {
+            font-weight: 600;
+            color: #34d399;
+        }
+        .itinerary-content em {
+            font-style: italic;
+            color: #d1d5db;
+        }
+        .itinerary-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 0.75rem;
+            margin-bottom: 1.25rem;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .itinerary-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 16px rgba(16, 185, 129, 0.3);
+        }
+        .day-content {
+            padding: 1.25rem;
+            background: rgba(255, 255, 255, 0.02);
+        }
+        .destination-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 1rem;
+            transition: transform 0.3s ease;
+        }
+        .destination-card:hover {
+            transform: scale(1.05);
+        }
+        .destination-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            filter: brightness(0.8);
+            transition: filter 0.3s ease;
+        }
+        .destination-card:hover .destination-img {
+            filter: brightness(1);
+        }
+        .destination-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+            padding: 1rem;
+            color: #ffffff;
+        }
+        .itinerary-intro {
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        @media (max-width: 640px) {
+            .form-input, .form-select, .form-textarea {
+                padding-left: 3.5rem;
+                font-size: 1.1rem;
+                height: 3.5rem;
+                line-height: 3.5rem;
+            }
+            .form-textarea {
+                min-height: 5rem;
+            }
+            .input-icon {
+                left: 1.25rem;
+                font-size: 1.25rem;
+            }
+            .form-label {
+                font-size: 1.1rem;
+            }
+            .btn-primary {
+                font-size: 1rem;
+                padding: 0.5rem 1rem;
+            }
+            .destination-img {
+                height: 150px;
+            }
+            .itinerary-content h1 {
+                font-size: 1.8rem;
+            }
+            .itinerary-content h2 {
+                font-size: 1.3rem;
+                padding: 0.4rem 0.6rem;
+            }
+            .itinerary-content p, .itinerary-content ul, .itinerary-content ol {
+                font-size: 1rem;
+            }
+            .itinerary-intro {
+                font-size: 1.5rem;
+            }
+            .btn-generate {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Video Background -->
+    <video autoplay muted loop class="video-bg">
+        <source src="/static/assets/travel-bg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="overlay"></div>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-12 relative z-10">
+        <!-- Header -->
+        <div class="text-center mb-16">
+            <h1 class="text-6xl font-extrabold text-white drop-shadow-2xl">TravelGenie</h1>
+            <p class="text-2xl text-white mt-4 opacity-90">Plan Your Dream Journey with AI Magic</p>
+        </div>
+
+        <!-- Top Destinations -->
+        <div class="mb-16">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a" alt="Paris" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3 class="text-lg font-semibold">Paris, France</h3>
+                        <p class="text-sm">City of Love</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Bali" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3 class="text-lg font-semibold">Bali, Indonesia</h3>
+                        <p class="text-sm">Island Paradise</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be" alt="New York" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3 class="text-lg font-semibold">New York, USA</h3>
+                        <p class="text-sm">The Big Apple</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff" alt="Santorini" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3 class="text-lg font-semibold">Santorini, Greece</h3>
+                        <p class="text-sm">Aegean Beauty</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Form -->
+        <form action="/" method="POST" id="travel-form" class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto p-10 glass-card rounded-2xl">
+            <div class="relative">
+                <label for="country" class="block form-label mb-3">Destination Country</label>
+                <div class="relative">
+                    <i class="fas fa-globe input-icon"></i>
+                    <input type="text" id="country" name="country" value="{{ rag_data.user_info.country | default('India') }}" class="form-input w-full p-4 text-gray-800 focus:ring-0" placeholder="e.g., India, Japan" title="Enter the country you want to visit">
+                </div>
+                <span id="country-error" class="text-red-400 text-sm hidden mt-2">Please enter a country.</span>
+            </div>
+            <div class="relative">
+                <label for="budget_in_usd" class="block form-label mb-3">Budget (USD)</label>
+                <div class="relative">
+                    <i class="fas fa-dollar-sign input-icon"></i>
+                    <input type="number" id="budget_in_usd" name="budget_in_usd" min="500" step="100" value="{{ rag_data.user_info.budget_in_usd | default('2000') }}" class="form-input w-full p-4 text-gray-800 focus:ring-0" placeholder="e.g., 2000" title="Enter your budget in US Dollars">
+                </div>
+                <span id="budget_in_usd-error" class="text-red-400 text-sm hidden mt-2">Please enter a valid budget (min 500).</span>
+            </div>
+            <div class="relative">
+                <label for="from_date" class="block form-label mb-3">Start Date</label>
+                <div class="relative">
+                    <i class="fas fa-calendar-alt input-icon"></i>
+                    <input type="date" id="from_date" name="from_date" value="{{ rag_data.user_info.from_date | default('2025-07-11') }}" class="form-input w-full p-4 text-gray-800 focus:ring-0" title="Select your trip start date">
+                </div>
+                <span id="from_date-error" class="text-red-400 text-sm hidden mt-2">Please select a start date.</span>
+            </div>
+            <div class="relative">
+                <label for="to_date" class="block form-label mb-3">End Date</label>
+                <div class="relative">
+                    <i class="fas fa-calendar-alt input-icon"></i>
+                    <input type="date" id="to_date" name="to_date" value="{{ rag_data.user_info.to_date | default('2025-07-17') }}" class="form-input w-full p-4 text-gray-800 focus:ring-0" title="Select your trip end date">
+                </div>
+                <span id="to_date-error" class="text-red-400 text-sm hidden mt-2">Please select an end date.</span>
+                <span id="date-error" class="text-red-400 text-sm hidden mt-2">End date must be after start date.</span>
+            </div>
+            <div class="relative">
+                <label for="num_cities" class="block form-label mb-3">Number of Cities</label>
+                <div class="relative">
+                    <i class="fas fa-city input-icon"></i>
+                    <select id="num_cities" name="num_cities" class="form-select w-full p-4 text-gray-800 focus:ring-0" title="Select number of cities to visit">
+                        <option value="" disabled selected>Select number of cities</option>
+                        <option value="1 to 3">1 to 3 Cities</option>
+                        <option value="3 to 5">3 to 5 Cities</option>
+                        <option value="6 to 10">6 to 10 Cities</option>
+                    </select>
+                </div>
+                <span id="num_cities-error" class="text-red-400 text-sm hidden mt-2">Please select number of cities.</span>
+            </div>
+            <div class="relative">
+                <label for="num_people" class="block form-label mb-3">Number of Travelers</label>
+                <div class="relative">
+                    <i class="fas fa-users input-icon"></i>
+                    <input type="number" id="num_people" name="num_people" min="1" max="20" value="{{ rag_data.user_info.num_people | default('4') }}" class="form-input w-full p-4 text-gray-800 focus:ring-0" placeholder="e.g., 4" title="Enter number of travelers">
+                </div>
+                <span id="num_people-error" class="text-red-400 text-sm hidden mt-2">Please enter a valid number of people (1-20).</span>
+            </div>
+            <div class="relative md:col-span-2">
+                <label for="user_pref" class="block form-label mb-3">Your Travel Preferences</label>
+                <div class="relative">
+                    <i class="fas fa-heart input-icon"></i>
+                    <textarea id="user_pref" name="user_pref" class="form-textarea w-full p-4 text-gray-800 focus:ring-0" placeholder="e.g., Hill stations, historical sites" title="Enter your travel preferences">{{ rag_data.user_info.user_pref | default('I want to go to hill stations and historical sites.') }}</textarea>
+                </div>
+                <span id="user_pref-error" class="text-red-400 text-sm hidden mt-2">Please enter your preferences.</span>
+            </div>
+            <div class="md:col-span-2">
+                <button type="submit" class="btn-primary btn-generate text-white font-semibold flex items-center justify-center">
+                    <i class="fas fa-plane-departure mr-2"></i> Generate My Itinerary
+                </button>
+            </div>
+        </form>
+
+        <!-- Loading Animation -->
+        <div id="loading" class="hidden mt-12 flex flex-col justify-center items-center">
+            <div class="loader"></div>
+            <span class="mt-4 text-white text-xl font-medium opacity-90">Crafting your dream itinerary...</span>
+        </div>
+
+        <!-- Itinerary Output -->
+        <div id="itinerary" class="mt-12 p-8 glass-card rounded-2xl max-w-5xl mx-auto hidden">
+            <h2 class="itinerary-intro">Your itinerary is all set!</h2>
+            <div id="itinerary-content" class="itinerary-content"></div>
+            <button id="download-btn" class="btn-primary text-white flex items-center mt-6 mx-auto hidden">
+                <i class="fas fa-download mr-2"></i> Download Itinerary
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // GSAP Animations
+        gsap.from("header", { duration: 1, y: -100, opacity: 0, ease: "power3.out" });
+        gsap.from(".glass-card", { duration: 1, scale: 0.9, opacity: 0, delay: 0.3, ease: "back.out(1.7)", stagger: 0.2 });
+        gsap.from(".destination-card", { duration: 1, y: 50, opacity: 0, delay: 0.5, stagger: 0.2, ease: "power3.out" });
+
+        // Country-to-Image Mapping
+        const countryImages = {
+            'india': 'https://images.unsplash.com/photo-1609319471743-8f9c4c816a6e', // Taj Mahal
+            'japan': 'https://images.unsplash.com/photo-1542051841857-734283564c34', // Mount Fuji
+            'france': 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34', // Eiffel Tower
+            'usa': 'https://images.unsplash.com/photo-1501466044931-62695aada8e9', // New York skyline
+            'default': 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e' // Generic travel image
+        };
+
+        // Form Validation and Submission
+        const form = document.getElementById('travel-form');
+        const loading = document.getElementById('loading');
+        const itinerary = document.getElementById('itinerary');
+        const itineraryContent = document.getElementById('itinerary-content');
+        const downloadBtn = document.getElementById('download-btn');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            resetErrors();
+
+            // Validation
+            let hasError = false;
+            const country = document.getElementById('country').value.trim();
+            const budgetInUsd = document.getElementById('budget_in_usd').value;
+            const fromDate = document.getElementById('from_date').value;
+            const toDate = document.getElementById('to_date').value;
+            const numCities = document.getElementById('num_cities').value;
+            const numPeople = document.getElementById('num_people').value;
+            const userPref = document.getElementById('user_pref').value.trim();
+
+            if (!country) {
+                showError('country-error');
+                hasError = true;
+            }
+            if (!budgetInUsd || budgetInUsd < 500) {
+                showError('budget_in_usd-error', 'Please enter a valid budget (min 500).');
+                hasError = true;
+            }
+            if (!fromDate) {
+                showError('from_date-error');
+                hasError = true;
+            }
+            if (!toDate) {
+                showError('to_date-error');
+                hasError = true;
+            }
+            if (fromDate && toDate && new Date(toDate) < new Date(fromDate)) {
+                showError('date-error');
+                hasError = true;
+            }
+            if (!numCities) {
+                showError('num_cities-error');
+                hasError = true;
+            }
+            if (!numPeople || numPeople < 1 || numPeople > 20) {
+                showError('num_people-error', 'Please enter a valid number of people (1-20).');
+                hasError = true;
+            }
+            if (!userPref) {
+                showError('user_pref-error');
+                hasError = true;
+            }
+
+            if (hasError) return;
+
+            // Show loading
+            loading.classList.remove('hidden');
+            itinerary.classList.add('hidden');
+            gsap.to(loading, { opacity: 1, duration: 0.5 });
+
+            try {
+                const response = await fetch('/', {
+                    method: 'POST',
+                    body: new FormData(form),
+                });
+                const data = await response.json();
+
+                // Hide loading and show itinerary
+                gsap.to(loading, { opacity: 0, duration: 0.5, onComplete: () => loading.classList.add('hidden') });
+
+                // Set dynamic background based on country
+                const countryKey = country.toLowerCase();
+                const bgImage = countryImages[countryKey] || countryImages['default'];
+                itinerary.classList.add('country-bg');
+                itinerary.style.backgroundImage = `url('${bgImage}')`;
+
+                // Parse markdown and wrap days in static cards
+                const itineraryHtml = marked.parse(data.itinerary);
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(itineraryHtml, 'text/html');
+                const sections = doc.body.childNodes;
+                let output = '';
+                let currentCard = null;
+                let dayCount = 0;
+
+                sections.forEach(node => {
+                    if (node.nodeType === Node.ELEMENT_NODE) {
+                        if (node.tagName === 'H2' && node.textContent.includes('Day')) {
+                            if (currentCard) output += '</div></div>';
+                            dayCount++;
+                            output += `
+                                <div class="itinerary-card glass-card" data-day="${dayCount}">
+                                    <h2>${node.textContent}</h2>
+                                    <div class="day-content">
+                            `;
+                            currentCard = true;
+                        } else {
+                            output += node.outerHTML || node.textContent;
+                        }
+                    }
+                });
+                if (currentCard) output += '</div></div>';
+
+                itineraryContent.innerHTML = output;
+                itinerary.classList.remove('hidden');
+                downloadBtn.classList.remove('hidden');
+
+                gsap.fromTo(itinerary, { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 1, ease: "power3.out" });
+                gsap.from(".itinerary-card", { duration: 1, y: 30, opacity: 0, stagger: 0.2, ease: "power3.out" });
+            } catch (error) {
+                console.error('Error:', error);
+                itineraryContent.innerHTML = '<p class="text-red-400">An error occurred while generating the itinerary. Please try again.</p>';
+                itinerary.classList.remove('hidden');
+                gsap.fromTo(itinerary, { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 1, ease: "power3.out" });
+            }
+        });
+
+        // Download Itinerary as Text File
+        downloadBtn.addEventListener('click', () => {
+            const text = itineraryContent.textContent;
+            const blob = new Blob([text], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'TravelGenie_Itinerary.txt';
+            a.click();
+            URL.revokeObjectURL(url);
+        });
+
+        function showError(id, message = null) {
+            const errorEl = document.getElementById(id);
+            if (message) errorEl.textContent = message;
+            errorEl.classList.remove('hidden');
+        }
+
+        function resetErrors() {
+            document.querySelectorAll('.text-red-400').forEach(el => {
+                el.classList.add('hidden');
+                if (el.id === 'budget_in_usd-error') el.textContent = 'Please enter a valid budget (min 500).';
+                if (el.id === 'num_people-error') el.textContent = 'Please enter a valid number of people (1-20).';
+                if (el.id === 'user_pref-error') el.textContent = 'Please enter your preferences.';
+            });
+        }
+    </script>
+</body>
+</html>
