@@ -17,7 +17,7 @@ def llm_generate(inputs:json, trip_plan:json, data_list:json):
     data_list = json.dumps(data_list, indent=2)
 
     # Gemini API setup
-    GOOGLE_API_KEY = 'AIzaSyAhZpOTfkUrnAqJOJ1l0OidlmfvcDUxsek'  # Replace with environment variable for security
+    GOOGLE_API_KEY = 'AIzaSyCxuYZOEnAasnK_LZY4Tc2fFn5wWozhr4Y'  # Replace with environment variable for security
     genai.configure(api_key=GOOGLE_API_KEY)
 
     model = genai.GenerativeModel("models/gemini-1.5-pro-002")
@@ -58,6 +58,11 @@ Flight to city 2
 
 Day 2:
 ...
+
+Note that the hotel and flight prices provided are for the entire stay/trip, and the budget is for the entire journey.
+
+Make sure the trip is within the budget, or respond with:
+The planned trip exceeds the budget. Please consider reducing the number of travelers or the number of cities to stay within your budget.
 
 """
 

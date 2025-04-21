@@ -13,7 +13,7 @@ def llm_retrieve(inputs:json):
     # num_people = inputs["num_people"]
 
     # Gemini API setup
-    GOOGLE_API_KEY = 'AIzaSyAhZpOTfkUrnAqJOJ1l0OidlmfvcDUxsek'  # Replace with environment variable for security
+    GOOGLE_API_KEY = 'AIzaSyCxuYZOEnAasnK_LZY4Tc2fFn5wWozhr4Y'  # Replace with environment variable for security
     genai.configure(api_key=GOOGLE_API_KEY)
 
     model = genai.GenerativeModel("models/gemini-1.5-pro-002")
@@ -24,7 +24,17 @@ The places must be conducive to the season and the city should have an airport. 
 """
 
     response = model.generate_content(prompt)
-    return clean_itinerary(response.text)
+
+    itinerary_dic = clean_itinerary(response.text)
+
+    if itinerary_dic and isinstance(itinerary_dic, dict):
+        with open("itinerary.json", "w") as file:
+            json.dump(itinerary_dic, file, indent=4)
+        print("Itinerary saved to itinerary.json")
+    else:
+        print("Itinerary not saved due to invalid or missing format.")
+
+    return itinerary_dic
 
 def clean_itinerary(itinerary_text: str):
     match = re.search(r'{.*}', itinerary_text, re.DOTALL)

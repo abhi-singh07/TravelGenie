@@ -1,148 +1,7 @@
 [
   {
     "city": "Shimla",
-    "attractions": [
-      {
-        "name": "Jakhu Hanuman Temple",
-        "num_reviews": "2091",
-        "rating": "4.4",
-        "ranking_position": "3",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "The Mall",
-        "num_reviews": "2932",
-        "rating": "4.2",
-        "ranking_position": "7",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Kalka - Shimla Railway",
-        "num_reviews": "1826",
-        "rating": "4.3",
-        "ranking_position": "9",
-        "neighborhood_info": null,
-        "description": "This railway was built in 1903 to connect the summer capital of India to Punjab.",
-        "subcategory": [
-          {
-            "key": "42",
-            "name": "Tours"
-          }
-        ]
-      },
-      {
-        "name": "Indian Institute of Advanced Study",
-        "num_reviews": "770",
-        "rating": "4.5",
-        "ranking_position": "1",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Viceregal Lodge",
-        "num_reviews": "1515",
-        "rating": "4.4",
-        "ranking_position": "6",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "The Ridge",
-        "num_reviews": "968",
-        "rating": "4.4",
-        "ranking_position": "4",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Annandale Ground",
-        "num_reviews": "260",
-        "rating": "4.6",
-        "ranking_position": "5",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Green Valley",
-        "num_reviews": "384",
-        "rating": "4.1",
-        "ranking_position": "11",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Kali Bari Temple",
-        "num_reviews": "262",
-        "rating": "4.4",
-        "ranking_position": "10",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Jakhoo Hill",
-        "num_reviews": "126",
-        "rating": "4.3",
-        "ranking_position": "13",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      }
-    ],
+    "attractions": [],
     "hotels": {
       "bayesian_review_score": [
         {
@@ -198,7 +57,7 @@
     },
     "flights": [
       {
-        "to": "Chandigarh",
+        "to": "Dehradun",
         "date": "2025-07-13",
         "flights": null,
         "note": "No flights for these locations. Check alternate way of travel!"
@@ -206,557 +65,58 @@
     ]
   },
   {
-    "city": "Chandigarh",
+    "city": "Dehradun",
     "attractions": [],
     "hotels": {
       "bayesian_review_score": [
         {
-          "name": "Anchorage 42",
-          "price": 183.668396247316,
-          "review_score": 9.4
-        },
-        {
-          "name": "Hotel Woodlark Zirakpur Chandigarh !! Top Rated & Most Awarded Properties in Tricity !!",
-          "price": 30.1084978133994,
-          "review_score": 9.3
-        },
-        {
-          "name": "The Oberoi Sukhvilas Spa Resort, New Chandigarh",
-          "price": 1116.12520946545,
-          "review_score": 9.3
-        }
-      ],
-      "popularity": [
-        {
-          "name": "Radisson RED Chandigarh Mohali",
-          "price": 957.241503176837,
-          "review_score": 8.6
-        },
-        {
-          "name": "Hotel The Pearl Grand - Top Rated ! Most Awarded ! Parking ! Lift ! Luxury Rooms ! Best Selling",
-          "price": 21.6728707571834,
-          "review_score": 6.5
-        },
-        {
-          "name": "Hotel Seven- Center of City Chandigarh",
-          "price": 33.4735652160734,
-          "review_score": 6.7
-        }
-      ],
-      "price": [
-        {
-          "name": "Hotel Golden Height2",
-          "price": 9.54183556847137,
-          "review_score": 5.6
-        },
-        {
-          "name": "Hotel Grand City2",
-          "price": 12.3202136368468,
-          "review_score": 3.3
-        },
-        {
-          "name": "Hotel Amron2",
-          "price": 14.1450903452755,
-          "review_score": 5.4
-        }
-      ]
-    },
-    "flights": [
-      {
-        "to": "Dehradun",
-        "date": "2025-07-14",
-        "flights": [
-          {
-            "type": "CHEAPEST",
-            "price_usd": 302,
-            "departure_time": "2025-07-14T15:25:00",
-            "arrival_time": "2025-07-14T19:30:00"
-          },
-          {
-            "type": "FASTEST",
-            "price_usd": 331,
-            "departure_time": "2025-07-14T12:45:00",
-            "arrival_time": "2025-07-14T15:55:00"
-          },
-          {
-            "type": "BEST",
-            "price_usd": 331,
-            "departure_time": "2025-07-14T12:45:00",
-            "arrival_time": "2025-07-14T15:55:00"
-          }
-        ],
-        "note": null
-      }
-    ]
-  },
-  {
-    "city": "Dehradun",
-    "attractions": [
-      {
-        "name": "Forest Research Institute",
-        "num_reviews": "700",
-        "rating": "4.5",
-        "ranking_position": "1",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Tibetan Buddhist Temple",
-        "num_reviews": "365",
-        "rating": "4.5",
-        "ranking_position": "2",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Pacific Mall",
-        "num_reviews": "143",
-        "rating": "4.1",
-        "ranking_position": "4",
-        "neighborhood_info": null,
-        "description": "SHOPPING MALL OUR STORY OF SUCCESS Pacific Mall is Dehradun\u2019s beloved shopping, dining and lifestyle destination. Back in 2013, it was the beginning of this revolutionary project which later evolved into the prime shopping complex in Uttarakhand. The prominent national and international brands joined together to introduce the unmatched shopping experience for the shoppers in Dehradun and neighboring locale. People, from every corner of the city and even beyond, visit this place for fun, entertainment, and obviously for an authentic shopping experience. More than 175 handpicked brands welcome at least 25k shoppers every day. Besides its unparalleled shopping attribute, the mall has some of the best hangout spots in Dehradun. The five-screen PVR multiplex right before the prominent food court Salt is a perfect domain for fun and entertainment. In addition, the visitors spend hours after hours in the Funky Kingdom. The Funky Kingdom is a play zone where there is something for everyone.",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          }
-        ]
-      },
-      {
-        "name": "Chetwoode Hall (Indian Military Academy)",
-        "num_reviews": "69",
-        "rating": "4.8",
-        "ranking_position": "5",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Shiv Mandir",
-        "num_reviews": "88",
-        "rating": "4.5",
-        "ranking_position": "3",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Lacchiwalla Nature Park",
-        "num_reviews": "84",
-        "rating": "3.9",
-        "ranking_position": "9",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Forest Research Institute Museum",
-        "num_reviews": "49",
-        "rating": "4.4",
-        "ranking_position": "6",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "49",
-            "name": "Museums"
-          }
-        ]
-      },
-      {
-        "name": "Subir Raha Oil Museum",
-        "num_reviews": "25",
-        "rating": "4.5",
-        "ranking_position": "8",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "49",
-            "name": "Museums"
-          }
-        ]
-      },
-      {
-        "name": "Crossroads Mall",
-        "num_reviews": "44",
-        "rating": "3.5",
-        "ranking_position": "10",
-        "neighborhood_info": null,
-        "description": "Find your favourite brands and the hottest new trends in fashion, beauty, lifestyle, food and entertainment only at Crossroads Mall Dehradun.",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          }
-        ]
-      },
-      {
-        "name": "Ramakrishna Ashrama Temple",
-        "num_reviews": "13",
-        "rating": "4.3",
-        "ranking_position": "13",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      }
-    ],
-    "hotels": {
-      "bayesian_review_score": [
-        {
           "name": "vera home stay",
-          "price": 57.7243531062994,
+          "price": 115.448706212599,
           "review_score": 9.7
         },
         {
           "name": "Oxygen Homestay-A Blissful Retreat",
-          "price": 66.9077729186652,
+          "price": 133.81554583733,
           "review_score": 9.2
         },
         {
           "name": "Laxmi Jawahar Homestay",
-          "price": 91.8341981236581,
+          "price": 183.668396247316,
           "review_score": 9
         }
       ],
       "popularity": [
         {
           "name": "Stayble Homestay",
-          "price": 42.5061145600932,
+          "price": 85.0122291201863,
           "review_score": 9.1
         },
         {
           "name": "Vastu Serene Studio Apartment",
-          "price": 116.570657730247,
+          "price": 233.141315460493,
           "review_score": 8.1
         },
         {
           "name": "Hyatt Regency Dehradun Resort and Spa",
-          "price": 995.182849306653,
+          "price": 1990.3656986133,
           "review_score": 8.7
         }
       ],
       "price": [
         {
-          "name": "SPOT ON Ganpati Home Stays",
-          "price": 36.7033927086169,
-          "review_score": 4.5
-        },
-        {
           "name": "Swagat Guest House",
-          "price": 36.7336792494633,
+          "price": 73.4673584989265,
           "review_score": 5.5
         },
         {
+          "name": "SPOT ON Ganpati Home Stays",
+          "price": 74.1955099874042,
+          "review_score": 4.5
+        },
+        {
           "name": "SPOT ON Chandra's Residence",
-          "price": 37.101653347695,
+          "price": 74.9920312674493,
           "review_score": 4.2
-        }
-      ]
-    },
-    "flights": [
-      {
-        "to": "Delhi",
-        "date": "2025-07-16",
-        "flights": [
-          {
-            "type": "CHEAPEST",
-            "price_usd": 214,
-            "departure_time": "2025-07-16T20:05:00",
-            "arrival_time": "2025-07-16T21:00:00"
-          },
-          {
-            "type": "FASTEST",
-            "price_usd": 214,
-            "departure_time": "2025-07-16T20:05:00",
-            "arrival_time": "2025-07-16T21:00:00"
-          },
-          {
-            "type": "BEST",
-            "price_usd": 214,
-            "departure_time": "2025-07-16T20:05:00",
-            "arrival_time": "2025-07-16T21:00:00"
-          }
-        ],
-        "note": null
-      }
-    ]
-  },
-  {
-    "city": "Delhi",
-    "attractions": [
-      {
-        "name": "Qutub Minar",
-        "num_reviews": "13493",
-        "rating": "4.5",
-        "ranking_position": "1",
-        "neighborhood_info": [
-          {
-            "location_id": "13087835",
-            "name": "Mehrauli/Qutub Minar"
-          },
-          {
-            "location_id": "21002113",
-            "name": "Mahrauli"
-          }
-        ],
-        "description": "Construction on this sandstone minaret was begun in 1192. Surrounded by other historical sites, it is the most popular monument in India. Miniature Souvenir is available at Luv Indiya, 12 B Janpath Market, Connaught Place, New Delhi",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "DLF Cyber Hub",
-        "num_reviews": "2963",
-        "rating": "4.6",
-        "ranking_position": "3",
-        "neighborhood_info": [
-          {
-            "location_id": "13087754",
-            "name": "DLF Cyber City"
-          }
-        ],
-        "description": "DLF CyberHub is a unique, one-of-its-kind concept in India \u2013 a premium food , entertainment and Retail destination; however it is the ambiance that makes DLF CyberHub an unparalleled experience and an ideal destination for stepping out. The Center of Attraction and Attention CyberHub is strategically located on the main artery that connects Gurugram to Delhi, the National Highway 8. It is surrounded by areas teeming with the young and the affluent, searching for new experiences. Uniquely designed Spaces, world-class design and structural ambiance with roof top terrace, amphitheater, exhibit area and media room allow for stimulating entertainment options.",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          },
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Swaminarayan Akshardham",
-        "num_reviews": "12041",
-        "rating": "4.6",
-        "ranking_position": "2",
-        "neighborhood_info": null,
-        "description": "Fantastic site to visit - unimaginable architechture, great theme show, diaorama and I max presentation. If any tourist, irresepctive of his religion or creed, has half a day to spare, this is a must see. It is one man's creation in five years totally with voluntary support. A monument which makes every indian proud!",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          },
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Gurudwara Bangla Sahib",
-        "num_reviews": "6894",
-        "rating": "4.7",
-        "ranking_position": "4",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Humayun's Tomb",
-        "num_reviews": "10584",
-        "rating": "4.5",
-        "ranking_position": "5",
-        "neighborhood_info": [
-          {
-            "location_id": "21002114",
-            "name": "Minto Road"
-          },
-          {
-            "location_id": "13087804",
-            "name": "Nizamuddin"
-          },
-          {
-            "location_id": "21002115",
-            "name": "Nizamuddin"
-          }
-        ],
-        "description": "This tomb, built in 1570, is of particular cultural significance as it was the first garden-tomb on the Indian subcontinent. It inspired several major architectural innovations, culminating in the construction of the Taj Mahal and many other Mughal architecture and garden complexes in India.",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Lodhi Garden",
-        "num_reviews": "4187",
-        "rating": "4.5",
-        "ranking_position": "8",
-        "neighborhood_info": null,
-        "description": "An oasis in an otherwise crowded, dusty city, Lodi Gardens is the perfect place to spend a relaxing afternoon admiring nature.",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Delhi Private Taxi Service In India",
-        "num_reviews": "2665",
-        "rating": "4.7",
-        "ranking_position": "84",
-        "neighborhood_info": null,
-        "description": "Looking for a reliable private taxi service in Delhi? W9 Holidays offers affordable and comfortable cab services for local and outstation travel. Whether you need a taxi for sightseeing, airport transfers, corporate travel, or long-distance journeys, we provide well-maintained vehicles with professional drivers. Our fleet includes sedans, SUVs, and luxury cars to suit your travel needs. Enjoy hassle-free booking, competitive prices, and 24/7 customer support. Book your private taxi in Delhi today for a smooth and safe ride across India.",
-        "subcategory": [
-          {
-            "key": "59",
-            "name": "Transportation"
-          }
-        ]
-      },
-      {
-        "name": "Pasar Chandni Chowk",
-        "num_reviews": "4481",
-        "rating": "4.1",
-        "ranking_position": "24",
-        "neighborhood_info": [
-          {
-            "location_id": "21002109",
-            "name": "Chandni Chowk"
-          },
-          {
-            "location_id": "13087732",
-            "name": "Chandni Chowk"
-          }
-        ],
-        "description": "The bustling wholesale market here is an excellent place to shop, explore, eat and soak up life in New Delhi.\n",
-        "subcategory": [
-          {
-            "key": "26",
-            "name": "Shopping"
-          }
-        ]
-      },
-      {
-        "name": "India Gate",
-        "num_reviews": "10460",
-        "rating": "4.2",
-        "ranking_position": "17",
-        "neighborhood_info": [
-          {
-            "location_id": "21002114",
-            "name": "Minto Road"
-          }
-        ],
-        "description": "The India Gate, built in 1931 and designed by Sir Edwin Lutyens, was inspired by the Arc de Triomphe. It commemorates India's war dead and houses an eternal flame.",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Amrit Udyan",
-        "num_reviews": "669",
-        "rating": "4.5",
-        "ranking_position": "367",
-        "neighborhood_info": null,
-        "description": "Spread over a vast expanse of 15 acres, Amrit Udyan has often been portrayed, and deservedly so, as the soul of the Rashtrapati Bhavan. Originally, it included East Lawn, Central Lawn, Long Garden and Circular Garden. During the term of former Presidents Dr. A.P.J. Abdul Kalam and Shri Ram Nath Kovind, more gardens were developed, namely, Herbal-I, Herbal-II, Tactile Garden, Bonsai Garden and Arogya Vanam. Further, visitors can spend time in multiple attractions, a specially curated garden for children called Bal Vatika with a story of a 225-year-old Sheesham tree, a treehouse, Nature\u2019s classroom etc. Then there are the Bonsai, Circular Gardens with a diverse variety of flora and fauna. Visitors can visit the gardens in Feb-March and Aug-Sep from 1000 hrs to 1800 hrs (last entry 1715 hrs). Entry will be from Gate No. 35 of the Rashtrapati Bhavan, near North Avenue.",
-        "subcategory": [
-          {
-            "key": "42",
-            "name": "Tours"
-          }
-        ]
-      }
-    ],
-    "hotels": {
-      "bayesian_review_score": [
-        {
-          "name": "Tatvamasi Homestay",
-          "price": 101.513260222468,
-          "review_score": 9.8
-        },
-        {
-          "name": "The Oberoi New Delhi",
-          "price": 628.900272825732,
-          "review_score": 9.5
-        },
-        {
-          "name": "The Imperial, New Delhi",
-          "price": 664.359190625889,
-          "review_score": 9.4
-        }
-      ],
-      "popularity": [
-        {
-          "name": "Hotel Namaste Hindustan Just a Minute Away From New Delhi Railway Station and Connaught place",
-          "price": 90.9158561424215,
-          "review_score": 8.8
-        },
-        {
-          "name": "The Lodhi \u2013 A member of The Leading Hotels Of The World",
-          "price": 12398.3058422947,
-          "review_score": 8.8
-        },
-        {
-          "name": "Hotel Aroma Suites Near Delhi Airport",
-          "price": 55.0936969051914,
-          "review_score": 8.4
-        }
-      ],
-      "price": [
-        {
-          "name": "Hotel Indo continental",
-          "price": 8.26507783112931,
-          "review_score": 0
-        },
-        {
-          "name": "Amenda Classy Stay Near By Delhi-NCR",
-          "price": 9.83937837039202,
-          "review_score": 5.8
-        },
-        {
-          "name": "New Signature Village",
-          "price": 10.4822177572576,
-          "review_score": 0
         }
       ]
     },
