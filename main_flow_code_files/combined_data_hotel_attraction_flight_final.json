@@ -1,219 +1,5 @@
 [
   {
-    "city": "Srinagar",
-    "attractions": [
-      {
-        "name": "Dal Lake",
-        "num_reviews": "4329",
-        "rating": "4.3",
-        "ranking_position": "6",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Indira Gandhi Tulip Garden",
-        "num_reviews": "1148",
-        "rating": "4.6",
-        "ranking_position": "2",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Sonamarg Hill Station",
-        "num_reviews": "1174",
-        "rating": "4.4",
-        "ranking_position": "4",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Shankaracharya Hill",
-        "num_reviews": "2147",
-        "rating": "4.5",
-        "ranking_position": "1",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          }
-        ]
-      },
-      {
-        "name": "Nishat Garden",
-        "num_reviews": "1332",
-        "rating": "4.2",
-        "ranking_position": "5",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Nigeen Lake",
-        "num_reviews": "1120",
-        "rating": "4.4",
-        "ranking_position": "3",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Yousmarg",
-        "num_reviews": "249",
-        "rating": "4.4",
-        "ranking_position": "15",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "47",
-            "name": "Sights & Landmarks"
-          },
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          },
-          {
-            "key": "61",
-            "name": "Outdoor Activities"
-          }
-        ]
-      },
-      {
-        "name": "Badamwari Garden",
-        "num_reviews": "158",
-        "rating": "4.5",
-        "ranking_position": "16",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Mughal Gardens",
-        "num_reviews": "788",
-        "rating": "4.2",
-        "ranking_position": "10",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      },
-      {
-        "name": "Shalimar Bagh",
-        "num_reviews": "778",
-        "rating": "4.2",
-        "ranking_position": "9",
-        "neighborhood_info": null,
-        "description": "",
-        "subcategory": [
-          {
-            "key": "57",
-            "name": "Nature & Parks"
-          }
-        ]
-      }
-    ],
-    "hotels": {
-      "bayesian_review_score": [
-        {
-          "name": "John's Homestay",
-          "price": 110.430668804687,
-          "review_score": 9.8
-        },
-        {
-          "name": "Movie land group of house boats",
-          "price": 251.095677147115,
-          "review_score": 9.6
-        },
-        {
-          "name": "Ikraam Inn Bed & Breakfast",
-          "price": 201.141575322823,
-          "review_score": 9.5
-        }
-      ],
-      "popularity": [
-        {
-          "name": "Amina Group Of Houseboats",
-          "price": 332.418852784333,
-          "review_score": 8.9
-        },
-        {
-          "name": "Houseboat Plato Excellence",
-          "price": 398.877691927241,
-          "review_score": 8
-        },
-        {
-          "name": "S Group Of Houseboat",
-          "price": 184.379777379255,
-          "review_score": 6.8
-        }
-      ],
-      "price": [
-        {
-          "name": "Mandoo Guest House",
-          "price": 31.5516196584821,
-          "review_score": 10
-        },
-        {
-          "name": "WANI APARTMENTS bemina SRINAGAR",
-          "price": 31.7856275042825,
-          "review_score": 0
-        },
-        {
-          "name": "Luminaire Homestay",
-          "price": 35.9688464106696,
-          "review_score": 9.4
-        }
-      ]
-    },
-    "flights": [
-      {
-        "to": "Shimla",
-        "date": "2025-07-13",
-        "flights": null,
-        "note": "No flights for these locations. Check alternate way of travel!"
-      }
-    ]
-  },
-  {
     "city": "Shimla",
     "attractions": [
       {
@@ -388,7 +174,7 @@
         },
         {
           "name": "PerfectStayz Shimla",
-          "price": 123.05131666808,
+          "price": 135.356448334888,
           "review_score": 8.9
         }
       ],
@@ -413,7 +199,7 @@
     "flights": [
       {
         "to": "Dehradun",
-        "date": "2025-07-15",
+        "date": "2025-07-13",
         "flights": null,
         "note": "No flights for these locations. Check alternate way of travel!"
       }
@@ -421,56 +207,197 @@
   },
   {
     "city": "Dehradun",
-    "attractions": [],
+    "attractions": [
+      {
+        "name": "Forest Research Institute",
+        "num_reviews": "700",
+        "rating": "4.5",
+        "ranking_position": "1",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Tibetan Buddhist Temple",
+        "num_reviews": "365",
+        "rating": "4.5",
+        "ranking_position": "2",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Pacific Mall",
+        "num_reviews": "143",
+        "rating": "4.1",
+        "ranking_position": "4",
+        "neighborhood_info": null,
+        "description": "SHOPPING MALL OUR STORY OF SUCCESS Pacific Mall is Dehradun\u2019s beloved shopping, dining and lifestyle destination. Back in 2013, it was the beginning of this revolutionary project which later evolved into the prime shopping complex in Uttarakhand. The prominent national and international brands joined together to introduce the unmatched shopping experience for the shoppers in Dehradun and neighboring locale. People, from every corner of the city and even beyond, visit this place for fun, entertainment, and obviously for an authentic shopping experience. More than 175 handpicked brands welcome at least 25k shoppers every day. Besides its unparalleled shopping attribute, the mall has some of the best hangout spots in Dehradun. The five-screen PVR multiplex right before the prominent food court Salt is a perfect domain for fun and entertainment. In addition, the visitors spend hours after hours in the Funky Kingdom. The Funky Kingdom is a play zone where there is something for everyone.",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          }
+        ]
+      },
+      {
+        "name": "Chetwoode Hall (Indian Military Academy)",
+        "num_reviews": "69",
+        "rating": "4.8",
+        "ranking_position": "5",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Shiv Mandir",
+        "num_reviews": "88",
+        "rating": "4.5",
+        "ranking_position": "3",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Lacchiwalla Nature Park",
+        "num_reviews": "84",
+        "rating": "3.9",
+        "ranking_position": "9",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Forest Research Institute Museum",
+        "num_reviews": "49",
+        "rating": "4.4",
+        "ranking_position": "6",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "49",
+            "name": "Museums"
+          }
+        ]
+      },
+      {
+        "name": "Subir Raha Oil Museum",
+        "num_reviews": "25",
+        "rating": "4.5",
+        "ranking_position": "8",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "49",
+            "name": "Museums"
+          }
+        ]
+      },
+      {
+        "name": "Crossroads Mall",
+        "num_reviews": "44",
+        "rating": "3.5",
+        "ranking_position": "10",
+        "neighborhood_info": null,
+        "description": "Find your favourite brands and the hottest new trends in fashion, beauty, lifestyle, food and entertainment only at Crossroads Mall Dehradun.",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          }
+        ]
+      },
+      {
+        "name": "Ramakrishna Ashrama Temple",
+        "num_reviews": "13",
+        "rating": "4.3",
+        "ranking_position": "13",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      }
+    ],
     "hotels": {
       "bayesian_review_score": [
         {
           "name": "vera home stay",
-          "price": 57.8446360405505,
+          "price": 115.689272081101,
           "review_score": 9.5
         },
         {
           "name": "Oxygen Homestay-A Blissful Retreat",
-          "price": 67.0471917742744,
+          "price": 134.094383548549,
           "review_score": 9.2
         },
         {
           "name": "Laxmi Jawahar Homestay",
-          "price": 92.0255573372394,
+          "price": 184.051114674479,
           "review_score": 9
         }
       ],
       "popularity": [
         {
           "name": "Stayble Homestay",
-          "price": 42.5946865389509,
+          "price": 85.1893730779016,
           "review_score": 9.1
         },
         {
           "name": "Vastu Serene Studio Apartment",
-          "price": 116.813561461598,
+          "price": 233.627122923196,
           "review_score": 8.1
         },
         {
           "name": "SJ PARADISE",
-          "price": 184.051114674479,
+          "price": 368.102229348957,
           "review_score": 8.2
         }
       ],
       "price": [
         {
-          "name": "SPOT ON Ganpati Home Stays",
-          "price": 36.7798732845678,
-          "review_score": 4.5
-        },
-        {
           "name": "Swagat Guest House",
-          "price": 36.8102229348958,
+          "price": 73.6204458697915,
           "review_score": 5.5
         },
         {
+          "name": "SPOT ON Ganpati Home Stays",
+          "price": 74.3501146415804,
+          "review_score": 4.5
+        },
+        {
           "name": "SPOT ON Chandra's Residence",
-          "price": 37.1789637979656,
+          "price": 75.1482956702689,
           "review_score": 4.2
         }
       ]
