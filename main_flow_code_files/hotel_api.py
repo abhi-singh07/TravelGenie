@@ -40,7 +40,7 @@ def HotelRetriever(input, numadults):
     realcities, cities, arrivals, departures, _ = JSONconverter(input)
     conn = http.client.HTTPSConnection("booking-com15.p.rapidapi.com")
     headers = {
-        'x-rapidapi-key': "86b9527b5bmsh140e1c25a2909fbp1edddfjsn36a907e79010",
+        'x-rapidapi-key': "f0c9722ebemsh5f5be1f25f1c414p173923jsn3056b877d59b",
         'x-rapidapi-host': "booking-com15.p.rapidapi.com"
     }
     FinalHotelArray = {}

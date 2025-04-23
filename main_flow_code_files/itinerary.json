@@ -1,11 +1,16 @@
 {
-    "Shimla": {
+    "Srinagar": {
         "Arrival Date": "2025-07-11",
         "Departure Date": "2025-07-13",
+        "Airport": "SXR"
+    },
+    "Shimla": {
+        "Arrival Date": "2025-07-13",
+        "Departure Date": "2025-07-15",
         "Airport": "SLV"
     },
     "Dehradun": {
-        "Arrival Date": "2025-07-13",
+        "Arrival Date": "2025-07-15",
         "Departure Date": "2025-07-17",
         "Airport": "DED"
     }

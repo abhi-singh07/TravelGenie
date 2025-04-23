@@ -8,6 +8,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <link rel="icon" type="image/png" href="/static/favicon.png">
     <style>
         body {
@@ -440,6 +441,7 @@
         const itinerary = document.getElementById('itinerary');
         const itineraryContent = document.getElementById('itinerary-content');
         const downloadBtn = document.getElementById('download-btn');
+        const { jsPDF } = window.jspdf;
 
         form.addEventListener('submit', async (e) => {
             e.preventDefault();
@@ -546,16 +548,28 @@
             }
         });
 
-        // Download Itinerary as Text File
+        // Download Itinerary as PDF
         downloadBtn.addEventListener('click', () => {
+            const doc = new jsPDF();
             const text = itineraryContent.textContent;
-            const blob = new Blob([text], { type: 'text/plain' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'TravelGenie_Itinerary.txt';
-            a.click();
-            URL.revokeObjectURL(url);
+            const lines = doc.splitTextToSize(text, 180); // Split text to fit page width
+            let y = 20;
+
+            doc.setFontSize(16);
+            doc.text('TravelGenie Itinerary', 20, y);
+            y += 10;
+            doc.setFontSize(12);
+
+            lines.forEach(line => {
+                if (y > 280) { // Add new page if content exceeds page height
+                    doc.addPage();
+                    y = 20;
+                }
+                doc.text(line, 20, y);
+                y += 7;
+            });
+
+            doc.save('TravelGenie_Itinerary.pdf');
         });
 
         function showError(id, message = null) {
