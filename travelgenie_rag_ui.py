@@ -4,6 +4,7 @@ import json
 from datetime import datetime
 from main import run_full_pipeline
 
+
 st.set_page_config(page_title="TravelGenie ✈️", layout="centered")
 st.title("🧠 TravelGenie - AI Powered Itinerary Planner")
 

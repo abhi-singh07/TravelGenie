@@ -4,6 +4,7 @@ import json
 import google.generativeai as genai
 from datetime import datetime
 
+
 def llm_generate(inputs: json, trip_plan: json, data_list: json):
     country = inputs["country"]
     from_date = inputs["from_date"]

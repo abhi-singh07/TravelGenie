@@ -1,6 +1,7 @@
 import aiohttp
 import asyncio
 
+
 ATTRACTION_HEADERS = {
     # 'x-rapidapi-key': "f0f12faf53mshdfd57ac1512d103p1d6d3ajsn88fef3a18e5a",(Abhishek's key)
     'x-rapidapi-key': "79a57437e9mshc890be81f976138p192b96jsna1f56ff57aa4",

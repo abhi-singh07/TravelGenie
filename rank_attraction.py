@@ -1,6 +1,7 @@
 from rank_bm25 import BM25Okapi
 from sentence_transformers import SentenceTransformer, util
 
+
 def rank_attractions(attractions, user_query, top_k=10):
     # Create documents: combine name + desc + subcategories
     docs = []

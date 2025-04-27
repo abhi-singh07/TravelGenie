@@ -2,6 +2,7 @@ import json
 import http.client
 import urllib.parse
 
+
 def JSONconverter(input):
     cities = list(input.keys())
     arrivals = []

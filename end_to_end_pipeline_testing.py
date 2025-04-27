@@ -2,6 +2,7 @@ import json
 from main import run_full_pipeline
 from IPython.display import Markdown, display
 
+
 user_inputs = {
     "country": "India",
     "from_date": "2025-07-12",

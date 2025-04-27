@@ -4,6 +4,7 @@ import os
 import requests
 from main import run_full_pipeline
 
+
 app = Flask(__name__)
 
 # Ensure static/assets directory exists
