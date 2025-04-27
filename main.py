@@ -9,6 +9,7 @@ from llm_retrieve import llm_retrieve
 from llm_generate import llm_generate
 from rank_attraction import rank_attractions  # NEW
 
+
 def run_full_pipeline():
     # Load user inputs
     with open("user_inputs.json", "r") as f:

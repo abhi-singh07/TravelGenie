@@ -4,6 +4,7 @@ import json
 import google.generativeai as genai
 from datetime import datetime
 
+
 def llm_retrieve(inputs:json):
     country = inputs["country"]
     from_date = inputs["from_date"]
