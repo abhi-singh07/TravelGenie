@@ -1,4 +1,0 @@
-# TravelGenie
-
-Itinerary Automation
-
