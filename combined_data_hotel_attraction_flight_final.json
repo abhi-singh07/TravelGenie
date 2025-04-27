@@ -1,0 +1,427 @@
+[
+  {
+    "city": "Shimla",
+    "attractions": [
+      {
+        "name": "Kalka - Shimla Railway",
+        "num_reviews": "1825",
+        "rating": "4.3",
+        "ranking_position": "9",
+        "neighborhood_info": null,
+        "description": "This railway was built in 1903 to connect the summer capital of India to Punjab.",
+        "subcategory": [
+          {
+            "key": "42",
+            "name": "Tours"
+          }
+        ]
+      },
+      {
+        "name": "Summer Hill",
+        "num_reviews": "67",
+        "rating": "4.1",
+        "ranking_position": "21",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Jakhoo Hill",
+        "num_reviews": "126",
+        "rating": "4.3",
+        "ranking_position": "13",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      },
+      {
+        "name": "Jakhu Ropeway",
+        "num_reviews": "41",
+        "rating": "4.1",
+        "ranking_position": "24",
+        "neighborhood_info": null,
+        "description": "The Jakhu Ropeway is a Cable car in the town of Shimla \u201cQueen of hills \u201c in the Indian state of Himachal Pradesh. The Ropeway is a popular tourist destination in shimla giving breathtaking views of Himalayan hills. Tourists have been enthralled by the perfect management and the safety of the gondolas.",
+        "subcategory": [
+          {
+            "key": "59",
+            "name": "Transportation"
+          }
+        ]
+      },
+      {
+        "name": "The Ridge",
+        "num_reviews": "968",
+        "rating": "4.4",
+        "ranking_position": "4",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Christ Church",
+        "num_reviews": "915",
+        "rating": "4.2",
+        "ranking_position": "8",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Gaiety Heritage Cultural Complex",
+        "num_reviews": "350",
+        "rating": "4.5",
+        "ranking_position": "2",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Shimla Heritage Walk",
+        "num_reviews": "132",
+        "rating": "4.3",
+        "ranking_position": "14",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "The Mall",
+        "num_reviews": "2932",
+        "rating": "4.2",
+        "ranking_position": "7",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Green Valley",
+        "num_reviews": "384",
+        "rating": "4.1",
+        "ranking_position": "11",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "57",
+            "name": "Nature & Parks"
+          }
+        ]
+      }
+    ],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Wildflower Hall, An Oberoi Resort, Shimla",
+          "price": 1049.61027326366,
+          "review_score": 9.5
+        },
+        {
+          "name": "SIMLA HOTEL H G N near park and temple",
+          "price": 49.1565913294921,
+          "review_score": 10
+        },
+        {
+          "name": "Krishna B&B Near Mall Road Shimla",
+          "price": 41.2915367167734,
+          "review_score": 9.6
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Itsy Hotels Avantika With Forest View",
+          "price": 77.0565617256764,
+          "review_score": 8.3
+        },
+        {
+          "name": "Sanjay Lodge",
+          "price": 276.185608483246,
+          "review_score": 10
+        },
+        {
+          "name": "HANU VATIKA The FAMILY CHOICE",
+          "price": 70.6918599399652,
+          "review_score": 9.3
+        }
+      ],
+      "price": [
+        {
+          "name": "The Hostelers Homestay Shiimla - Near HPU, Bypass Crossing, ISBT and Advance Study",
+          "price": 17.6963728786172,
+          "review_score": 8.3
+        },
+        {
+          "name": "The City Escape Camping",
+          "price": 21.2144118068863,
+          "review_score": 8.4
+        },
+        {
+          "name": "Green Lodge Farmstay by Highland Monk",
+          "price": 23.070826863975,
+          "review_score": 9.4
+        }
+      ]
+    },
+    "flights": [
+      {
+        "to": "Dehradun",
+        "date": "2025-07-13",
+        "flights": null,
+        "note": "No flights for these locations. Check alternate way of travel!"
+      }
+    ]
+  },
+  {
+    "city": "Dehradun",
+    "attractions": [
+      {
+        "name": "Mountainiax",
+        "num_reviews": "236",
+        "rating": "5.0",
+        "ranking_position": "2",
+        "neighborhood_info": null,
+        "description": "Mountainiax is a new belief of an exploration-based adventure company in India where you can book private, group, and tailor-made multi-day organized adventures. Our goal is to encourage sustainable tourism in offbeat destinations of the Himalayas. We want more people to get out of the main trekking hubs & experience themselves and the planet on a new more meaningful level. ",
+        "subcategory": [
+          {
+            "key": "42",
+            "name": "Tours"
+          },
+          {
+            "key": "51",
+            "name": "Other"
+          },
+          {
+            "key": "61",
+            "name": "Outdoor Activities"
+          }
+        ]
+      },
+      {
+        "name": "Times Square Mall,",
+        "num_reviews": "5",
+        "rating": "3.4",
+        "ranking_position": "26",
+        "neighborhood_info": null,
+        "description": "TIMES SQUARE MALL is a visually & thematically boutique designed, all-under-one-roof Retail, Dining and Entertainment Destination. It provides to the needs of an entire family and offers a diverse merchandise mix of Value, Fashion, Lifestyle and abundant Entertainment options.",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          }
+        ]
+      },
+      {
+        "name": "Gharaunda Home decor solutions",
+        "num_reviews": "0",
+        "rating": null,
+        "ranking_position": "28",
+        "neighborhood_info": null,
+        "description": "Our store Gharaunda features a carefully curated collection of items for your home, specially handpicked by us. There is a wide range of choicest products which is easily accessible for you to pick from. You can stretch your imagination with our products using different colours and patterns to enhance the look of any room! Come join us in beautifying your house with interior design!!",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          }
+        ]
+      },
+      {
+        "name": "Himalaya Shelter",
+        "num_reviews": "1020",
+        "rating": "4.9",
+        "ranking_position": "1",
+        "neighborhood_info": null,
+        "description": "Himalaya Shelter was established in the year 2013 by our founder Bachan Rana. Safety, a sense of service & sustainability are our core values, ingrained in our way of working. We are a team of 30+ individuals, connected by a shared passion for the mountains. Treks in Uttarakhand and Kashmir are a forte of Himalaya Shelter & we are trying to venture out into new avenues with each passing day.",
+        "subcategory": [
+          {
+            "key": "42",
+            "name": "Tours"
+          },
+          {
+            "key": "61",
+            "name": "Outdoor Activities"
+          }
+        ]
+      },
+      {
+        "name": "Pacific Mall",
+        "num_reviews": "143",
+        "rating": "4.1",
+        "ranking_position": "4",
+        "neighborhood_info": null,
+        "description": "SHOPPING MALL OUR STORY OF SUCCESS Pacific Mall is Dehradun\u2019s beloved shopping, dining and lifestyle destination. Back in 2013, it was the beginning of this revolutionary project which later evolved into the prime shopping complex in Uttarakhand. The prominent national and international brands joined together to introduce the unmatched shopping experience for the shoppers in Dehradun and neighboring locale. People, from every corner of the city and even beyond, visit this place for fun, entertainment, and obviously for an authentic shopping experience. More than 175 handpicked brands welcome at least 25k shoppers every day. Besides its unparalleled shopping attribute, the mall has some of the best hangout spots in Dehradun. The five-screen PVR multiplex right before the prominent food court Salt is a perfect domain for fun and entertainment. In addition, the visitors spend hours after hours in the Funky Kingdom. The Funky Kingdom is a play zone where there is something for everyone.",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          }
+        ]
+      },
+      {
+        "name": "Baaromaas Travel",
+        "num_reviews": "207",
+        "rating": "4.9",
+        "ranking_position": "3",
+        "neighborhood_info": null,
+        "description": "Experienced and Safest trekking organisation.\nBook Unexplored Treks, Group Trips and Treks in Himanchal Pradesh, Uttarakhand and across the India.",
+        "subcategory": [
+          {
+            "key": "42",
+            "name": "Tours"
+          },
+          {
+            "key": "51",
+            "name": "Other"
+          },
+          {
+            "key": "61",
+            "name": "Outdoor Activities"
+          }
+        ]
+      },
+      {
+        "name": "Crossroads Mall",
+        "num_reviews": "44",
+        "rating": "3.5",
+        "ranking_position": "10",
+        "neighborhood_info": null,
+        "description": "Find your favourite brands and the hottest new trends in fashion, beauty, lifestyle, food and entertainment only at Crossroads Mall Dehradun.",
+        "subcategory": [
+          {
+            "key": "26",
+            "name": "Shopping"
+          }
+        ]
+      },
+      {
+        "name": "Lacchiwalla Nature Park",
+        "num_reviews": "84",
+        "rating": "3.9",
+        "ranking_position": "9",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Forest Research Institute",
+        "num_reviews": "700",
+        "rating": "4.5",
+        "ranking_position": "1",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      },
+      {
+        "name": "Wadia Institute of Himalayan Geology",
+        "num_reviews": "18",
+        "rating": "4.0",
+        "ranking_position": "12",
+        "neighborhood_info": null,
+        "description": "",
+        "subcategory": [
+          {
+            "key": "47",
+            "name": "Sights & Landmarks"
+          }
+        ]
+      }
+    ],
+    "hotels": {
+      "bayesian_review_score": [
+        {
+          "name": "Rootz",
+          "price": 140.391224837029,
+          "review_score": 9.7
+        },
+        {
+          "name": "vera home stay",
+          "price": 78.6505461271874,
+          "review_score": 9.4
+        },
+        {
+          "name": "Oxygen Homestay-A Blissful Retreat",
+          "price": 88.2459127547042,
+          "review_score": 9.2
+        }
+      ],
+      "popularity": [
+        {
+          "name": "Stayble Homestay",
+          "price": 63.7069423630218,
+          "review_score": 9.1
+        },
+        {
+          "name": "Hotel Alaya",
+          "price": 183.517940963437,
+          "review_score": 7.9
+        },
+        {
+          "name": "Hotel Aketa Rajpur Road Dehradun, Dehradun",
+          "price": 599.029305241162,
+          "review_score": 8.9
+        }
+      ],
+      "price": [
+        {
+          "name": "Independent homestay",
+          "price": 28.4691381816581,
+          "review_score": 0
+        },
+        {
+          "name": "Ananda Vatika Homestay",
+          "price": 33.0332293734187,
+          "review_score": 10
+        },
+        {
+          "name": "SPOT ON Ganpati Home Stays",
+          "price": 37.0673656977052,
+          "review_score": 4.5
+        }
+      ]
+    },
+    "flights": []
+  }
+]
