@@ -1,4 +1,85 @@
-# TravelGenie
+# TravelGenie: Your Personalized LLM-Powered Travel Planner
 
-TravelGenie is an LLM Powered Travel Agent that curates a personalized travel itinerary based on User preferences.The inputs to the generator are Country,Dates,Budget,Traveler Count and City Count.These values are used to provide a well-constructed context for a Gemini-based LLM to provide us with a JSON based output consisting of cities with  arrival and departure dates,and the airport codes for these cities.This JSON is used as an input to feed into three different APIs which are specifically tailored for flights,attractions and Hotels.The outputs obtained are ranked outputs based on several different factors like popularity,Bayesian Review Score,etc.The outputs also contain precise rates which are important while constructing an itinerary with a budget constraint from the user.The outputs from the APIs are appended together and fed into the Gemini Model,which now provides us with a proper budget-specific itinerary.
+**TravelGenie** is an AI-driven travel agent that curates a fully personalized travel itinerary based on user preferences and constraints.
 
+## How It Works
+
+### 1. Inputs
+
+The following inputs are collected from the user:
+- **Country**: The destination country for the trip.
+- **Dates**: Travel start and end dates.
+- **Budget**: Total budget available for the trip.
+- **Traveler Count**: Number of travelers.
+- **City Count**: Number of cities the user wants to visit within the country.
+
+These values are used to construct a detailed context prompt for a **Gemini-based LLM**, which generates a structured **JSON output**.
+
+---
+
+### 2. LLM JSON Output
+
+The JSON output from the LLM includes:
+- List of selected **cities**.
+- **Arrival and departure dates** for each city.
+- **Airport codes** corresponding to each city.
+
+This structured information forms the backbone for the next stage of the pipeline.
+
+---
+
+### 3. API Integrations
+
+The generated JSON is used as input to query three specialized APIs:
+- **Flights API**: To retrieve available flights between the selected cities.
+- **Attractions API**: To fetch popular tourist attractions and experiences.
+- **Hotels API**: To find suitable accommodations within the given budget.
+
+The outputs from these APIs are ranked based on multiple factors, such as:
+- Popularity scores.
+- Bayesian review scores.
+- Price points.
+- Proximity to city centers or attractions.
+- Traveler ratings.
+
+Precise rates (for flights, hotels, and attractions) are extracted, ensuring the final itinerary remains **budget-aware** and feasible.
+
+---
+
+### 4. Final Itinerary Generation
+
+The API outputs are collated and appended together. This enriched dataset is then **fed back into the Gemini Model**, which uses all available information to generate a **complete, coherent, and budget-specific travel itinerary**.
+
+The final output includes:
+- City-to-city transportation plans.
+- Handpicked attractions with entry fees and timings.
+- Accommodation suggestions mapped to arrival/departure dates.
+- A well-distributed budget breakdown, ensuring an optimal experience without overspending.
+
+---
+
+## Key Features
+
+- ✈️ **Seamless Multi-City Planning**  
+- 💸 **Strict Budget Management**  
+- 🏨 **Curated Hotel and Attraction Suggestions**  
+- 🗓️ **Smart Scheduling Aligned with User Dates**  
+- 📈 **Data-Driven Ranking for Best Recommendations**  
+- 🤖 **End-to-End LLM Powered Personalization**  
+
+---
+
+## Future Enhancements
+
+TravelGenie is constantly evolving. Planned future upgrades include:
+- Real-time dynamic pricing updates.
+- Integration with Visa and travel insurance providers.
+- Custom experience packages like adventure tours, wellness retreats, etc.
+- Group travel planning with shared budgets and preferences.
+- Voice command support for itinerary modifications.
+
+---
+
+> TravelGenie isn't just an itinerary generator — it's your personal AI travel concierge, optimizing your journey from the moment you start dreaming about it to the day you return home.
+
+**How to Run:**
