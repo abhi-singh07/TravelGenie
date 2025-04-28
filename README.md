@@ -1,4 +1,4 @@
 # TravelGenie
 
-Itinerary Automation
+TravelGenie is an LLM Powered Travel Agent that curates a personalized travel itinerary based on User preferences.The inputs to the generator are Country,Dates,Budget,Traveler Count and City Count.These values are used to provide a well-constructed context for a Gemini-based LLM to provide us with a JSON based output consisting of cities with  arrival and departure dates,and the airport codes for these cities.This JSON is used as an input to feed into three different APIs which are specifically tailored for flights,attractions and Hotels.The outputs obtained are ranked outputs based on several different factors like popularity,Bayesian Review Score,etc.The outputs also contain precise rates which are important while constructing an itinerary with a budget constraint from the user.The outputs from the APIs are appended together and fed into the Gemini Model,which now provides us with a proper budget-specific itinerary.
 
