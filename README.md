@@ -1,6 +1,6 @@
 # TravelGenie: Your Personalized LLM-Powered Travel Planner
 
-**TravelGenie** is an AI-driven travel agent that curates a fully personalized travel itinerary based on user preferences and constraints.
+**TravelGenie** is an AI-driven travel agent that curates a fully personalized travel itinerary based on user preferences and given budget.
 
 ## How It Works
 
@@ -12,6 +12,7 @@ The following inputs are collected from the user:
 - **Budget**: Total budget available for the trip.
 - **Traveler Count**: Number of travelers.
 - **City Count**: Number of cities the user wants to visit within the country.
+- **User Preference**: Any specifc type of interest like temples, mountains, beaches etc. 
 
 These values are used to construct a detailed context prompt for a **Gemini-based LLM**, which generates a structured **JSON output**.
 
@@ -83,3 +84,4 @@ TravelGenie is constantly evolving. Planned future upgrades include:
 > TravelGenie isn't just an itinerary generator — it's your personal AI travel concierge, optimizing your journey from the moment you start dreaming about it to the day you return home.
 
 **How to Run:**
+
