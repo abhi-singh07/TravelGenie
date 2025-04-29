@@ -83,5 +83,41 @@ TravelGenie is constantly evolving. Planned future upgrades include:
 
 > TravelGenie isn't just an itinerary generator — it's your personal AI travel concierge, optimizing your journey from the moment you start dreaming about it to the day you return home.
 
-**How to Run:**
+## How to Run
+
+Follow these simple steps to get started with TravelGenie:
+
+1. **Clone the Repository**  
+   - Click on the green **<> Code** button in the GitHub repository.
+   - Copy the **HTTPS URL**.
+   - Open your terminal, navigate to the directory where you want to place the project, and run:  
+     ```
+     git clone {copied-https-url}
+     ```
+
+2. **Open the Project**  
+   - After cloning, a folder named **TravelGenie** will be created.
+   - Open this folder in any IDE (recommended: **VSCode**).
+
+3. **Start the Application**  
+   - Open a terminal inside the **TravelGenie** folder (if not already).
+   - Run the following command:  
+     ```
+     python app.py
+     ```
+   - A local **UI link** will be generated. Open this link in any web browser (**Recommended: Chrome**).
+
+4. **Use the UI**  
+   - Fill in your travel preferences like country, dates, budget, etc.
+   - Click on **Generate** to receive your personalized travel plan.
+
+---
+
+> ⚡ **Note:**  
+> Sometimes the APIs may hit their free usage limits. If you encounter any issues:
+> - Go to the **base URL** mentioned in the code.
+> - Subscribe for a new free API key.
+> - Replace the value of `"x-rapidapi-key"` in the code with your new key.
+> - Restart the application (`python app.py`) and continue planning!
+
 
