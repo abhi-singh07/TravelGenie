@@ -81,7 +81,7 @@ TravelGenie is constantly evolving. Planned future upgrades include:
 
 ---
 
-TravelGenie isn't just an itinerary generator — it's your personal AI travel concierge, optimizing your journey from the moment you start dreaming about it to the day you return home.
+TravelGenie isn't just an itinerary generator - it's your personal AI travel concierge, optimizing your journey from the moment you start dreaming about it to the day you return home.
 
 ## How to Run
 
