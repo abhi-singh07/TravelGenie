@@ -81,7 +81,7 @@ TravelGenie is constantly evolving. Planned future upgrades include:
 
 ---
 
-> TravelGenie isn't just an itinerary generator — it's your personal AI travel concierge, optimizing your journey from the moment you start dreaming about it to the day you return home.
+TravelGenie isn't just an itinerary generator — it's your personal AI travel concierge, optimizing your journey from the moment you start dreaming about it to the day you return home.
 
 ## How to Run
 
@@ -99,15 +99,21 @@ Follow these simple steps to get started with TravelGenie:
    - After cloning, a folder named **TravelGenie** will be created.
    - Open this folder in any IDE (recommended: **VSCode**).
 
-3. **Start the Application**  
+3. **Install Required Packages**  
    - Open a terminal inside the **TravelGenie** folder (if not already).
-   - Run the following command:  
+   - Install all the necessary Python packages by running:  
+     ```
+     pip install -r requirements.txt
+     ```
+
+4. **Start the Application**  
+   - After installing the packages, run the following command to start the application:  
      ```
      python app.py
      ```
    - A local **UI link** will be generated. Open this link in any web browser (**Recommended: Chrome**).
 
-4. **Use the UI**  
+5. **Use the UI**  
    - Fill in your travel preferences like country, dates, budget, etc.
    - Click on **Generate** to receive your personalized travel plan.
 
